@@ -1,0 +1,2 @@
+Invoking command in '/home/akun/workspace/CAR/1_URDF_ws/build/ros2_livox_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/1_URDF_ws/build/ros2_livox_simulation -- -j32 -l32
+Invoked command in '/home/akun/workspace/CAR/1_URDF_ws/build/ros2_livox_simulation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/1_URDF_ws/build/ros2_livox_simulation -- -j32 -l32

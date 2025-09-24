@@ -1,0 +1,433 @@
+[0.000000] (-) TimerEvent: {}
+[0.000591] (convert_laser) JobQueued: {'identifier': 'convert_laser', 'dependencies': OrderedDict()}
+[0.000626] (convert_laser) JobStarted: {'identifier': 'convert_laser'}
+[0.006988] (convert_laser) JobProgress: {'identifier': 'convert_laser', 'progress': 'cmake'}
+[0.007988] (convert_laser) JobProgress: {'identifier': 'convert_laser', 'progress': 'build'}
+[0.008642] (convert_laser) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/akun/workspace/CAR/real_ws/build/convert_laser', '--', '-j32', '-l32'], 'cwd': '/home/akun/workspace/CAR/real_ws/build/convert_laser', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'akun'), ('GIT_ASKPASS', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/akun/workspace/CAR/LIO-SAM/install/lio_sam/lib:/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/lib:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/home/akun'), ('OLDPWD', '/home/akun/workspace/CAR'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d1637119-b771-4abb-85ad-306d02fe33cd.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/akun/workspace/CAR/simulation_ws/install:/home/akun/workspace/CAR/LIO-SAM/install:/home/akun/workspace/CAR/1_URDF_ws/install:/home/akun/workspace/CAR/livox_ros_driver2/install:/home/akun/workspace/CAR/real_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'akun'), ('NAME', 'DESKTOP-QJO75DJ'), ('WSL_INTEROP', '/run/WSL/470_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/VMware/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/BandZip/Bandizip/:/mnt/d/vscode/vscode/Microsoft VS Code/bin:/mnt/d/NodeJs/:/mnt/d/NodeJs/node_global/node_modules/yarn/bin:/mnt/d/Anaconda/Scripts:/mnt/d/git/Git/cmd:/mnt/d/mySQL/mySQL Server 8.0/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/usbipd-win/:/mnt/d/Anaconda:/mnt/d/Anaconda/Library/mingw-w64/bin:/mnt/d/Anaconda/Library/usr/bin:/mnt/d/Anaconda/Library/bin:/mnt/d/Anaconda/Scripts:/mnt/c/Users/Y9000P/AppData/Roaming/npm:/mnt/c/Users/Y9000P/AppData/Local/Programs/Ollama:/mnt/d/QQ游戏/QQGame/Hall.58319/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d70605ba1f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/akun/workspace/CAR/LIO-SAM/install/lio_sam:/home/akun/workspace/CAR/simulation_ws/install/sim_imu:/home/akun/workspace/CAR/simulation_ws/install/convert_time:/home/akun/workspace/CAR/real_ws/install/convert_laser:/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/akun/workspace/CAR/real_ws/build/convert_laser'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/akun/workspace/CAR/LIO-SAM/install/lio_sam/local/lib/python3.10/dist-packages:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/tmp/usr/local:/tmp/usr/local:/home/akun/workspace/CAR/LIO-SAM/install/lio_sam:/home/akun/workspace/CAR/simulation_ws/install/sim_imu:/home/akun/workspace/CAR/simulation_ws/install/convert_time:/home/akun/workspace/CAR/real_ws/install/convert_laser:/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.066880] (convert_laser) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100432] (-) TimerEvent: {}
+[0.186340] (convert_laser) StdoutLine: {'line': b'-- Found livox_ros_driver2: 1.0.0 (/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/share/livox_ros_driver2/cmake)\n'}
+[0.200874] (-) TimerEvent: {}
+[0.303666] (-) TimerEvent: {}
+[0.319045] (convert_laser) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.321818] (convert_laser) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.328633] (convert_laser) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.339078] (convert_laser) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.350497] (convert_laser) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.404655] (convert_laser) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.404791] (-) TimerEvent: {}
+[0.407328] (convert_laser) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.507111] (-) TimerEvent: {}
+[0.608455] (-) TimerEvent: {}
+[0.708781] (-) TimerEvent: {}
+[0.809166] (-) TimerEvent: {}
+[0.909512] (-) TimerEvent: {}
+[1.009811] (-) TimerEvent: {}
+[1.110180] (-) TimerEvent: {}
+[1.210655] (-) TimerEvent: {}
+[1.310922] (-) TimerEvent: {}
+[1.411257] (-) TimerEvent: {}
+[1.511523] (-) TimerEvent: {}
+[1.611895] (-) TimerEvent: {}
+[1.712223] (-) TimerEvent: {}
+[1.812565] (-) TimerEvent: {}
+[1.912855] (-) TimerEvent: {}
+[2.013293] (-) TimerEvent: {}
+[2.113665] (-) TimerEvent: {}
+[2.214117] (-) TimerEvent: {}
+[2.314454] (-) TimerEvent: {}
+[2.414800] (-) TimerEvent: {}
+[2.515208] (-) TimerEvent: {}
+[2.615494] (-) TimerEvent: {}
+[2.715860] (-) TimerEvent: {}
+[2.816187] (-) TimerEvent: {}
+[2.916458] (-) TimerEvent: {}
+[3.019270] (-) TimerEvent: {}
+[3.122079] (-) TimerEvent: {}
+[3.222604] (-) TimerEvent: {}
+[3.322973] (-) TimerEvent: {}
+[3.423390] (-) TimerEvent: {}
+[3.523721] (-) TimerEvent: {}
+[3.624005] (-) TimerEvent: {}
+[3.724312] (-) TimerEvent: {}
+[3.824620] (-) TimerEvent: {}
+[3.924938] (-) TimerEvent: {}
+[4.025261] (-) TimerEvent: {}
+[4.126015] (-) TimerEvent: {}
+[4.226754] (-) TimerEvent: {}
+[4.245363] (convert_laser) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.327308] (-) TimerEvent: {}
+[4.366668] (convert_laser) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[4.427794] (-) TimerEvent: {}
+[4.528391] (-) TimerEvent: {}
+[4.630354] (-) TimerEvent: {}
+[4.733184] (-) TimerEvent: {}
+[4.836059] (-) TimerEvent: {}
+[4.936561] (-) TimerEvent: {}
+[5.036995] (-) TimerEvent: {}
+[5.137442] (-) TimerEvent: {}
+[5.237802] (-) TimerEvent: {}
+[5.338288] (-) TimerEvent: {}
+[5.438887] (-) TimerEvent: {}
+[5.539228] (-) TimerEvent: {}
+[5.639646] (-) TimerEvent: {}
+[5.739992] (-) TimerEvent: {}
+[5.840429] (-) TimerEvent: {}
+[5.940839] (-) TimerEvent: {}
+[6.041247] (-) TimerEvent: {}
+[6.108534] (convert_laser) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[6.141418] (-) TimerEvent: {}
+[6.241860] (-) TimerEvent: {}
+[6.342238] (-) TimerEvent: {}
+[6.442732] (-) TimerEvent: {}
+[6.543105] (-) TimerEvent: {}
+[6.643423] (-) TimerEvent: {}
+[6.743900] (-) TimerEvent: {}
+[6.846224] (-) TimerEvent: {}
+[6.946586] (-) TimerEvent: {}
+[7.049217] (-) TimerEvent: {}
+[7.152162] (-) TimerEvent: {}
+[7.252655] (-) TimerEvent: {}
+[7.354771] (-) TimerEvent: {}
+[7.457306] (-) TimerEvent: {}
+[7.560363] (-) TimerEvent: {}
+[7.663354] (-) TimerEvent: {}
+[7.766435] (-) TimerEvent: {}
+[7.869367] (-) TimerEvent: {}
+[7.972365] (-) TimerEvent: {}
+[8.075334] (-) TimerEvent: {}
+[8.176597] (-) TimerEvent: {}
+[8.279640] (-) TimerEvent: {}
+[8.382668] (-) TimerEvent: {}
+[8.485863] (-) TimerEvent: {}
+[8.586790] (-) TimerEvent: {}
+[8.687077] (-) TimerEvent: {}
+[8.787435] (-) TimerEvent: {}
+[8.890143] (-) TimerEvent: {}
+[8.990690] (-) TimerEvent: {}
+[9.093232] (-) TimerEvent: {}
+[9.193606] (-) TimerEvent: {}
+[9.293966] (-) TimerEvent: {}
+[9.395876] (-) TimerEvent: {}
+[9.498889] (-) TimerEvent: {}
+[9.601880] (-) TimerEvent: {}
+[9.702268] (-) TimerEvent: {}
+[9.803648] (-) TimerEvent: {}
+[9.905047] (-) TimerEvent: {}
+[10.006050] (-) TimerEvent: {}
+[10.107533] (-) TimerEvent: {}
+[10.208975] (-) TimerEvent: {}
+[10.310343] (-) TimerEvent: {}
+[10.410787] (-) TimerEvent: {}
+[10.512126] (-) TimerEvent: {}
+[10.613562] (-) TimerEvent: {}
+[10.714977] (-) TimerEvent: {}
+[10.815377] (-) TimerEvent: {}
+[10.915680] (-) TimerEvent: {}
+[11.016027] (-) TimerEvent: {}
+[11.116330] (-) TimerEvent: {}
+[11.216712] (-) TimerEvent: {}
+[11.317139] (-) TimerEvent: {}
+[11.417727] (-) TimerEvent: {}
+[11.518581] (-) TimerEvent: {}
+[11.618860] (-) TimerEvent: {}
+[11.719270] (-) TimerEvent: {}
+[11.819663] (-) TimerEvent: {}
+[11.920024] (-) TimerEvent: {}
+[12.020512] (-) TimerEvent: {}
+[12.123113] (-) TimerEvent: {}
+[12.223407] (-) TimerEvent: {}
+[12.323722] (-) TimerEvent: {}
+[12.424022] (-) TimerEvent: {}
+[12.524586] (-) TimerEvent: {}
+[12.626502] (-) TimerEvent: {}
+[12.727949] (-) TimerEvent: {}
+[12.828377] (-) TimerEvent: {}
+[12.928838] (-) TimerEvent: {}
+[13.029231] (-) TimerEvent: {}
+[13.131714] (-) TimerEvent: {}
+[13.232774] (-) TimerEvent: {}
+[13.335580] (-) TimerEvent: {}
+[13.437630] (-) TimerEvent: {}
+[13.538053] (-) TimerEvent: {}
+[13.638423] (-) TimerEvent: {}
+[13.738969] (-) TimerEvent: {}
+[13.841732] (-) TimerEvent: {}
+[13.944513] (-) TimerEvent: {}
+[14.044914] (-) TimerEvent: {}
+[14.146681] (-) TimerEvent: {}
+[14.249057] (-) TimerEvent: {}
+[14.349632] (-) TimerEvent: {}
+[14.452431] (-) TimerEvent: {}
+[14.553841] (-) TimerEvent: {}
+[14.656341] (-) TimerEvent: {}
+[14.756678] (-) TimerEvent: {}
+[14.857027] (-) TimerEvent: {}
+[14.957353] (-) TimerEvent: {}
+[15.058786] (-) TimerEvent: {}
+[15.159168] (-) TimerEvent: {}
+[15.259704] (-) TimerEvent: {}
+[15.360084] (-) TimerEvent: {}
+[15.460499] (-) TimerEvent: {}
+[15.560858] (-) TimerEvent: {}
+[15.661466] (-) TimerEvent: {}
+[15.761964] (-) TimerEvent: {}
+[15.862462] (-) TimerEvent: {}
+[15.962975] (-) TimerEvent: {}
+[16.063492] (-) TimerEvent: {}
+[16.163879] (-) TimerEvent: {}
+[16.264423] (-) TimerEvent: {}
+[16.364964] (-) TimerEvent: {}
+[16.465521] (-) TimerEvent: {}
+[16.565903] (-) TimerEvent: {}
+[16.666360] (-) TimerEvent: {}
+[16.768281] (-) TimerEvent: {}
+[16.870354] (-) TimerEvent: {}
+[16.971446] (-) TimerEvent: {}
+[17.071982] (-) TimerEvent: {}
+[17.172629] (-) TimerEvent: {}
+[17.274165] (-) TimerEvent: {}
+[17.319790] (convert_laser) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[17.325185] (convert_laser) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[17.375239] (-) TimerEvent: {}
+[17.476836] (-) TimerEvent: {}
+[17.577370] (-) TimerEvent: {}
+[17.677870] (-) TimerEvent: {}
+[17.778805] (-) TimerEvent: {}
+[17.879865] (-) TimerEvent: {}
+[17.980846] (-) TimerEvent: {}
+[18.081843] (-) TimerEvent: {}
+[18.182927] (-) TimerEvent: {}
+[18.283680] (-) TimerEvent: {}
+[18.384151] (-) TimerEvent: {}
+[18.484759] (-) TimerEvent: {}
+[18.585108] (-) TimerEvent: {}
+[18.685583] (-) TimerEvent: {}
+[18.786010] (-) TimerEvent: {}
+[18.886593] (-) TimerEvent: {}
+[18.987082] (-) TimerEvent: {}
+[19.087421] (-) TimerEvent: {}
+[19.187878] (-) TimerEvent: {}
+[19.231727] (convert_laser) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[19.235574] (convert_laser) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[19.239384] (convert_laser) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[19.288160] (-) TimerEvent: {}
+[19.388771] (-) TimerEvent: {}
+[19.490830] (-) TimerEvent: {}
+[19.591750] (-) TimerEvent: {}
+[19.692137] (-) TimerEvent: {}
+[19.792528] (-) TimerEvent: {}
+[19.894112] (-) TimerEvent: {}
+[19.996367] (-) TimerEvent: {}
+[20.097674] (-) TimerEvent: {}
+[20.198406] (-) TimerEvent: {}
+[20.298888] (-) TimerEvent: {}
+[20.399261] (-) TimerEvent: {}
+[20.500379] (-) TimerEvent: {}
+[20.601356] (-) TimerEvent: {}
+[20.703051] (-) TimerEvent: {}
+[20.804125] (-) TimerEvent: {}
+[20.905143] (-) TimerEvent: {}
+[21.005711] (-) TimerEvent: {}
+[21.107598] (-) TimerEvent: {}
+[21.208553] (-) TimerEvent: {}
+[21.308934] (-) TimerEvent: {}
+[21.409343] (-) TimerEvent: {}
+[21.436378] (convert_laser) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[21.509606] (-) TimerEvent: {}
+[21.610933] (-) TimerEvent: {}
+[21.713938] (-) TimerEvent: {}
+[21.816669] (-) TimerEvent: {}
+[21.916997] (-) TimerEvent: {}
+[22.019785] (-) TimerEvent: {}
+[22.120951] (-) TimerEvent: {}
+[22.221551] (-) TimerEvent: {}
+[22.324287] (-) TimerEvent: {}
+[22.425371] (-) TimerEvent: {}
+[22.527992] (-) TimerEvent: {}
+[22.628676] (-) TimerEvent: {}
+[22.731409] (-) TimerEvent: {}
+[22.834218] (-) TimerEvent: {}
+[22.934688] (-) TimerEvent: {}
+[23.036771] (-) TimerEvent: {}
+[23.137611] (-) TimerEvent: {}
+[23.240459] (-) TimerEvent: {}
+[23.340818] (-) TimerEvent: {}
+[23.441256] (-) TimerEvent: {}
+[23.541661] (-) TimerEvent: {}
+[23.604864] (convert_laser) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[23.641936] (-) TimerEvent: {}
+[23.742374] (-) TimerEvent: {}
+[23.842746] (-) TimerEvent: {}
+[23.943064] (-) TimerEvent: {}
+[24.043457] (-) TimerEvent: {}
+[24.143800] (-) TimerEvent: {}
+[24.245827] (-) TimerEvent: {}
+[24.346313] (-) TimerEvent: {}
+[24.448919] (-) TimerEvent: {}
+[24.550817] (-) TimerEvent: {}
+[24.651128] (-) TimerEvent: {}
+[24.752830] (-) TimerEvent: {}
+[24.855690] (-) TimerEvent: {}
+[24.958403] (-) TimerEvent: {}
+[25.059133] (-) TimerEvent: {}
+[25.159488] (-) TimerEvent: {}
+[25.261035] (-) TimerEvent: {}
+[25.361401] (-) TimerEvent: {}
+[25.462006] (-) TimerEvent: {}
+[25.562893] (-) TimerEvent: {}
+[25.663757] (-) TimerEvent: {}
+[25.764644] (-) TimerEvent: {}
+[25.772183] (convert_laser) StdoutLine: {'line': b'-- Found tf2: 0.25.15 (/opt/ros/humble/share/tf2/cmake)\n'}
+[25.776372] (convert_laser) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.15 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[25.835358] (convert_laser) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.15 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[25.840620] (convert_laser) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[25.841859] (convert_laser) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[25.844804] (convert_laser) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[25.864847] (-) TimerEvent: {}
+[25.909462] (convert_laser) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[25.909589] (convert_laser) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[25.909617] (convert_laser) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[25.909973] (convert_laser) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[25.910839] (convert_laser) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[25.911280] (convert_laser) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[25.912205] (convert_laser) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[25.912265] (convert_laser) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[25.912609] (convert_laser) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[25.913627] (convert_laser) StdoutLine: {'line': b'-- Configuring done\n'}
+[25.925783] (convert_laser) StdoutLine: {'line': b'-- Generating done\n'}
+[25.930158] (convert_laser) StdoutLine: {'line': b'-- Build files have been written to: /home/akun/workspace/CAR/real_ws/build/convert_laser\n'}
+[25.954869] (convert_laser) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target convert\x1b[0m\n'}
+[25.965353] (-) TimerEvent: {}
+[25.966738] (convert_laser) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/convert.dir/src/convert.cpp.o\x1b[0m\n'}
+[26.065563] (-) TimerEvent: {}
+[26.165983] (-) TimerEvent: {}
+[26.266476] (-) TimerEvent: {}
+[26.366790] (-) TimerEvent: {}
+[26.467379] (-) TimerEvent: {}
+[26.567739] (-) TimerEvent: {}
+[26.669723] (-) TimerEvent: {}
+[26.772457] (-) TimerEvent: {}
+[26.875249] (-) TimerEvent: {}
+[26.978036] (-) TimerEvent: {}
+[27.080114] (-) TimerEvent: {}
+[27.181836] (-) TimerEvent: {}
+[27.284603] (-) TimerEvent: {}
+[27.386070] (-) TimerEvent: {}
+[27.486587] (-) TimerEvent: {}
+[27.587117] (-) TimerEvent: {}
+[27.687546] (-) TimerEvent: {}
+[27.787960] (-) TimerEvent: {}
+[27.888425] (-) TimerEvent: {}
+[27.988812] (-) TimerEvent: {}
+[28.089340] (-) TimerEvent: {}
+[28.189758] (-) TimerEvent: {}
+[28.290277] (-) TimerEvent: {}
+[28.390775] (-) TimerEvent: {}
+[28.493682] (-) TimerEvent: {}
+[28.594542] (-) TimerEvent: {}
+[28.694958] (-) TimerEvent: {}
+[28.797272] (-) TimerEvent: {}
+[28.898655] (-) TimerEvent: {}
+[28.999658] (-) TimerEvent: {}
+[29.102366] (-) TimerEvent: {}
+[29.203472] (-) TimerEvent: {}
+[29.303928] (-) TimerEvent: {}
+[29.404439] (-) TimerEvent: {}
+[29.504973] (-) TimerEvent: {}
+[29.607655] (-) TimerEvent: {}
+[29.710430] (-) TimerEvent: {}
+[29.811388] (-) TimerEvent: {}
+[29.912316] (-) TimerEvent: {}
+[30.013263] (-) TimerEvent: {}
+[30.115730] (-) TimerEvent: {}
+[30.216057] (-) TimerEvent: {}
+[30.316657] (-) TimerEvent: {}
+[30.417034] (-) TimerEvent: {}
+[30.517616] (-) TimerEvent: {}
+[30.618122] (-) TimerEvent: {}
+[30.718573] (-) TimerEvent: {}
+[30.818987] (-) TimerEvent: {}
+[30.919377] (-) TimerEvent: {}
+[31.019666] (-) TimerEvent: {}
+[31.121188] (-) TimerEvent: {}
+[31.223984] (-) TimerEvent: {}
+[31.325275] (-) TimerEvent: {}
+[31.425775] (-) TimerEvent: {}
+[31.526163] (-) TimerEvent: {}
+[31.627721] (-) TimerEvent: {}
+[31.729114] (-) TimerEvent: {}
+[31.830478] (-) TimerEvent: {}
+[31.931889] (-) TimerEvent: {}
+[32.033731] (-) TimerEvent: {}
+[32.135375] (-) TimerEvent: {}
+[32.236757] (-) TimerEvent: {}
+[32.338537] (-) TimerEvent: {}
+[32.439238] (-) TimerEvent: {}
+[32.540332] (-) TimerEvent: {}
+[32.642077] (-) TimerEvent: {}
+[32.743216] (-) TimerEvent: {}
+[32.844210] (-) TimerEvent: {}
+[32.945258] (-) TimerEvent: {}
+[33.046487] (-) TimerEvent: {}
+[33.147872] (-) TimerEvent: {}
+[33.248903] (-) TimerEvent: {}
+[33.349246] (-) TimerEvent: {}
+[33.450073] (-) TimerEvent: {}
+[33.550441] (-) TimerEvent: {}
+[33.651164] (-) TimerEvent: {}
+[33.751827] (-) TimerEvent: {}
+[33.852609] (-) TimerEvent: {}
+[33.953418] (-) TimerEvent: {}
+[34.054020] (-) TimerEvent: {}
+[34.154582] (-) TimerEvent: {}
+[34.255112] (-) TimerEvent: {}
+[34.355619] (-) TimerEvent: {}
+[34.456134] (-) TimerEvent: {}
+[34.556494] (-) TimerEvent: {}
+[34.657659] (-) TimerEvent: {}
+[34.758066] (-) TimerEvent: {}
+[34.858424] (-) TimerEvent: {}
+[34.958902] (-) TimerEvent: {}
+[35.059341] (-) TimerEvent: {}
+[35.159676] (-) TimerEvent: {}
+[35.260724] (-) TimerEvent: {}
+[35.361090] (-) TimerEvent: {}
+[35.461419] (-) TimerEvent: {}
+[35.561920] (-) TimerEvent: {}
+[35.663947] (-) TimerEvent: {}
+[35.765110] (-) TimerEvent: {}
+[35.854445] (convert_laser) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable convert\x1b[0m\n'}
+[35.865472] (-) TimerEvent: {}
+[35.965839] (-) TimerEvent: {}
+[36.066267] (-) TimerEvent: {}
+[36.166730] (-) TimerEvent: {}
+[36.267241] (-) TimerEvent: {}
+[36.351749] (convert_laser) StdoutLine: {'line': b'[100%] Built target convert\n'}
+[36.360865] (convert_laser) CommandEnded: {'returncode': 0}
+[36.361713] (convert_laser) JobProgress: {'identifier': 'convert_laser', 'progress': 'install'}
+[36.368000] (convert_laser) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/akun/workspace/CAR/real_ws/build/convert_laser'], 'cwd': '/home/akun/workspace/CAR/real_ws/build/convert_laser', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'akun'), ('GIT_ASKPASS', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/akun/workspace/CAR/LIO-SAM/install/lio_sam/lib:/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/lib:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/home/akun'), ('OLDPWD', '/home/akun/workspace/CAR'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d1637119-b771-4abb-85ad-306d02fe33cd.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/akun/workspace/CAR/simulation_ws/install:/home/akun/workspace/CAR/LIO-SAM/install:/home/akun/workspace/CAR/1_URDF_ws/install:/home/akun/workspace/CAR/livox_ros_driver2/install:/home/akun/workspace/CAR/real_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'akun'), ('NAME', 'DESKTOP-QJO75DJ'), ('WSL_INTEROP', '/run/WSL/470_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/VMware/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/BandZip/Bandizip/:/mnt/d/vscode/vscode/Microsoft VS Code/bin:/mnt/d/NodeJs/:/mnt/d/NodeJs/node_global/node_modules/yarn/bin:/mnt/d/Anaconda/Scripts:/mnt/d/git/Git/cmd:/mnt/d/mySQL/mySQL Server 8.0/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/usbipd-win/:/mnt/d/Anaconda:/mnt/d/Anaconda/Library/mingw-w64/bin:/mnt/d/Anaconda/Library/usr/bin:/mnt/d/Anaconda/Library/bin:/mnt/d/Anaconda/Scripts:/mnt/c/Users/Y9000P/AppData/Roaming/npm:/mnt/c/Users/Y9000P/AppData/Local/Programs/Ollama:/mnt/d/QQ游戏/QQGame/Hall.58319/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d70605ba1f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/akun/workspace/CAR/LIO-SAM/install/lio_sam:/home/akun/workspace/CAR/simulation_ws/install/sim_imu:/home/akun/workspace/CAR/simulation_ws/install/convert_time:/home/akun/workspace/CAR/real_ws/install/convert_laser:/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/akun/workspace/CAR/real_ws/build/convert_laser'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/akun/workspace/CAR/LIO-SAM/install/lio_sam/local/lib/python3.10/dist-packages:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/tmp/usr/local:/tmp/usr/local:/home/akun/workspace/CAR/LIO-SAM/install/lio_sam:/home/akun/workspace/CAR/simulation_ws/install/sim_imu:/home/akun/workspace/CAR/simulation_ws/install/convert_time:/home/akun/workspace/CAR/real_ws/install/convert_laser:/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[36.368896] (-) TimerEvent: {}
+[36.372583] (convert_laser) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[36.373214] (convert_laser) StdoutLine: {'line': b'-- Installing: /home/akun/workspace/CAR/real_ws/install/convert_laser/lib/convert_laser/convert\n'}
+[36.376766] (convert_laser) StdoutLine: {'line': b'-- Set runtime path of "/home/akun/workspace/CAR/real_ws/install/convert_laser/lib/convert_laser/convert" to ""\n'}
+[36.376884] (convert_laser) StdoutLine: {'line': b'-- Installing: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/launch\n'}
+[36.376956] (convert_laser) StdoutLine: {'line': b'-- Installing: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/launch/run.launch.py\n'}
+[36.377023] (convert_laser) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/ament_index/resource_index/package_run_dependencies/convert_laser\n'}
+[36.377143] (convert_laser) StdoutLine: {'line': b'-- Installing: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/ament_index/resource_index/parent_prefix_path/convert_laser\n'}
+[36.377282] (convert_laser) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/environment/ament_prefix_path.sh\n'}
+[36.377345] (convert_laser) StdoutLine: {'line': b'-- Installing: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/environment/ament_prefix_path.dsv\n'}
+[36.377427] (convert_laser) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/environment/path.sh\n'}
+[36.377515] (convert_laser) StdoutLine: {'line': b'-- Installing: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/environment/path.dsv\n'}
+[36.377651] (convert_laser) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/local_setup.bash\n'}
+[36.377695] (convert_laser) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/local_setup.sh\n'}
+[36.377775] (convert_laser) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/local_setup.zsh\n'}
+[36.377852] (convert_laser) StdoutLine: {'line': b'-- Installing: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/local_setup.dsv\n'}
+[36.377983] (convert_laser) StdoutLine: {'line': b'-- Installing: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/package.dsv\n'}
+[36.378019] (convert_laser) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/ament_index/resource_index/packages/convert_laser\n'}
+[36.378044] (convert_laser) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/cmake/convert_laserConfig.cmake\n'}
+[36.378068] (convert_laser) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/cmake/convert_laserConfig-version.cmake\n'}
+[36.378128] (convert_laser) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/package.xml\n'}
+[36.379800] (convert_laser) CommandEnded: {'returncode': 0}
+[36.392324] (convert_laser) JobEnded: {'identifier': 'convert_laser', 'rc': 0}
+[36.393080] (-) EventReactorShutdown: {}

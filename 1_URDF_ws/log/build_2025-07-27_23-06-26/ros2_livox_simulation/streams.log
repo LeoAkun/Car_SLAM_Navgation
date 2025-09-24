@@ -1,0 +1,52 @@
+[0.013s] Invoking command in '/home/akun/workspace/CAR/1_URDF_ws/build/ros2_livox_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/1_URDF_ws/build/ros2_livox_simulation -- -j32 -l32
+[0.207s] [ 33%] [32mBuilding CXX object CMakeFiles/ros2_livox.dir/src/livox_points_plugin.cpp.o[0m
+[2.895s] In file included from [01m[K/home/akun/workspace/CAR/1_URDF_ws/src/livox_laser_simulation_RO2/include/ros2_livox/livox_points_plugin.h:14[m[K,
+[2.895s]                  from [01m[K/home/akun/workspace/CAR/1_URDF_ws/src/livox_laser_simulation_RO2/src/livox_points_plugin.cpp:17[m[K:
+[2.895s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[2.895s]    47 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+[2.895s]       |      [01;35m[K^~~~~~~[m[K
+[11.216s] [ 66%] [32m[1mLinking CXX shared library libros2_livox.so[0m
+[12.211s] [100%] Built target ros2_livox
+[12.219s] Invoked command in '/home/akun/workspace/CAR/1_URDF_ws/build/ros2_livox_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/1_URDF_ws/build/ros2_livox_simulation -- -j32 -l32
+[12.224s] Invoking command in '/home/akun/workspace/CAR/1_URDF_ws/build/ros2_livox_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/akun/workspace/CAR/1_URDF_ws/build/ros2_livox_simulation
+[12.228s] -- Install configuration: ""
+[12.228s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/include
+[12.229s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/include/ros2_livox
+[12.229s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/include/ros2_livox/livox_points_plugin.h
+[12.229s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/include/ros2_livox/csv_reader.hpp
+[12.229s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/include/ros2_livox/livox_ode_multiray_shape.h
+[12.230s] -- Installing: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/lib/libros2_livox.so
+[12.232s] -- Set runtime path of "/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/lib/libros2_livox.so" to ""
+[12.233s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/library_path.sh
+[12.233s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/library_path.dsv
+[12.233s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/mid40.csv
+[12.233s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/mid70.csv
+[12.233s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/mid360.csv
+[12.233s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/tele.csv
+[12.234s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/horizon.csv
+[12.234s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/HAP.csv
+[12.234s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/avia.csv
+[12.234s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/mid40.xacro
+[12.234s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/mid70.xacro
+[12.234s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/mid360.xacro
+[12.234s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/tele.xacro
+[12.234s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/horizon.xacro
+[12.234s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/HAP.xacro
+[12.234s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/avia.xacro
+[12.234s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ament_index/resource_index/package_run_dependencies/ros2_livox_simulation
+[12.235s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ament_index/resource_index/parent_prefix_path/ros2_livox_simulation
+[12.235s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/ament_prefix_path.sh
+[12.235s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/ament_prefix_path.dsv
+[12.236s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/path.sh
+[12.236s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/path.dsv
+[12.236s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.bash
+[12.236s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.sh
+[12.236s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.zsh
+[12.237s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.dsv
+[12.237s] -- Installing: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/package.dsv
+[12.237s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ament_index/resource_index/packages/ros2_livox_simulation
+[12.237s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ament_cmake_export_libraries-extras.cmake
+[12.237s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ros2_livox_simulationConfig.cmake
+[12.237s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ros2_livox_simulationConfig-version.cmake
+[12.237s] -- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/package.xml
+[12.239s] Invoked command in '/home/akun/workspace/CAR/1_URDF_ws/build/ros2_livox_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/akun/workspace/CAR/1_URDF_ws/build/ros2_livox_simulation

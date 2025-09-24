@@ -1,0 +1,85 @@
+[0.000000] (-) TimerEvent: {}
+[0.000496] (convert_laser) JobQueued: {'identifier': 'convert_laser', 'dependencies': OrderedDict()}
+[0.000525] (convert_laser) JobStarted: {'identifier': 'convert_laser'}
+[0.005086] (convert_laser) JobProgress: {'identifier': 'convert_laser', 'progress': 'cmake'}
+[0.006547] (convert_laser) JobProgress: {'identifier': 'convert_laser', 'progress': 'build'}
+[0.006584] (convert_laser) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/akun/workspace/CAR/real_ws/build/convert_laser', '--', '-j32', '-l32'], 'cwd': '/home/akun/workspace/CAR/real_ws/build/convert_laser', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'akun'), ('GIT_ASKPASS', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/akun/workspace/CAR/LIO-SAM/install/lio_sam/lib:/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/lib:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/home/akun'), ('OLDPWD', '/home/akun/workspace/CAR'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-0ac41d9e-6dc8-4d5b-8d52-c56bf6187880.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/akun/workspace/CAR/simulation_ws/install:/home/akun/workspace/CAR/LIO-SAM/install:/home/akun/workspace/CAR/1_URDF_ws/install:/home/akun/workspace/CAR/livox_ros_driver2/install:/home/akun/workspace/CAR/real_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'akun'), ('NAME', 'DESKTOP-QJO75DJ'), ('WSL_INTEROP', '/run/WSL/542_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/VMware/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/BandZip/Bandizip/:/mnt/d/vscode/vscode/Microsoft VS Code/bin:/mnt/d/NodeJs/:/mnt/d/NodeJs/node_global/node_modules/yarn/bin:/mnt/d/Anaconda/Scripts:/mnt/d/git/Git/cmd:/mnt/d/mySQL/mySQL Server 8.0/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/d/Anaconda:/mnt/d/Anaconda/Library/mingw-w64/bin:/mnt/d/Anaconda/Library/usr/bin:/mnt/d/Anaconda/Library/bin:/mnt/d/Anaconda/Scripts:/mnt/c/Users/Y9000P/AppData/Roaming/npm:/mnt/c/Users/Y9000P/AppData/Local/Programs/Ollama:/mnt/d/QQ游戏/QQGame/Hall.58319/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-44579af484.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/akun/workspace/CAR/real_ws/install/convert_laser:/home/akun/workspace/CAR/LIO-SAM/install/lio_sam:/home/akun/workspace/CAR/simulation_ws/install/sim_imu:/home/akun/workspace/CAR/simulation_ws/install/convert_time:/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/akun/workspace/CAR/real_ws/build/convert_laser'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/akun/workspace/CAR/LIO-SAM/install/lio_sam/local/lib/python3.10/dist-packages:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/akun/workspace/CAR/real_ws/install/convert_laser:/home/akun/workspace/CAR/LIO-SAM/install/lio_sam:/home/akun/workspace/CAR/simulation_ws/install/sim_imu:/home/akun/workspace/CAR/simulation_ws/install/convert_time:/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.034722] (convert_laser) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target convert\x1b[0m\n'}
+[0.043157] (convert_laser) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/convert.dir/src/convert.cpp.o\x1b[0m\n'}
+[0.099737] (-) TimerEvent: {}
+[0.199996] (-) TimerEvent: {}
+[0.300330] (-) TimerEvent: {}
+[0.400758] (-) TimerEvent: {}
+[0.501079] (-) TimerEvent: {}
+[0.601370] (-) TimerEvent: {}
+[0.701744] (-) TimerEvent: {}
+[0.802149] (-) TimerEvent: {}
+[0.902435] (-) TimerEvent: {}
+[1.002813] (-) TimerEvent: {}
+[1.103154] (-) TimerEvent: {}
+[1.203443] (-) TimerEvent: {}
+[1.303863] (-) TimerEvent: {}
+[1.404228] (-) TimerEvent: {}
+[1.467768] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:12:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktf2_ros\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.467982] (convert_laser) StderrLine: {'line': b'   12 |     std::shared_ptr<\x1b[01;31m\x1b[Ktf2_ros\x1b[m\x1b[K::StaticTransformBroadcaster> static_tf_brd;\n'}
+[1.468016] (convert_laser) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.468048] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:12:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.468074] (convert_laser) StderrLine: {'line': b'   12 |     std::shared_ptr<tf2_ros::StaticTransformBroadcaster\x1b[01;31m\x1b[K>\x1b[m\x1b[K static_tf_brd;\n'}
+[1.468100] (convert_laser) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.476645] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSubscriber::Subscriber(const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.476786] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:22:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktf2_ros\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.476815] (convert_laser) StderrLine: {'line': b'   22 |         this->static_tf_brd = std::make_shared<\x1b[01;31m\x1b[Ktf2_ros\x1b[m\x1b[K::StaticTransformBroadcaster>(this);\n'}
+[1.476841] (convert_laser) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.476866] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:22:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[1.476889] (convert_laser) StderrLine: {'line': b'   22 |         this->static_tf_brd = std::\x1b[01;31m\x1b[Kmake_shared<tf2_ros::StaticTransformBroadcaster>\x1b[m\x1b[K(this);\n'}
+[1.476911] (convert_laser) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.476933] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:22:84:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >(Subscriber*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.476955] (convert_laser) StderrLine: {'line': b'   22 |         this->static_tf_brd = \x1b[01;31m\x1b[Kstd::make_shared<tf2_ros::StaticTransformBroadcaster>(this)\x1b[m\x1b[K;\n'}
+[1.476976] (convert_laser) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[1.477089] (convert_laser) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.477148] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.477175] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:1\x1b[m\x1b[K:\n'}
+[1.477199] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.477224] (convert_laser) StderrLine: {'line': b'  875 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[1.477256] (convert_laser) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.477290] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.477316] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:22:84:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.477340] (convert_laser) StderrLine: {'line': b'   22 |         this->static_tf_brd = \x1b[01;31m\x1b[Kstd::make_shared<tf2_ros::StaticTransformBroadcaster>(this)\x1b[m\x1b[K;\n'}
+[1.477364] (convert_laser) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[1.481048] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Subscriber::publish_static_tf()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.481130] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:122:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.481160] (convert_laser) StderrLine: {'line': b'  122 |         \x1b[01;31m\x1b[Kgeometry_msgs\x1b[m\x1b[K::msg::TransformStamped tf;\n'}
+[1.481185] (convert_laser) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.483263] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:123:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktf\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktm\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.483365] (convert_laser) StderrLine: {'line': b'  123 |         \x1b[01;31m\x1b[Ktf\x1b[m\x1b[K.header.stamp = this->get_clock()->now();\n'}
+[1.483393] (convert_laser) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.483416] (convert_laser) StderrLine: {'line': b'      |         \x1b[32m\x1b[Ktm\x1b[m\x1b[K\n'}
+[1.483523] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:131:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktf2\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.483565] (convert_laser) StderrLine: {'line': b'  131 |         \x1b[01;31m\x1b[Ktf2\x1b[m\x1b[K::Quaternion q;\n'}
+[1.483589] (convert_laser) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.485636] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:132:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kq\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.485701] (convert_laser) StderrLine: {'line': b'  132 |         \x1b[01;31m\x1b[Kq\x1b[m\x1b[K.setRPY(0.0, 0.0, 0.0);\n'}
+[1.485725] (convert_laser) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.485747] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:137:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 is not a pointer\n'}
+[1.485769] (convert_laser) StderrLine: {'line': b'  137 |         this->static_tf_brd\x1b[01;31m\x1b[K->\x1b[m\x1b[KsendTransform(tf);\n'}
+[1.485789] (convert_laser) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.504327] (-) TimerEvent: {}
+[1.604584] (-) TimerEvent: {}
+[1.704947] (-) TimerEvent: {}
+[1.805308] (-) TimerEvent: {}
+[1.905887] (-) TimerEvent: {}
+[2.006432] (-) TimerEvent: {}
+[2.106879] (-) TimerEvent: {}
+[2.207192] (-) TimerEvent: {}
+[2.307502] (-) TimerEvent: {}
+[2.407877] (-) TimerEvent: {}
+[2.508342] (-) TimerEvent: {}
+[2.608657] (-) TimerEvent: {}
+[2.709012] (-) TimerEvent: {}
+[2.809387] (-) TimerEvent: {}
+[2.869753] (convert_laser) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/convert.dir/build.make:76: CMakeFiles/convert.dir/src/convert.cpp.o] Error 1\n'}
+[2.869896] (convert_laser) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/convert.dir/all] Error 2\n'}
+[2.870008] (convert_laser) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.871750] (convert_laser) CommandEnded: {'returncode': 2}
+[2.877506] (convert_laser) JobEnded: {'identifier': 'convert_laser', 'rc': 2}
+[2.887834] (-) EventReactorShutdown: {}

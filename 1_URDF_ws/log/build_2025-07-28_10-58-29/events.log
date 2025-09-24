@@ -1,0 +1,223 @@
+[0.000000] (-) TimerEvent: {}
+[0.000375] (robot) JobQueued: {'identifier': 'robot', 'dependencies': OrderedDict()}
+[0.000391] (ros2_livox_simulation) JobQueued: {'identifier': 'ros2_livox_simulation', 'dependencies': OrderedDict()}
+[0.000401] (robot) JobStarted: {'identifier': 'robot'}
+[0.003954] (ros2_livox_simulation) JobStarted: {'identifier': 'ros2_livox_simulation'}
+[0.006431] (robot) JobProgress: {'identifier': 'robot', 'progress': 'cmake'}
+[0.006830] (robot) JobProgress: {'identifier': 'robot', 'progress': 'build'}
+[0.007309] (robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/akun/workspace/CAR/1_URDF_ws/build/robot', '--', '-j32', '-l32'], 'cwd': '/home/akun/workspace/CAR/1_URDF_ws/build/robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'akun'), ('GIT_ASKPASS', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/lib:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/home/akun'), ('OLDPWD', '/home/akun/workspace'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-8c096df5-a649-4383-aa77-d0f5f3192a22.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/akun/workspace/CAR/1_URDF_ws/install:/home/akun/workspace/CAR/livox_ros_driver2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'akun'), ('NAME', 'DESKTOP-QJO75DJ'), ('WSL_INTEROP', '/run/WSL/479_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/VMware/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/BandZip/Bandizip/:/mnt/d/vscode/vscode/Microsoft VS Code/bin:/mnt/d/NodeJs/:/mnt/d/NodeJs/node_global/node_modules/yarn/bin:/mnt/d/Anaconda/Scripts:/mnt/d/git/Git/cmd:/mnt/d/mySQL/mySQL Server 8.0/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/d/Anaconda:/mnt/d/Anaconda/Library/mingw-w64/bin:/mnt/d/Anaconda/Library/usr/bin:/mnt/d/Anaconda/Library/bin:/mnt/d/Anaconda/Scripts:/mnt/c/Users/Y9000P/AppData/Roaming/npm:/mnt/c/Users/Y9000P/AppData/Local/Programs/Ollama:/mnt/d/QQ游戏/QQGame/Hall.58319/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-44579af484.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/akun/workspace/CAR/1_URDF_ws/build/robot'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.010109] (ros2_livox_simulation) JobProgress: {'identifier': 'ros2_livox_simulation', 'progress': 'cmake'}
+[0.010811] (ros2_livox_simulation) JobProgress: {'identifier': 'ros2_livox_simulation', 'progress': 'build'}
+[0.011602] (ros2_livox_simulation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/akun/workspace/CAR/1_URDF_ws/build/ros2_livox_simulation', '--', '-j32', '-l32'], 'cwd': '/home/akun/workspace/CAR/1_URDF_ws/build/ros2_livox_simulation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'akun'), ('GIT_ASKPASS', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/lib:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/home/akun'), ('OLDPWD', '/home/akun/workspace'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-8c096df5-a649-4383-aa77-d0f5f3192a22.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/akun/workspace/CAR/1_URDF_ws/install:/home/akun/workspace/CAR/livox_ros_driver2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'akun'), ('NAME', 'DESKTOP-QJO75DJ'), ('WSL_INTEROP', '/run/WSL/479_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/VMware/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/BandZip/Bandizip/:/mnt/d/vscode/vscode/Microsoft VS Code/bin:/mnt/d/NodeJs/:/mnt/d/NodeJs/node_global/node_modules/yarn/bin:/mnt/d/Anaconda/Scripts:/mnt/d/git/Git/cmd:/mnt/d/mySQL/mySQL Server 8.0/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/d/Anaconda:/mnt/d/Anaconda/Library/mingw-w64/bin:/mnt/d/Anaconda/Library/usr/bin:/mnt/d/Anaconda/Library/bin:/mnt/d/Anaconda/Scripts:/mnt/c/Users/Y9000P/AppData/Roaming/npm:/mnt/c/Users/Y9000P/AppData/Local/Programs/Ollama:/mnt/d/QQ游戏/QQGame/Hall.58319/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-44579af484.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/akun/workspace/CAR/1_URDF_ws/build/ros2_livox_simulation'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.029728] (robot) CommandEnded: {'returncode': 0}
+[0.030182] (robot) JobProgress: {'identifier': 'robot', 'progress': 'install'}
+[0.034346] (robot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/akun/workspace/CAR/1_URDF_ws/build/robot'], 'cwd': '/home/akun/workspace/CAR/1_URDF_ws/build/robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'akun'), ('GIT_ASKPASS', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/lib:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/home/akun'), ('OLDPWD', '/home/akun/workspace'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-8c096df5-a649-4383-aa77-d0f5f3192a22.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/akun/workspace/CAR/1_URDF_ws/install:/home/akun/workspace/CAR/livox_ros_driver2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'akun'), ('NAME', 'DESKTOP-QJO75DJ'), ('WSL_INTEROP', '/run/WSL/479_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/VMware/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/BandZip/Bandizip/:/mnt/d/vscode/vscode/Microsoft VS Code/bin:/mnt/d/NodeJs/:/mnt/d/NodeJs/node_global/node_modules/yarn/bin:/mnt/d/Anaconda/Scripts:/mnt/d/git/Git/cmd:/mnt/d/mySQL/mySQL Server 8.0/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/d/Anaconda:/mnt/d/Anaconda/Library/mingw-w64/bin:/mnt/d/Anaconda/Library/usr/bin:/mnt/d/Anaconda/Library/bin:/mnt/d/Anaconda/Scripts:/mnt/c/Users/Y9000P/AppData/Roaming/npm:/mnt/c/Users/Y9000P/AppData/Local/Programs/Ollama:/mnt/d/QQ游戏/QQGame/Hall.58319/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-44579af484.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/akun/workspace/CAR/1_URDF_ws/build/robot'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.038277] (robot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.038364] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/launch\n'}
+[0.038394] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/launch/my_launch.py\n'}
+[0.038526] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/launch/gazebo_sim.launch.py\n'}
+[0.038563] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/urdf\n'}
+[0.038642] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/urdf/first_robot.xacro\n'}
+[0.038718] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/urdf/robot\n'}
+[0.038787] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/urdf/robot/sensor\n'}
+[0.038965] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/urdf/robot/sensor/laser.urdf.xacro\n'}
+[0.039003] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/urdf/robot/sensor/imu.urdf.xacro\n'}
+[0.039028] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/urdf/robot/sensor/camera.urdf.xacro\n'}
+[0.039051] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/urdf/robot/sensor/laser_back.urdf.xacro\n'}
+[0.039074] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/urdf/robot/common_inertial.xacro\n'}
+[0.039096] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/urdf/robot/base.urdf.xacro\n'}
+[0.039119] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/urdf/robot/actor\n'}
+[0.039255] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/urdf/robot/actor/wheel_congdong.urdf.xacro\n'}
+[0.039334] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/urdf/robot/actor/wheel.urdf.xacro\n'}
+[0.039412] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/urdf/robot/robot.urdf.xacro\n'}
+[0.039469] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/urdf/robot/plugins\n'}
+[0.039533] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/urdf/robot/plugins/gazebo_control_plugin.xacro\n'}
+[0.039609] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/urdf/robot/plugins/gazebo_laser_plugin_back.xacro\n'}
+[0.039636] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/urdf/robot/plugins/gazebo_laser_plugin.xacro\n'}
+[0.039659] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/urdf/robot/plugins/gazebo_imu_plugin.xacro\n'}
+[0.039682] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/urdf/first_robot.pdf\n'}
+[0.039705] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/urdf/first_robot.urdf\n'}
+[0.039727] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/urdf/first_robot.gv\n'}
+[0.039749] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/rviz_config\n'}
+[0.039770] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/rviz_config/robot_model.rviz\n'}
+[0.039806] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/world\n'}
+[0.039880] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/world/room\n'}
+[0.039956] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/world/room/model.sdf\n'}
+[0.039988] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/world/room/model.config\n'}
+[0.040176] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/world/custom_world.world\n'}
+[0.040277] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/world/world\n'}
+[0.040440] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/world/custom_room.world\n'}
+[0.040518] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/ament_index/resource_index/package_run_dependencies/robot\n'}
+[0.040594] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/ament_index/resource_index/parent_prefix_path/robot\n'}
+[0.040670] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/environment/ament_prefix_path.sh\n'}
+[0.040745] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/environment/ament_prefix_path.dsv\n'}
+[0.040819] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/environment/path.sh\n'}
+[0.040874] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/environment/path.dsv\n'}
+[0.040972] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/local_setup.bash\n'}
+[0.041046] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/local_setup.sh\n'}
+[0.041120] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/local_setup.zsh\n'}
+[0.041194] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/local_setup.dsv\n'}
+[0.041262] (robot) StdoutLine: {'line': b'-- Installing: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/package.dsv\n'}
+[0.041295] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/ament_index/resource_index/packages/robot\n'}
+[0.041358] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/cmake/robotConfig.cmake\n'}
+[0.041435] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/cmake/robotConfig-version.cmake\n'}
+[0.041510] (robot) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/package.xml\n'}
+[0.042480] (robot) CommandEnded: {'returncode': 0}
+[0.049919] (robot) JobEnded: {'identifier': 'robot', 'rc': 0}
+[0.085134] (ros2_livox_simulation) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/ros2_livox.dir/src/livox_points_plugin.cpp.o\x1b[0m\n'}
+[0.099825] (-) TimerEvent: {}
+[0.200223] (-) TimerEvent: {}
+[0.300591] (-) TimerEvent: {}
+[0.400962] (-) TimerEvent: {}
+[0.501235] (-) TimerEvent: {}
+[0.601615] (-) TimerEvent: {}
+[0.701907] (-) TimerEvent: {}
+[0.802286] (-) TimerEvent: {}
+[0.902624] (-) TimerEvent: {}
+[1.002923] (-) TimerEvent: {}
+[1.103322] (-) TimerEvent: {}
+[1.203774] (-) TimerEvent: {}
+[1.304161] (-) TimerEvent: {}
+[1.404478] (-) TimerEvent: {}
+[1.504876] (-) TimerEvent: {}
+[1.605223] (-) TimerEvent: {}
+[1.705544] (-) TimerEvent: {}
+[1.805852] (-) TimerEvent: {}
+[1.906139] (-) TimerEvent: {}
+[2.006394] (-) TimerEvent: {}
+[2.106700] (-) TimerEvent: {}
+[2.206988] (-) TimerEvent: {}
+[2.301709] (ros2_livox_simulation) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/akun/workspace/CAR/1_URDF_ws/src/livox_laser_simulation_RO2/include/ros2_livox/livox_points_plugin.h:14\x1b[m\x1b[K,\n'}
+[2.301893] (ros2_livox_simulation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/akun/workspace/CAR/1_URDF_ws/src/livox_laser_simulation_RO2/src/livox_points_plugin.cpp:17\x1b[m\x1b[K:\n'}
+[2.301924] (ros2_livox_simulation) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.301953] (ros2_livox_simulation) StderrLine: {'line': b'   47 | #    \x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K POINT_CLOUD_DEPRECATION_MESSAGE\n'}
+[2.301978] (ros2_livox_simulation) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.307077] (-) TimerEvent: {}
+[2.407373] (-) TimerEvent: {}
+[2.507679] (-) TimerEvent: {}
+[2.607963] (-) TimerEvent: {}
+[2.708296] (-) TimerEvent: {}
+[2.808581] (-) TimerEvent: {}
+[2.908853] (-) TimerEvent: {}
+[3.009136] (-) TimerEvent: {}
+[3.109549] (-) TimerEvent: {}
+[3.209822] (-) TimerEvent: {}
+[3.310115] (-) TimerEvent: {}
+[3.410537] (-) TimerEvent: {}
+[3.510785] (-) TimerEvent: {}
+[3.611316] (-) TimerEvent: {}
+[3.711727] (-) TimerEvent: {}
+[3.812019] (-) TimerEvent: {}
+[3.912382] (-) TimerEvent: {}
+[4.012655] (-) TimerEvent: {}
+[4.113053] (-) TimerEvent: {}
+[4.213668] (-) TimerEvent: {}
+[4.313947] (-) TimerEvent: {}
+[4.414217] (-) TimerEvent: {}
+[4.514626] (-) TimerEvent: {}
+[4.614978] (-) TimerEvent: {}
+[4.715192] (-) TimerEvent: {}
+[4.815451] (-) TimerEvent: {}
+[4.915730] (-) TimerEvent: {}
+[5.015996] (-) TimerEvent: {}
+[5.116346] (-) TimerEvent: {}
+[5.216787] (-) TimerEvent: {}
+[5.317138] (-) TimerEvent: {}
+[5.417496] (-) TimerEvent: {}
+[5.517812] (-) TimerEvent: {}
+[5.618135] (-) TimerEvent: {}
+[5.718404] (-) TimerEvent: {}
+[5.818686] (-) TimerEvent: {}
+[5.919011] (-) TimerEvent: {}
+[6.019276] (-) TimerEvent: {}
+[6.119719] (-) TimerEvent: {}
+[6.220055] (-) TimerEvent: {}
+[6.320396] (-) TimerEvent: {}
+[6.420708] (-) TimerEvent: {}
+[6.521044] (-) TimerEvent: {}
+[6.621350] (-) TimerEvent: {}
+[6.721616] (-) TimerEvent: {}
+[6.821939] (-) TimerEvent: {}
+[6.922256] (-) TimerEvent: {}
+[7.022562] (-) TimerEvent: {}
+[7.122926] (-) TimerEvent: {}
+[7.223258] (-) TimerEvent: {}
+[7.323574] (-) TimerEvent: {}
+[7.423867] (-) TimerEvent: {}
+[7.524139] (-) TimerEvent: {}
+[7.624517] (-) TimerEvent: {}
+[7.724910] (-) TimerEvent: {}
+[7.825276] (-) TimerEvent: {}
+[7.925623] (-) TimerEvent: {}
+[8.025976] (-) TimerEvent: {}
+[8.126333] (-) TimerEvent: {}
+[8.226637] (-) TimerEvent: {}
+[8.326909] (-) TimerEvent: {}
+[8.427195] (-) TimerEvent: {}
+[8.527487] (-) TimerEvent: {}
+[8.627767] (-) TimerEvent: {}
+[8.728053] (-) TimerEvent: {}
+[8.828312] (-) TimerEvent: {}
+[8.928685] (-) TimerEvent: {}
+[9.028944] (-) TimerEvent: {}
+[9.129267] (-) TimerEvent: {}
+[9.229581] (-) TimerEvent: {}
+[9.329937] (-) TimerEvent: {}
+[9.430202] (-) TimerEvent: {}
+[9.530611] (-) TimerEvent: {}
+[9.630947] (-) TimerEvent: {}
+[9.731325] (-) TimerEvent: {}
+[9.821592] (ros2_livox_simulation) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libros2_livox.so\x1b[0m\n'}
+[9.831375] (-) TimerEvent: {}
+[9.931648] (-) TimerEvent: {}
+[10.032003] (-) TimerEvent: {}
+[10.132283] (-) TimerEvent: {}
+[10.232548] (-) TimerEvent: {}
+[10.332808] (-) TimerEvent: {}
+[10.348663] (ros2_livox_simulation) StdoutLine: {'line': b'[100%] Built target ros2_livox\n'}
+[10.354987] (ros2_livox_simulation) CommandEnded: {'returncode': 0}
+[10.355523] (ros2_livox_simulation) JobProgress: {'identifier': 'ros2_livox_simulation', 'progress': 'install'}
+[10.356394] (ros2_livox_simulation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/akun/workspace/CAR/1_URDF_ws/build/ros2_livox_simulation'], 'cwd': '/home/akun/workspace/CAR/1_URDF_ws/build/ros2_livox_simulation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'akun'), ('GIT_ASKPASS', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/lib:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/home/akun'), ('OLDPWD', '/home/akun/workspace'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-8c096df5-a649-4383-aa77-d0f5f3192a22.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/akun/workspace/CAR/1_URDF_ws/install:/home/akun/workspace/CAR/livox_ros_driver2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'akun'), ('NAME', 'DESKTOP-QJO75DJ'), ('WSL_INTEROP', '/run/WSL/479_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/VMware/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/BandZip/Bandizip/:/mnt/d/vscode/vscode/Microsoft VS Code/bin:/mnt/d/NodeJs/:/mnt/d/NodeJs/node_global/node_modules/yarn/bin:/mnt/d/Anaconda/Scripts:/mnt/d/git/Git/cmd:/mnt/d/mySQL/mySQL Server 8.0/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/d/Anaconda:/mnt/d/Anaconda/Library/mingw-w64/bin:/mnt/d/Anaconda/Library/usr/bin:/mnt/d/Anaconda/Library/bin:/mnt/d/Anaconda/Scripts:/mnt/c/Users/Y9000P/AppData/Roaming/npm:/mnt/c/Users/Y9000P/AppData/Local/Programs/Ollama:/mnt/d/QQ游戏/QQGame/Hall.58319/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-44579af484.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/akun/workspace/CAR/1_URDF_ws/build/ros2_livox_simulation'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[10.360333] (ros2_livox_simulation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.360570] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/include\n'}
+[10.360608] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/include/ros2_livox\n'}
+[10.360632] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/include/ros2_livox/livox_points_plugin.h\n'}
+[10.360656] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/include/ros2_livox/csv_reader.hpp\n'}
+[10.360679] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/include/ros2_livox/livox_ode_multiray_shape.h\n'}
+[10.360701] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/lib/libros2_livox.so\n'}
+[10.362534] (ros2_livox_simulation) StdoutLine: {'line': b'-- Set runtime path of "/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/lib/libros2_livox.so" to ""\n'}
+[10.362742] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/library_path.sh\n'}
+[10.362849] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/library_path.dsv\n'}
+[10.362944] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/mid40.csv\n'}
+[10.362994] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/mid70.csv\n'}
+[10.363021] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/mid360.csv\n'}
+[10.363218] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/tele.csv\n'}
+[10.363384] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/horizon.csv\n'}
+[10.363474] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/HAP.csv\n'}
+[10.363550] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/avia.csv\n'}
+[10.363626] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/mid40.xacro\n'}
+[10.363700] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/mid70.xacro\n'}
+[10.363774] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/mid360.xacro\n'}
+[10.363884] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/tele.xacro\n'}
+[10.363916] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/horizon.xacro\n'}
+[10.363939] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/HAP.xacro\n'}
+[10.363999] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/avia.xacro\n'}
+[10.364284] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ament_index/resource_index/package_run_dependencies/ros2_livox_simulation\n'}
+[10.364328] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ament_index/resource_index/parent_prefix_path/ros2_livox_simulation\n'}
+[10.364354] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/ament_prefix_path.sh\n'}
+[10.364450] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/ament_prefix_path.dsv\n'}
+[10.364550] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/path.sh\n'}
+[10.364625] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/path.dsv\n'}
+[10.364700] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.bash\n'}
+[10.364876] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.sh\n'}
+[10.365057] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.zsh\n'}
+[10.365132] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.dsv\n'}
+[10.365205] (ros2_livox_simulation) StdoutLine: {'line': b'-- Installing: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/package.dsv\n'}
+[10.365277] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ament_index/resource_index/packages/ros2_livox_simulation\n'}
+[10.365349] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.365420] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ros2_livox_simulationConfig.cmake\n'}
+[10.365490] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ros2_livox_simulationConfig-version.cmake\n'}
+[10.365559] (ros2_livox_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/package.xml\n'}
+[10.366005] (ros2_livox_simulation) CommandEnded: {'returncode': 0}
+[10.373620] (ros2_livox_simulation) JobEnded: {'identifier': 'ros2_livox_simulation', 'rc': 0}
+[10.374258] (-) EventReactorShutdown: {}

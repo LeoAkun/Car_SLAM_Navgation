@@ -1,0 +1,225 @@
+[0.000000] (-) TimerEvent: {}
+[0.000423] (convert_laser) JobQueued: {'identifier': 'convert_laser', 'dependencies': OrderedDict()}
+[0.000451] (convert_laser) JobStarted: {'identifier': 'convert_laser'}
+[0.003990] (convert_laser) JobProgress: {'identifier': 'convert_laser', 'progress': 'cmake'}
+[0.004811] (convert_laser) Command: {'cmd': ['/usr/bin/cmake', '/home/akun/workspace/CAR/real_ws/convert_laser', '-DCMAKE_INSTALL_PREFIX=/home/akun/workspace/CAR/real_ws/install/convert_laser'], 'cwd': '/home/akun/workspace/CAR/real_ws/build/convert_laser', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'akun'), ('GIT_ASKPASS', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/home/akun'), ('OLDPWD', '/home/akun/workspace/CAR'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6cb132c1-1b17-4e94-8b93-d18773578364.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/akun/workspace/CAR/livox_ros_driver2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'akun'), ('NAME', 'DESKTOP-QJO75DJ'), ('WSL_INTEROP', '/run/WSL/541_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/VMware/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/BandZip/Bandizip/:/mnt/d/vscode/vscode/Microsoft VS Code/bin:/mnt/d/NodeJs/:/mnt/d/NodeJs/node_global/node_modules/yarn/bin:/mnt/d/Anaconda/Scripts:/mnt/d/git/Git/cmd:/mnt/d/mySQL/mySQL Server 8.0/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/d/Anaconda:/mnt/d/Anaconda/Library/mingw-w64/bin:/mnt/d/Anaconda/Library/usr/bin:/mnt/d/Anaconda/Library/bin:/mnt/d/Anaconda/Scripts:/mnt/c/Users/Y9000P/AppData/Roaming/npm:/mnt/c/Users/Y9000P/AppData/Local/Programs/Ollama:/mnt/d/QQ游戏/QQGame/Hall.58319/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-44579af484.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/akun/workspace/CAR/real_ws/build/convert_laser'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.013354] (convert_laser) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.079468] (convert_laser) StdoutLine: {'line': b'-- Found livox_ros_driver2: 1.0.0 (/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/share/livox_ros_driver2/cmake)\n'}
+[0.099475] (-) TimerEvent: {}
+[0.157491] (convert_laser) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.158657] (convert_laser) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.161523] (convert_laser) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.166043] (convert_laser) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.172246] (convert_laser) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199232] (convert_laser) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.199553] (-) TimerEvent: {}
+[0.199743] (convert_laser) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299721] (-) TimerEvent: {}
+[0.399996] (-) TimerEvent: {}
+[0.500330] (-) TimerEvent: {}
+[0.600628] (-) TimerEvent: {}
+[0.700968] (-) TimerEvent: {}
+[0.801302] (-) TimerEvent: {}
+[0.901636] (-) TimerEvent: {}
+[1.002037] (-) TimerEvent: {}
+[1.102432] (-) TimerEvent: {}
+[1.202714] (-) TimerEvent: {}
+[1.302995] (-) TimerEvent: {}
+[1.403336] (-) TimerEvent: {}
+[1.503686] (-) TimerEvent: {}
+[1.603993] (-) TimerEvent: {}
+[1.704324] (-) TimerEvent: {}
+[1.804604] (-) TimerEvent: {}
+[1.904909] (-) TimerEvent: {}
+[2.005241] (-) TimerEvent: {}
+[2.105540] (-) TimerEvent: {}
+[2.205840] (-) TimerEvent: {}
+[2.306137] (-) TimerEvent: {}
+[2.406422] (-) TimerEvent: {}
+[2.506739] (-) TimerEvent: {}
+[2.607019] (-) TimerEvent: {}
+[2.707298] (-) TimerEvent: {}
+[2.807605] (-) TimerEvent: {}
+[2.907874] (-) TimerEvent: {}
+[3.008179] (-) TimerEvent: {}
+[3.108501] (-) TimerEvent: {}
+[3.160767] (convert_laser) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.208679] (-) TimerEvent: {}
+[3.220344] (convert_laser) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[3.308833] (-) TimerEvent: {}
+[3.409256] (-) TimerEvent: {}
+[3.509789] (-) TimerEvent: {}
+[3.610154] (-) TimerEvent: {}
+[3.710452] (-) TimerEvent: {}
+[3.810779] (-) TimerEvent: {}
+[3.911111] (-) TimerEvent: {}
+[3.943846] (convert_laser) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[4.011267] (-) TimerEvent: {}
+[4.111530] (-) TimerEvent: {}
+[4.211794] (-) TimerEvent: {}
+[4.312092] (-) TimerEvent: {}
+[4.412380] (-) TimerEvent: {}
+[4.512720] (-) TimerEvent: {}
+[4.612998] (-) TimerEvent: {}
+[4.713322] (-) TimerEvent: {}
+[4.813591] (-) TimerEvent: {}
+[4.913830] (-) TimerEvent: {}
+[5.014092] (-) TimerEvent: {}
+[5.114345] (-) TimerEvent: {}
+[5.214583] (-) TimerEvent: {}
+[5.314833] (-) TimerEvent: {}
+[5.415091] (-) TimerEvent: {}
+[5.478252] (convert_laser) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[5.481025] (convert_laser) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[5.515169] (-) TimerEvent: {}
+[5.615404] (-) TimerEvent: {}
+[5.715715] (-) TimerEvent: {}
+[5.816022] (-) TimerEvent: {}
+[5.916328] (-) TimerEvent: {}
+[6.016632] (-) TimerEvent: {}
+[6.116914] (-) TimerEvent: {}
+[6.217181] (-) TimerEvent: {}
+[6.317520] (-) TimerEvent: {}
+[6.328528] (convert_laser) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[6.332326] (convert_laser) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[6.335332] (convert_laser) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[6.417622] (-) TimerEvent: {}
+[6.517866] (-) TimerEvent: {}
+[6.618142] (-) TimerEvent: {}
+[6.718385] (-) TimerEvent: {}
+[6.818650] (-) TimerEvent: {}
+[6.918909] (-) TimerEvent: {}
+[7.019176] (-) TimerEvent: {}
+[7.119413] (-) TimerEvent: {}
+[7.211770] (convert_laser) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[7.219531] (-) TimerEvent: {}
+[7.319738] (-) TimerEvent: {}
+[7.420036] (-) TimerEvent: {}
+[7.520374] (-) TimerEvent: {}
+[7.620671] (-) TimerEvent: {}
+[7.720977] (-) TimerEvent: {}
+[7.821288] (-) TimerEvent: {}
+[7.921570] (-) TimerEvent: {}
+[8.010031] (convert_laser) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[8.021744] (-) TimerEvent: {}
+[8.121992] (-) TimerEvent: {}
+[8.222364] (-) TimerEvent: {}
+[8.322666] (-) TimerEvent: {}
+[8.422937] (-) TimerEvent: {}
+[8.523209] (-) TimerEvent: {}
+[8.623496] (-) TimerEvent: {}
+[8.723803] (-) TimerEvent: {}
+[8.824120] (-) TimerEvent: {}
+[8.893847] (convert_laser) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.924253] (-) TimerEvent: {}
+[8.939968] (convert_laser) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.940104] (convert_laser) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[8.940136] (convert_laser) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.940965] (convert_laser) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.941740] (convert_laser) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.941809] (convert_laser) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.942229] (convert_laser) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.943465] (convert_laser) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.950616] (convert_laser) StdoutLine: {'line': b'-- Generating done\n'}
+[8.953231] (convert_laser) StdoutLine: {'line': b'-- Build files have been written to: /home/akun/workspace/CAR/real_ws/build/convert_laser\n'}
+[8.961379] (convert_laser) CommandEnded: {'returncode': 0}
+[8.961848] (convert_laser) JobProgress: {'identifier': 'convert_laser', 'progress': 'build'}
+[8.962620] (convert_laser) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/akun/workspace/CAR/real_ws/build/convert_laser', '--', '-j32', '-l32'], 'cwd': '/home/akun/workspace/CAR/real_ws/build/convert_laser', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'akun'), ('GIT_ASKPASS', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/home/akun'), ('OLDPWD', '/home/akun/workspace/CAR'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6cb132c1-1b17-4e94-8b93-d18773578364.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/akun/workspace/CAR/livox_ros_driver2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'akun'), ('NAME', 'DESKTOP-QJO75DJ'), ('WSL_INTEROP', '/run/WSL/541_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/VMware/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/BandZip/Bandizip/:/mnt/d/vscode/vscode/Microsoft VS Code/bin:/mnt/d/NodeJs/:/mnt/d/NodeJs/node_global/node_modules/yarn/bin:/mnt/d/Anaconda/Scripts:/mnt/d/git/Git/cmd:/mnt/d/mySQL/mySQL Server 8.0/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/d/Anaconda:/mnt/d/Anaconda/Library/mingw-w64/bin:/mnt/d/Anaconda/Library/usr/bin:/mnt/d/Anaconda/Library/bin:/mnt/d/Anaconda/Scripts:/mnt/c/Users/Y9000P/AppData/Roaming/npm:/mnt/c/Users/Y9000P/AppData/Local/Programs/Ollama:/mnt/d/QQ游戏/QQGame/Hall.58319/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-44579af484.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/akun/workspace/CAR/real_ws/build/convert_laser'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[8.988228] (convert_laser) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/convert.dir/src/convert.cpp.o\x1b[0m\n'}
+[9.024472] (-) TimerEvent: {}
+[9.124721] (-) TimerEvent: {}
+[9.225067] (-) TimerEvent: {}
+[9.325517] (-) TimerEvent: {}
+[9.425841] (-) TimerEvent: {}
+[9.526309] (-) TimerEvent: {}
+[9.626820] (-) TimerEvent: {}
+[9.727350] (-) TimerEvent: {}
+[9.827768] (-) TimerEvent: {}
+[9.928288] (-) TimerEvent: {}
+[10.028634] (-) TimerEvent: {}
+[10.128928] (-) TimerEvent: {}
+[10.229184] (-) TimerEvent: {}
+[10.329506] (-) TimerEvent: {}
+[10.401721] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSubscriber::Subscriber(const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.401900] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:16:84:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, std::allocator<void>, livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[10.401939] (convert_laser) StderrLine: {'line': b'   16 |                 std::bind(&Subscriber::callback_laser, this, std::placeholders::_1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[10.401964] (convert_laser) StderrLine: {'line': b'      |                                                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.402255] (convert_laser) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[10.402346] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[10.402396] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:1\x1b[m\x1b[K:\n'}
+[10.402441] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.402477] (convert_laser) StderrLine: {'line': b'  363 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr<_Yp>& __r) noexcept\n'}
+[10.402505] (convert_laser) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.402550] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.402725] (convert_laser) StderrLine: {'line': b'/usr/include/c++/11/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Subscription<livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, std::allocator<void>, livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, std::allocator<void> > > >&; _Tp = rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.402813] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Subscription<livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, std::allocator<void>, livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.402842] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:16:84:\x1b[m\x1b[K   required from here\n'}
+[10.403091] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:130:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.403135] (convert_laser) StderrLine: {'line': b'  130 |         using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[10.403160] (convert_laser) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.403183] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:374:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.403212] (convert_laser) StderrLine: {'line': b'  374 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(auto_ptr<_Yp>&& __r)\n'}
+[10.403234] (convert_laser) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.403348] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:374:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.403386] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:16:84:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, std::allocator<void>, livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::auto_ptr<_Up>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.403411] (convert_laser) StderrLine: {'line': b'   16 |                 std::bind(&Subscriber::callback_laser, this, std::placeholders::_1)\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[10.403433] (convert_laser) StderrLine: {'line': b'      |                                                                                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[10.403455] (convert_laser) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[10.403477] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[10.403498] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:1\x1b[m\x1b[K:\n'}
+[10.403518] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.403541] (convert_laser) StderrLine: {'line': b'  391 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr<_Yp>&& __r) noexcept\n'}
+[10.403561] (convert_laser) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.403580] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.403600] (convert_laser) StderrLine: {'line': b'/usr/include/c++/11/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Subscription<livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, std::allocator<void>, livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, std::allocator<void> > > >; _Tp = rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.403634] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Subscription<livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, std::allocator<void>, livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.403674] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:16:84:\x1b[m\x1b[K   required from here\n'}
+[10.403697] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:130:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.403719] (convert_laser) StderrLine: {'line': b'  130 |         using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[10.403742] (convert_laser) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.403762] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:399:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.403784] (convert_laser) StderrLine: {'line': b'  399 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(unique_ptr<_Yp, _Del>&& __r)\n'}
+[10.403804] (convert_laser) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.403824] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:399:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.403844] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:16:84:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, std::allocator<void>, livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.403865] (convert_laser) StderrLine: {'line': b'   16 |                 std::bind(&Subscriber::callback_laser, this, std::placeholders::_1)\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[10.403884] (convert_laser) StderrLine: {'line': b'      |                                                                                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[10.403904] (convert_laser) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[10.403923] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[10.403943] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:1\x1b[m\x1b[K:\n'}
+[10.403965] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:359:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.403985] (convert_laser) StderrLine: {'line': b'  359 |       shared_ptr& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr&) noexcept = default;\n'}
+[10.404011] (convert_laser) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.404036] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:359:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, std::allocator<void>, livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.404061] (convert_laser) StderrLine: {'line': b'  359 |       shared_ptr& operator=(\x1b[01;36m\x1b[Kconst shared_ptr&\x1b[m\x1b[K) noexcept = default;\n'}
+[10.404082] (convert_laser) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.404102] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:383:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.404123] (convert_laser) StderrLine: {'line': b'  383 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr&& __r) noexcept\n'}
+[10.404143] (convert_laser) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.404163] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:383:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, std::allocator<void>, livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> > > >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.404184] (convert_laser) StderrLine: {'line': b'  383 |       operator=(\x1b[01;36m\x1b[Kshared_ptr&& __r\x1b[m\x1b[K) noexcept\n'}
+[10.404205] (convert_laser) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[10.404227] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Subscriber::callback_laser(livox_ros_driver2::msg::CustomMsg)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.404249] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:21:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcloud2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.404270] (convert_laser) StderrLine: {'line': b'   21 |     void callback_laser(\x1b[01;35m\x1b[Klivox_ros_driver2::msg::CustomMsg cloud2\x1b[m\x1b[K)\n'}
+[10.404292] (convert_laser) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[10.429635] (-) TimerEvent: {}
+[10.530078] (-) TimerEvent: {}
+[10.630379] (-) TimerEvent: {}
+[10.730778] (-) TimerEvent: {}
+[10.831202] (-) TimerEvent: {}
+[10.931526] (-) TimerEvent: {}
+[11.031913] (-) TimerEvent: {}
+[11.132466] (-) TimerEvent: {}
+[11.232857] (-) TimerEvent: {}
+[11.333313] (-) TimerEvent: {}
+[11.433663] (-) TimerEvent: {}
+[11.533996] (-) TimerEvent: {}
+[11.634305] (-) TimerEvent: {}
+[11.734640] (-) TimerEvent: {}
+[11.794043] (convert_laser) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/convert.dir/build.make:76: CMakeFiles/convert.dir/src/convert.cpp.o] Error 1\n'}
+[11.794369] (convert_laser) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/convert.dir/all] Error 2\n'}
+[11.794627] (convert_laser) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.796819] (convert_laser) CommandEnded: {'returncode': 2}
+[11.801080] (convert_laser) JobEnded: {'identifier': 'convert_laser', 'rc': 2}
+[11.811579] (-) EventReactorShutdown: {}

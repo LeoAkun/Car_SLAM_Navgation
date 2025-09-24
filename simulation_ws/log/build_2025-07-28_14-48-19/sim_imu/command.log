@@ -1,0 +1,2 @@
+Invoking command in '/home/akun/workspace/CAR/simulation_ws/build/sim_imu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/simulation_ws/build/sim_imu -- -j32 -l32
+Invoked command in '/home/akun/workspace/CAR/simulation_ws/build/sim_imu' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/simulation_ws/build/sim_imu -- -j32 -l32

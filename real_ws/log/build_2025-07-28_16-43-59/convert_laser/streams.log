@@ -1,0 +1,11 @@
+[0.009s] Invoking command in '/home/akun/workspace/CAR/real_ws/build/convert_laser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/real_ws/build/convert_laser -- -j32 -l32
+[0.088s] [35m[1mConsolidate compiler generated dependencies of target convert[0m
+[0.115s] [ 50%] [32mBuilding CXX object CMakeFiles/convert.dir/src/convert.cpp.o[0m
+[0.346s] [01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Klivox_ros_driver2/msg/custom.hpp: No such file or directory
+[0.346s]     2 | #include [01;31m[K<livox_ros_driver2/msg/custom.hpp>[m[K
+[0.346s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.346s] compilation terminated.
+[0.347s] gmake[2]: *** [CMakeFiles/convert.dir/build.make:76: CMakeFiles/convert.dir/src/convert.cpp.o] Error 1
+[0.347s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/convert.dir/all] Error 2
+[0.348s] gmake: *** [Makefile:146: all] Error 2
+[0.349s] Invoked command in '/home/akun/workspace/CAR/real_ws/build/convert_laser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/real_ws/build/convert_laser -- -j32 -l32

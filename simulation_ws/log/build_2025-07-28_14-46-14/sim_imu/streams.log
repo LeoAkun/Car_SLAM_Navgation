@@ -1,0 +1,10 @@
+[0.010s] Invoking command in '/home/akun/workspace/CAR/simulation_ws/build/sim_imu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/simulation_ws/build/sim_imu -- -j32 -l32
+[0.041s] [ 50%] [32mBuilding CXX object CMakeFiles/sim_imu.dir/src/sim_imu.cpp.o[0m
+[0.151s] [01m[K/home/akun/workspace/CAR/simulation_ws/sim_imu/src/sim_imu.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Ktf2/LinearMath/QuadWord.h: No such file or directory
+[0.151s]     3 | #include [01;31m[K"tf2/LinearMath/QuadWord.h"[m[K // 四元数转换
+[0.151s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.151s] compilation terminated.
+[0.152s] gmake[2]: *** [CMakeFiles/sim_imu.dir/build.make:76: CMakeFiles/sim_imu.dir/src/sim_imu.cpp.o] Error 1
+[0.152s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/sim_imu.dir/all] Error 2
+[0.152s] gmake: *** [Makefile:146: all] Error 2
+[0.154s] Invoked command in '/home/akun/workspace/CAR/simulation_ws/build/sim_imu' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/simulation_ws/build/sim_imu -- -j32 -l32

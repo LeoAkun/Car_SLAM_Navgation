@@ -1,0 +1,83 @@
+[0.012s] Invoking command in '/home/akun/workspace/CAR/real_ws/build/convert_laser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/akun/workspace/CAR/real_ws/convert_laser -DCMAKE_INSTALL_PREFIX=/home/akun/workspace/CAR/real_ws/install/convert_laser
+[0.426s] -- The C compiler identification is GNU 11.4.0
+[1.643s] -- The CXX compiler identification is GNU 11.4.0
+[1.836s] -- Detecting C compiler ABI info
+[1.928s] -- Detecting C compiler ABI info - done
+[1.931s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.933s] -- Detecting C compile features
+[1.933s] -- Detecting C compile features - done
+[1.936s] -- Detecting CXX compiler ABI info
+[2.021s] -- Detecting CXX compiler ABI info - done
+[2.025s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.025s] -- Detecting CXX compile features
+[2.025s] -- Detecting CXX compile features - done
+[2.032s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.111s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.177s] -- Found livox_ros_driver2: 1.0.0 (/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+[2.268s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.272s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.280s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.293s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.309s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.369s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.371s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.089s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.860s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.116s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.133s] -- Looking for pthread.h
+[5.212s] -- Looking for pthread.h - found
+[5.212s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.298s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.298s] -- Found Threads: TRUE  
+[5.403s] -- Checking for module 'eigen3'
+[5.409s] --   Found eigen3, version 3.4.0
+[5.425s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[5.425s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.989s] -- Checking for module 'flann'
+[6.005s] --   Found flann, version 1.9.1
+[6.198s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[6.198s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[8.742s] -- Checking for module 'libusb-1.0'
+[8.749s] --   Found libusb-1.0, version 1.0.25
+[8.808s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[8.810s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.044s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[12.092s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[12.094s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[12.097s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[13.238s] -- Found Qhull version 8.0.2
+[14.455s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[15.595s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[15.596s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[15.596s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[15.597s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[15.597s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[15.597s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[15.598s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[15.598s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[15.598s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[15.599s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[15.599s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[15.600s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[15.600s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[15.601s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[15.601s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[15.602s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[15.603s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[15.603s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[15.604s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[15.604s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[15.605s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[15.605s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[15.616s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[15.617s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[15.617s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[15.630s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[15.630s]   ament_target_dependencies() the first argument must be a valid target name
+[15.630s] Call Stack (most recent call first):
+[15.630s]   CMakeLists.txt:15 (ament_target_dependencies)
+[15.630s] 
+[15.630s] [0m
+[15.631s] -- Configuring incomplete, errors occurred!
+[15.631s] See also "/home/akun/workspace/CAR/real_ws/build/convert_laser/CMakeFiles/CMakeOutput.log".
+[15.639s] Invoked command in '/home/akun/workspace/CAR/real_ws/build/convert_laser' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/akun/workspace/CAR/real_ws/convert_laser -DCMAKE_INSTALL_PREFIX=/home/akun/workspace/CAR/real_ws/install/convert_laser

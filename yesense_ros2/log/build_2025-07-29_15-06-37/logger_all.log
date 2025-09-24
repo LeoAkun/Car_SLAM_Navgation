@@ -1,0 +1,211 @@
+[0.135s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.135s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x780885a0f880>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x780885bd4550>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x780885bd4550>>)
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.212s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/akun/workspace/CAR/yesense_ros2'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(yesense_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(yesense_interface) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(yesense_interface) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(yesense_interface) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(yesense_interface) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(yesense_interface) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(yesense_interface) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(yesense_interface) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(yesense_interface) by extension 'ros'
+[0.221s] DEBUG:colcon.colcon_core.package_identification:Package 'yesense_interface' with type 'ros.ament_cmake' and name 'yesense_interface'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(yesense_std_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(yesense_std_ros2) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(yesense_std_ros2) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(yesense_std_ros2) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(yesense_std_ros2) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(yesense_std_ros2) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(yesense_std_ros2) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(yesense_std_ros2) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(yesense_std_ros2) by extension 'ros'
+[0.222s] DEBUG:colcon.colcon_core.package_identification:Package 'yesense_std_ros2' with type 'ros.ament_cmake' and name 'yesense_std_ros2'
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.236s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/tmp/usr/local' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.237s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/akun/workspace/CAR/serial_ros2/install
+[0.237s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/akun/workspace/CAR/simulation_ws/install
+[0.237s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/akun/workspace/CAR/LIO-SAM/install
+[0.237s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/akun/workspace/CAR/1_URDF_ws/install
+[0.237s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/akun/workspace/CAR/livox_ros_driver2/install
+[0.237s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/akun/workspace/CAR/real_ws/install
+[0.238s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 334 installed packages in /opt/ros/humble
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'yesense_interface' build argument 'cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'yesense_interface' build argument 'cmake_target' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'yesense_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'yesense_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'yesense_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'yesense_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'yesense_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'yesense_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'yesense_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.266s] DEBUG:colcon.colcon_core.verb:Building package 'yesense_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/akun/workspace/CAR/yesense_ros2/build/yesense_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface', 'merge_install': False, 'path': '/home/akun/workspace/CAR/yesense_ros2/yesense_interface', 'symlink_install': False, 'test_result_base': None}
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'yesense_std_ros2' build argument 'cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'yesense_std_ros2' build argument 'cmake_target' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'yesense_std_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'yesense_std_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'yesense_std_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'yesense_std_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'yesense_std_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'yesense_std_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'yesense_std_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.266s] DEBUG:colcon.colcon_core.verb:Building package 'yesense_std_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/akun/workspace/CAR/yesense_ros2/build/yesense_std_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2', 'merge_install': False, 'path': '/home/akun/workspace/CAR/yesense_ros2/yesense_std_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.266s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.267s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.267s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/akun/workspace/CAR/yesense_ros2/yesense_interface' with build type 'ament_cmake'
+[0.267s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/akun/workspace/CAR/yesense_ros2/yesense_interface'
+[0.268s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.268s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.268s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akun/workspace/CAR/yesense_ros2/build/yesense_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/akun/workspace/CAR/yesense_ros2/yesense_interface -DCMAKE_INSTALL_PREFIX=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface
+[2.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akun/workspace/CAR/yesense_ros2/build/yesense_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/akun/workspace/CAR/yesense_ros2/yesense_interface -DCMAKE_INSTALL_PREFIX=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface
+[2.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akun/workspace/CAR/yesense_ros2/build/yesense_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/yesense_ros2/build/yesense_interface -- -j32 -l32
+[6.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akun/workspace/CAR/yesense_ros2/build/yesense_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/yesense_ros2/build/yesense_interface -- -j32 -l32
+[6.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akun/workspace/CAR/yesense_ros2/build/yesense_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/akun/workspace/CAR/yesense_ros2/build/yesense_interface
+[6.372s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yesense_interface)
+[6.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akun/workspace/CAR/yesense_ros2/build/yesense_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/akun/workspace/CAR/yesense_ros2/build/yesense_interface
+[6.374s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface' for CMake module files
+[6.374s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface' for CMake config files
+[6.374s] Level 1:colcon.colcon_core.shell:create_environment_hook('yesense_interface', 'cmake_prefix_path')
+[6.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/share/yesense_interface/hook/cmake_prefix_path.ps1'
+[6.375s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/share/yesense_interface/hook/cmake_prefix_path.dsv'
+[6.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/share/yesense_interface/hook/cmake_prefix_path.sh'
+[6.376s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/lib'
+[6.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('yesense_interface', 'ld_library_path_lib')
+[6.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/share/yesense_interface/hook/ld_library_path_lib.ps1'
+[6.376s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/share/yesense_interface/hook/ld_library_path_lib.dsv'
+[6.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/share/yesense_interface/hook/ld_library_path_lib.sh'
+[6.376s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/bin'
+[6.376s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/lib/pkgconfig/yesense_interface.pc'
+[6.377s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/lib/python3.10/site-packages'
+[6.377s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/bin'
+[6.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/share/yesense_interface/package.ps1'
+[6.377s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/share/yesense_interface/package.dsv'
+[6.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/share/yesense_interface/package.sh'
+[6.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/share/yesense_interface/package.bash'
+[6.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/share/yesense_interface/package.zsh'
+[6.379s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/share/colcon-core/packages/yesense_interface)
+[6.379s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yesense_interface)
+[6.379s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface' for CMake module files
+[6.379s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface' for CMake config files
+[6.380s] Level 1:colcon.colcon_core.shell:create_environment_hook('yesense_interface', 'cmake_prefix_path')
+[6.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/share/yesense_interface/hook/cmake_prefix_path.ps1'
+[6.380s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/share/yesense_interface/hook/cmake_prefix_path.dsv'
+[6.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/share/yesense_interface/hook/cmake_prefix_path.sh'
+[6.380s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/lib'
+[6.380s] Level 1:colcon.colcon_core.shell:create_environment_hook('yesense_interface', 'ld_library_path_lib')
+[6.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/share/yesense_interface/hook/ld_library_path_lib.ps1'
+[6.381s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/share/yesense_interface/hook/ld_library_path_lib.dsv'
+[6.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/share/yesense_interface/hook/ld_library_path_lib.sh'
+[6.381s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/bin'
+[6.381s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/lib/pkgconfig/yesense_interface.pc'
+[6.381s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/lib/python3.10/site-packages'
+[6.381s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/bin'
+[6.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/share/yesense_interface/package.ps1'
+[6.382s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/share/yesense_interface/package.dsv'
+[6.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/share/yesense_interface/package.sh'
+[6.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/share/yesense_interface/package.bash'
+[6.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/share/yesense_interface/package.zsh'
+[6.382s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/share/colcon-core/packages/yesense_interface)
+[6.383s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/akun/workspace/CAR/yesense_ros2/yesense_std_ros2' with build type 'ament_cmake'
+[6.383s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/akun/workspace/CAR/yesense_ros2/yesense_std_ros2'
+[6.383s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.383s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akun/workspace/CAR/yesense_ros2/build/yesense_std_ros2': AMENT_PREFIX_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:/home/akun/workspace/CAR/serial_ros2/install/serial:/tmp/usr/local:/tmp/usr/local:/home/akun/workspace/CAR/LIO-SAM/install/lio_sam:/home/akun/workspace/CAR/simulation_ws/install/sim_imu:/home/akun/workspace/CAR/simulation_ws/install/convert_time:/home/akun/workspace/CAR/real_ws/install/convert_laser:/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/akun/workspace/CAR/yesense_ros2/yesense_std_ros2 -DCMAKE_INSTALL_PREFIX=/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2
+[13.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akun/workspace/CAR/yesense_ros2/build/yesense_std_ros2' returned '0': AMENT_PREFIX_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:/home/akun/workspace/CAR/serial_ros2/install/serial:/tmp/usr/local:/tmp/usr/local:/home/akun/workspace/CAR/LIO-SAM/install/lio_sam:/home/akun/workspace/CAR/simulation_ws/install/sim_imu:/home/akun/workspace/CAR/simulation_ws/install/convert_time:/home/akun/workspace/CAR/real_ws/install/convert_laser:/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/akun/workspace/CAR/yesense_ros2/yesense_std_ros2 -DCMAKE_INSTALL_PREFIX=/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2
+[13.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akun/workspace/CAR/yesense_ros2/build/yesense_std_ros2': AMENT_PREFIX_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:/home/akun/workspace/CAR/serial_ros2/install/serial:/tmp/usr/local:/tmp/usr/local:/home/akun/workspace/CAR/LIO-SAM/install/lio_sam:/home/akun/workspace/CAR/simulation_ws/install/sim_imu:/home/akun/workspace/CAR/simulation_ws/install/convert_time:/home/akun/workspace/CAR/real_ws/install/convert_laser:/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/akun/workspace/CAR/yesense_ros2/build/yesense_std_ros2 -- -j32 -l32
+[22.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akun/workspace/CAR/yesense_ros2/build/yesense_std_ros2' returned '0': AMENT_PREFIX_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:/home/akun/workspace/CAR/serial_ros2/install/serial:/tmp/usr/local:/tmp/usr/local:/home/akun/workspace/CAR/LIO-SAM/install/lio_sam:/home/akun/workspace/CAR/simulation_ws/install/sim_imu:/home/akun/workspace/CAR/simulation_ws/install/convert_time:/home/akun/workspace/CAR/real_ws/install/convert_laser:/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/akun/workspace/CAR/yesense_ros2/build/yesense_std_ros2 -- -j32 -l32
+[22.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akun/workspace/CAR/yesense_ros2/build/yesense_std_ros2': AMENT_PREFIX_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:/home/akun/workspace/CAR/serial_ros2/install/serial:/tmp/usr/local:/tmp/usr/local:/home/akun/workspace/CAR/LIO-SAM/install/lio_sam:/home/akun/workspace/CAR/simulation_ws/install/sim_imu:/home/akun/workspace/CAR/simulation_ws/install/convert_time:/home/akun/workspace/CAR/real_ws/install/convert_laser:/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/akun/workspace/CAR/yesense_ros2/build/yesense_std_ros2
+[22.762s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yesense_std_ros2)
+[22.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akun/workspace/CAR/yesense_ros2/build/yesense_std_ros2' returned '0': AMENT_PREFIX_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:/home/akun/workspace/CAR/serial_ros2/install/serial:/tmp/usr/local:/tmp/usr/local:/home/akun/workspace/CAR/LIO-SAM/install/lio_sam:/home/akun/workspace/CAR/simulation_ws/install/sim_imu:/home/akun/workspace/CAR/simulation_ws/install/convert_time:/home/akun/workspace/CAR/real_ws/install/convert_laser:/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/akun/workspace/CAR/yesense_ros2/build/yesense_std_ros2
+[22.763s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2' for CMake module files
+[22.763s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2' for CMake config files
+[22.763s] Level 1:colcon.colcon_core.shell:create_environment_hook('yesense_std_ros2', 'cmake_prefix_path')
+[22.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/hook/cmake_prefix_path.ps1'
+[22.763s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/hook/cmake_prefix_path.dsv'
+[22.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/hook/cmake_prefix_path.sh'
+[22.764s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/lib'
+[22.764s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/bin'
+[22.764s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/lib/pkgconfig/yesense_std_ros2.pc'
+[22.764s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/lib/python3.10/site-packages'
+[22.764s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/bin'
+[22.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/package.ps1'
+[22.765s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/package.dsv'
+[22.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/package.sh'
+[22.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/package.bash'
+[22.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/package.zsh'
+[22.765s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/colcon-core/packages/yesense_std_ros2)
+[22.766s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yesense_std_ros2)
+[22.766s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2' for CMake module files
+[22.766s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2' for CMake config files
+[22.766s] Level 1:colcon.colcon_core.shell:create_environment_hook('yesense_std_ros2', 'cmake_prefix_path')
+[22.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/hook/cmake_prefix_path.ps1'
+[22.766s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/hook/cmake_prefix_path.dsv'
+[22.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/hook/cmake_prefix_path.sh'
+[22.767s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/lib'
+[22.767s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/bin'
+[22.767s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/lib/pkgconfig/yesense_std_ros2.pc'
+[22.767s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/lib/python3.10/site-packages'
+[22.767s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/bin'
+[22.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/package.ps1'
+[22.768s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/package.dsv'
+[22.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/package.sh'
+[22.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/package.bash'
+[22.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/package.zsh'
+[22.768s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/colcon-core/packages/yesense_std_ros2)
+[22.768s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[22.769s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[22.769s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[22.769s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[22.802s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[22.802s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[22.803s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[22.803s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[22.803s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[22.803s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[22.803s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/akun/workspace/CAR/yesense_ros2/install/local_setup.ps1'
+[22.804s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/akun/workspace/CAR/yesense_ros2/install/_local_setup_util_ps1.py'
+[22.804s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/akun/workspace/CAR/yesense_ros2/install/setup.ps1'
+[22.805s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/akun/workspace/CAR/yesense_ros2/install/local_setup.sh'
+[22.805s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/akun/workspace/CAR/yesense_ros2/install/_local_setup_util_sh.py'
+[22.805s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/akun/workspace/CAR/yesense_ros2/install/setup.sh'
+[22.806s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/akun/workspace/CAR/yesense_ros2/install/local_setup.bash'
+[22.806s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/akun/workspace/CAR/yesense_ros2/install/setup.bash'
+[22.807s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/akun/workspace/CAR/yesense_ros2/install/local_setup.zsh'
+[22.807s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/akun/workspace/CAR/yesense_ros2/install/setup.zsh'

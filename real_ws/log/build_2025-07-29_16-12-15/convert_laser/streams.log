@@ -1,0 +1,65 @@
+[0.011s] Invoking command in '/home/akun/workspace/CAR/real_ws/build/convert_laser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/real_ws/build/convert_laser -- -j32 -l32
+[0.066s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.186s] -- Found livox_ros_driver2: 1.0.0 (/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+[0.319s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.321s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.328s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.339s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.350s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.404s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.407s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.245s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.366s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[6.108s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[17.319s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[17.325s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[19.231s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[19.235s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[19.239s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[21.436s] -- Found Qhull version 8.0.2
+[23.604s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[25.772s] -- Found tf2: 0.25.15 (/opt/ros/humble/share/tf2/cmake)
+[25.776s] -- Found tf2_ros: 0.25.15 (/opt/ros/humble/share/tf2_ros/cmake)
+[25.835s] -- Found tf2_geometry_msgs: 0.25.15 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[25.840s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[25.841s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[25.844s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[25.909s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[25.909s] -- Configured cppcheck include dirs: 
+[25.909s] -- Configured cppcheck exclude dirs and/or files: 
+[25.909s] -- Added test 'flake8' to check Python code syntax and style conventions
+[25.910s] -- Added test 'lint_cmake' to check CMake code style
+[25.911s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[25.912s] -- Added test 'uncrustify' to check C / C++ code style
+[25.912s] -- Configured uncrustify additional arguments: 
+[25.912s] -- Added test 'xmllint' to check XML markup files
+[25.913s] -- Configuring done
+[25.925s] -- Generating done
+[25.930s] -- Build files have been written to: /home/akun/workspace/CAR/real_ws/build/convert_laser
+[25.954s] [35m[1mConsolidate compiler generated dependencies of target convert[0m
+[25.966s] [ 50%] [32mBuilding CXX object CMakeFiles/convert.dir/src/convert.cpp.o[0m
+[35.854s] [100%] [32m[1mLinking CXX executable convert[0m
+[36.351s] [100%] Built target convert
+[36.360s] Invoked command in '/home/akun/workspace/CAR/real_ws/build/convert_laser' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/real_ws/build/convert_laser -- -j32 -l32
+[36.368s] Invoking command in '/home/akun/workspace/CAR/real_ws/build/convert_laser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/akun/workspace/CAR/real_ws/build/convert_laser
+[36.372s] -- Install configuration: ""
+[36.373s] -- Installing: /home/akun/workspace/CAR/real_ws/install/convert_laser/lib/convert_laser/convert
+[36.376s] -- Set runtime path of "/home/akun/workspace/CAR/real_ws/install/convert_laser/lib/convert_laser/convert" to ""
+[36.376s] -- Installing: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/launch
+[36.376s] -- Installing: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/launch/run.launch.py
+[36.376s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/ament_index/resource_index/package_run_dependencies/convert_laser
+[36.377s] -- Installing: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/ament_index/resource_index/parent_prefix_path/convert_laser
+[36.377s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/environment/ament_prefix_path.sh
+[36.377s] -- Installing: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/environment/ament_prefix_path.dsv
+[36.377s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/environment/path.sh
+[36.377s] -- Installing: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/environment/path.dsv
+[36.377s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/local_setup.bash
+[36.377s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/local_setup.sh
+[36.377s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/local_setup.zsh
+[36.377s] -- Installing: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/local_setup.dsv
+[36.377s] -- Installing: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/package.dsv
+[36.377s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/ament_index/resource_index/packages/convert_laser
+[36.377s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/cmake/convert_laserConfig.cmake
+[36.377s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/cmake/convert_laserConfig-version.cmake
+[36.378s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/package.xml
+[36.380s] Invoked command in '/home/akun/workspace/CAR/real_ws/build/convert_laser' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/akun/workspace/CAR/real_ws/build/convert_laser

@@ -1,0 +1,28 @@
+[0.013s] Invoking command in '/home/akun/workspace/CAR/real_ws/build/convert_laser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/real_ws/build/convert_laser -- -j32 -l32
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target convert[0m
+[0.062s] [ 50%] [32mBuilding CXX object CMakeFiles/convert.dir/src/convert.cpp.o[0m
+[8.060s] [100%] [32m[1mLinking CXX executable convert[0m
+[8.490s] [100%] Built target convert
+[8.498s] Invoked command in '/home/akun/workspace/CAR/real_ws/build/convert_laser' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/real_ws/build/convert_laser -- -j32 -l32
+[8.499s] Invoking command in '/home/akun/workspace/CAR/real_ws/build/convert_laser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/akun/workspace/CAR/real_ws/build/convert_laser
+[8.503s] -- Install configuration: ""
+[8.503s] -- Installing: /home/akun/workspace/CAR/real_ws/install/convert_laser/lib/convert_laser/convert
+[8.507s] -- Set runtime path of "/home/akun/workspace/CAR/real_ws/install/convert_laser/lib/convert_laser/convert" to ""
+[8.507s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/launch
+[8.507s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/launch/run.launch.py
+[8.507s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/ament_index/resource_index/package_run_dependencies/convert_laser
+[8.507s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/ament_index/resource_index/parent_prefix_path/convert_laser
+[8.507s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/environment/ament_prefix_path.sh
+[8.508s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/environment/ament_prefix_path.dsv
+[8.508s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/environment/path.sh
+[8.508s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/environment/path.dsv
+[8.508s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/local_setup.bash
+[8.508s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/local_setup.sh
+[8.508s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/local_setup.zsh
+[8.508s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/local_setup.dsv
+[8.508s] -- Installing: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/package.dsv
+[8.508s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/ament_index/resource_index/packages/convert_laser
+[8.508s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/cmake/convert_laserConfig.cmake
+[8.508s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/cmake/convert_laserConfig-version.cmake
+[8.508s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/package.xml
+[8.509s] Invoked command in '/home/akun/workspace/CAR/real_ws/build/convert_laser' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/akun/workspace/CAR/real_ws/build/convert_laser

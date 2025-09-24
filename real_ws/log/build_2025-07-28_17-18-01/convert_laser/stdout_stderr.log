@@ -1,0 +1,123 @@
+[35m[1mConsolidate compiler generated dependencies of target convert[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/convert.dir/src/convert.cpp.o[0m
+[01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:17:44:[m[K [01;31m[Kerror: [m[K‘[01m[KImu[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+   17 |     rclcpp::Subscription<sensor_msgs::msg::[01;31m[KImu[m[K>::SharedPtr subscriber_imu;
+      |                                            [01;31m[K^~~[m[K
+[01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:17:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   17 |     rclcpp::Subscription<sensor_msgs::msg::Imu[01;31m[K>[m[K::SharedPtr subscriber_imu;
+      |                                               [01;31m[K^[m[K
+[01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:17:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:17:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:17:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:17:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   17 |     rclcpp::Subscription<sensor_msgs::msg::Imu>::[01;31m[KSharedPtr[m[K subscriber_imu;
+      |                                                  [01;31m[K^~~~~~~~~[m[K
+      |                                                           [32m[K;[m[K
+[01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:17:60:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber_imu[m[K’ does not name a type; did you mean ‘[01m[KSubscriber[m[K’?
+   17 |     rclcpp::Subscription<sensor_msgs::msg::Imu>::SharedPtr [01;31m[Ksubscriber_imu[m[K;
+      |                                                            [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                                            [32m[KSubscriber[m[K
+[01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:150:43:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs::msg::Imu[m[K’ has not been declared
+  150 |     void callback_laser(sensor_msgs::msg::[01;31m[KImu[m[K::SharedPtr imus)
+      |                                           [01;31m[K^~~[m[K
+[01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:150:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Kimus[m[K’
+  150 |     void callback_laser(sensor_msgs::msg::Imu::SharedPtr [01;31m[Kimus[m[K)
+      |                                                          [01;31m[K^~~~[m[K
+[01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:[m[K In constructor ‘[01m[KSubscriber::Subscriber(const string&)[m[K’:
+[01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:23:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kbind(<unresolved overloaded function type>, Subscriber*, const std::_Placeholder<1>&)[m[K’
+   23 |                 [01;31m[Kstd::bind(&Subscriber::callback_laser, this, std::placeholders::_1)[m[K);
+      |                 [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:1[m[K:
+[01m[K/usr/include/c++/11/functional:789:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...)[m[K’
+  789 |     [01;36m[Kbind[m[K(_Func&& __f, _BoundArgs&&... __args)
+      |     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/11/functional:789:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:23:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Func[m[K’
+   23 |                 [01;36m[Kstd::bind(&Subscriber::callback_laser, this, std::placeholders::_1)[m[K);
+      |                 [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:1[m[K:
+[01m[K/usr/include/c++/11/functional:813:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Result, class _Func, class ... _BoundArgs> typename std::_Bindres_helper<_Result, _Func, _BoundArgs>::type std::bind(_Func&&, _BoundArgs&& ...)[m[K’
+  813 |     [01;36m[Kbind[m[K(_Func&& __f, _BoundArgs&&... __args)
+      |     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/11/functional:813:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:23:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Result[m[K’
+   23 |                 [01;36m[Kstd::bind(&Subscriber::callback_laser, this, std::placeholders::_1)[m[K);
+      |                 [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:26:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Subscriber[m[K’ has no member named ‘[01m[Ksubscriber_imu[m[K’; did you mean ‘[01m[KSubscriber[m[K’?
+   26 |         this->[01;31m[Ksubscriber_imu[m[K = this->create_subscription<sensor_msgs::msg::Imu>("/livox/imu",
+      |               [01;31m[K^~~~~~~~~~~~~~[m[K
+      |               [32m[KSubscriber[m[K
+[01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:26:76:[m[K [01;31m[Kerror: [m[K‘[01m[KImu[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+   26 |         this->subscriber_imu = this->create_subscription<sensor_msgs::msg::[01;31m[KImu[m[K>("/livox/imu",
+      |                                                                            [01;31m[K^~~[m[K
+[01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:28:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kcallback_imu[m[K’ is not a member of ‘[01m[KSubscriber[m[K’
+   28 |                 std::bind(&Subscriber::[01;31m[Kcallback_imu[m[K, this, std::placeholders::_1));
+      |                                        [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:[m[K In member function ‘[01m[Kvoid Subscriber::callback_laser(livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:125:27:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  125 |                    [01;35m[Kcloud2.width[m[K, custom->point_num);
+      |                    [01;35m[K~~~~~~~^~~~~[m[K
+[01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:125:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+  125 |                    cloud2.width, custom->point_num[01;31m[K)[m[K;
+      |                                                   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:1[m[K:
+[01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:[m[K In member function ‘[01m[Kvoid Subscriber::callback_laser(int)[m[K’:
+[01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:152:26:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_logger[m[K’ in ‘[01m[K(Subscriber*)this[m[K’, which is of pointer type ‘[01m[KSubscriber*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+  152 |         RCLCPP_INFO(this.[01;31m[Kget_logger[m[K(), "imu\n");
+      |                          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:152:26:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_logger[m[K’ in ‘[01m[K(Subscriber*)this[m[K’, which is of pointer type ‘[01m[KSubscriber*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+[01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:152:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  152 |         [01;31m[KRCLCPP_INFO[m[K(this.get_logger(), "imu\n");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:152:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  152 |         [01;31m[KRCLCPP_INFO[m[K(this.get_logger(), "imu\n");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:152:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  152 |         [01;31m[KRCLCPP_INFO[m[K(this.get_logger(), "imu\n");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:1[m[K:
+[01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:152:26:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_logger[m[K’ in ‘[01m[K(Subscriber*)this[m[K’, which is of pointer type ‘[01m[KSubscriber*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+  152 |         RCLCPP_INFO(this.[01;31m[Kget_logger[m[K(), "imu\n");
+      |                          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:152:26:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_logger[m[K’ in ‘[01m[K(Subscriber*)this[m[K’, which is of pointer type ‘[01m[KSubscriber*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+  152 |         RCLCPP_INFO(this.[01;31m[Kget_logger[m[K(), "imu\n");
+      |                          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:150:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KSharedPtr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  150 |     void callback_laser([01;35m[Ksensor_msgs::msg::Imu::SharedPtr[m[K imus)
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/convert.dir/build.make:76: CMakeFiles/convert.dir/src/convert.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/convert.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

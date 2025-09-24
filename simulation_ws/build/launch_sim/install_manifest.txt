@@ -1,0 +1,16 @@
+/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/launch/run.launch.py
+/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/ament_index/resource_index/package_run_dependencies/launch_sim
+/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/ament_index/resource_index/parent_prefix_path/launch_sim
+/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/environment/ament_prefix_path.sh
+/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/environment/ament_prefix_path.dsv
+/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/environment/path.sh
+/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/environment/path.dsv
+/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/local_setup.bash
+/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/local_setup.sh
+/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/local_setup.zsh
+/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/local_setup.dsv
+/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/package.dsv
+/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/ament_index/resource_index/packages/launch_sim
+/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/cmake/launch_simConfig.cmake
+/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/cmake/launch_simConfig-version.cmake
+/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/package.xml

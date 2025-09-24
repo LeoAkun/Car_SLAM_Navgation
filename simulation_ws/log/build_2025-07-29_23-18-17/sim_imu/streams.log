@@ -1,0 +1,23 @@
+[0.014s] Invoking command in '/home/akun/workspace/CAR/simulation_ws/build/sim_imu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/simulation_ws/build/sim_imu -- -j32 -l32
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target sim_imu[0m
+[0.053s] [100%] Built target sim_imu
+[0.062s] Invoked command in '/home/akun/workspace/CAR/simulation_ws/build/sim_imu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/simulation_ws/build/sim_imu -- -j32 -l32
+[0.064s] Invoking command in '/home/akun/workspace/CAR/simulation_ws/build/sim_imu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/akun/workspace/CAR/simulation_ws/build/sim_imu
+[0.068s] -- Install configuration: ""
+[0.068s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/sim_imu/lib/sim_imu/sim_imu
+[0.069s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/ament_index/resource_index/package_run_dependencies/sim_imu
+[0.069s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/ament_index/resource_index/parent_prefix_path/sim_imu
+[0.069s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/environment/ament_prefix_path.sh
+[0.069s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/environment/ament_prefix_path.dsv
+[0.069s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/environment/path.sh
+[0.069s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/environment/path.dsv
+[0.070s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/local_setup.bash
+[0.070s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/local_setup.sh
+[0.070s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/local_setup.zsh
+[0.070s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/local_setup.dsv
+[0.070s] -- Installing: /home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/package.dsv
+[0.070s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/ament_index/resource_index/packages/sim_imu
+[0.070s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/cmake/sim_imuConfig.cmake
+[0.070s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/cmake/sim_imuConfig-version.cmake
+[0.070s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/package.xml
+[0.082s] Invoked command in '/home/akun/workspace/CAR/simulation_ws/build/sim_imu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/akun/workspace/CAR/simulation_ws/build/sim_imu

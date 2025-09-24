@@ -1,0 +1,292 @@
+[0.000000] (-) TimerEvent: {}
+[0.000459] (convert_laser) JobQueued: {'identifier': 'convert_laser', 'dependencies': OrderedDict()}
+[0.000495] (convert_laser) JobStarted: {'identifier': 'convert_laser'}
+[0.004098] (convert_laser) JobProgress: {'identifier': 'convert_laser', 'progress': 'cmake'}
+[0.004586] (convert_laser) JobProgress: {'identifier': 'convert_laser', 'progress': 'build'}
+[0.005005] (convert_laser) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/akun/workspace/CAR/real_ws/build/convert_laser', '--', '-j32', '-l32'], 'cwd': '/home/akun/workspace/CAR/real_ws/build/convert_laser', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'akun'), ('GIT_ASKPASS', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/akun/workspace/CAR/LIO-SAM/install/lio_sam/lib:/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/lib:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/home/akun'), ('OLDPWD', '/home/akun/workspace'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c08d8956-29c3-46e0-9cf2-58afa5ad11d0.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/akun/workspace/CAR/simulation_ws/install:/home/akun/workspace/CAR/LIO-SAM/install:/home/akun/workspace/CAR/1_URDF_ws/install:/home/akun/workspace/CAR/livox_ros_driver2/install:/home/akun/workspace/CAR/real_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'akun'), ('NAME', 'DESKTOP-QJO75DJ'), ('WSL_INTEROP', '/run/WSL/541_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/VMware/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/BandZip/Bandizip/:/mnt/d/vscode/vscode/Microsoft VS Code/bin:/mnt/d/NodeJs/:/mnt/d/NodeJs/node_global/node_modules/yarn/bin:/mnt/d/Anaconda/Scripts:/mnt/d/git/Git/cmd:/mnt/d/mySQL/mySQL Server 8.0/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/d/Anaconda:/mnt/d/Anaconda/Library/mingw-w64/bin:/mnt/d/Anaconda/Library/usr/bin:/mnt/d/Anaconda/Library/bin:/mnt/d/Anaconda/Scripts:/mnt/c/Users/Y9000P/AppData/Roaming/npm:/mnt/c/Users/Y9000P/AppData/Local/Programs/Ollama:/mnt/d/QQ游戏/QQGame/Hall.58319/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d70605ba1f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/akun/workspace/CAR/LIO-SAM/install/lio_sam:/home/akun/workspace/CAR/simulation_ws/install/sim_imu:/home/akun/workspace/CAR/simulation_ws/install/convert_time:/home/akun/workspace/CAR/real_ws/install/convert_laser:/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/akun/workspace/CAR/real_ws/build/convert_laser'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/akun/workspace/CAR/LIO-SAM/install/lio_sam/local/lib/python3.10/dist-packages:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/akun/workspace/CAR/LIO-SAM/install/lio_sam:/home/akun/workspace/CAR/simulation_ws/install/sim_imu:/home/akun/workspace/CAR/simulation_ws/install/convert_time:/home/akun/workspace/CAR/real_ws/install/convert_laser:/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.030932] (convert_laser) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target convert\x1b[0m\n'}
+[0.039995] (convert_laser) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/convert.dir/src/convert.cpp.o\x1b[0m\n'}
+[0.099060] (-) TimerEvent: {}
+[0.199359] (-) TimerEvent: {}
+[0.299718] (-) TimerEvent: {}
+[0.400083] (-) TimerEvent: {}
+[0.500368] (-) TimerEvent: {}
+[0.600821] (-) TimerEvent: {}
+[0.701093] (-) TimerEvent: {}
+[0.801377] (-) TimerEvent: {}
+[0.901785] (-) TimerEvent: {}
+[1.002106] (-) TimerEvent: {}
+[1.102407] (-) TimerEvent: {}
+[1.202716] (-) TimerEvent: {}
+[1.303132] (-) TimerEvent: {}
+[1.403443] (-) TimerEvent: {}
+[1.424910] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:17:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImu\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.425100] (convert_laser) StderrLine: {'line': b'   17 |     rclcpp::Subscription<sensor_msgs::msg::\x1b[01;31m\x1b[KImu\x1b[m\x1b[K>::SharedPtr subscriber_imu;\n'}
+[1.425131] (convert_laser) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.425156] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:17:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.425182] (convert_laser) StderrLine: {'line': b'   17 |     rclcpp::Subscription<sensor_msgs::msg::Imu\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr subscriber_imu;\n'}
+[1.425204] (convert_laser) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.425225] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:17:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[1.425246] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:17:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[1.425266] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:17:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[1.425285] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:17:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[1.425307] (convert_laser) StderrLine: {'line': b'   17 |     rclcpp::Subscription<sensor_msgs::msg::Imu>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K subscriber_imu;\n'}
+[1.425326] (convert_laser) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.425346] (convert_laser) StderrLine: {'line': b'      |                                                           \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.426067] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:17:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscriber_imu\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KSubscriber\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.426131] (convert_laser) StderrLine: {'line': b'   17 |     rclcpp::Subscription<sensor_msgs::msg::Imu>::SharedPtr \x1b[01;31m\x1b[Ksubscriber_imu\x1b[m\x1b[K;\n'}
+[1.426157] (convert_laser) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.426179] (convert_laser) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[KSubscriber\x1b[m\x1b[K\n'}
+[1.426280] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:150:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Imu\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.426314] (convert_laser) StderrLine: {'line': b'  150 |     void callback_laser(sensor_msgs::msg::\x1b[01;31m\x1b[KImu\x1b[m\x1b[K::SharedPtr imus)\n'}
+[1.426336] (convert_laser) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.426358] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:150:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kimus\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.426381] (convert_laser) StderrLine: {'line': b'  150 |     void callback_laser(sensor_msgs::msg::Imu::SharedPtr \x1b[01;31m\x1b[Kimus\x1b[m\x1b[K)\n'}
+[1.426402] (convert_laser) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.426976] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSubscriber::Subscriber(const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.427033] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:23:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kbind(<unresolved overloaded function type>, Subscriber*, const std::_Placeholder<1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.427066] (convert_laser) StderrLine: {'line': b'   23 |                 \x1b[01;31m\x1b[Kstd::bind(&Subscriber::callback_laser, this, std::placeholders::_1)\x1b[m\x1b[K);\n'}
+[1.427092] (convert_laser) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.427378] (convert_laser) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[1.427661] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[1.427867] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[1.428046] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.428149] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.428200] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.428250] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:1\x1b[m\x1b[K:\n'}
+[1.428305] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:789:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.428363] (convert_laser) StderrLine: {'line': b'  789 |     \x1b[01;36m\x1b[Kbind\x1b[m\x1b[K(_Func&& __f, _BoundArgs&&... __args)\n'}
+[1.428495] (convert_laser) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.428554] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:789:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.428580] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:23:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[K_Func\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.428604] (convert_laser) StderrLine: {'line': b'   23 |                 \x1b[01;36m\x1b[Kstd::bind(&Subscriber::callback_laser, this, std::placeholders::_1)\x1b[m\x1b[K);\n'}
+[1.428626] (convert_laser) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.428647] (convert_laser) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[1.428667] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[1.428688] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[1.428707] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.428727] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.428747] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.428772] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:1\x1b[m\x1b[K:\n'}
+[1.428791] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:813:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Result, class _Func, class ... _BoundArgs> typename std::_Bindres_helper<_Result, _Func, _BoundArgs>::type std::bind(_Func&&, _BoundArgs&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.428813] (convert_laser) StderrLine: {'line': b'  813 |     \x1b[01;36m\x1b[Kbind\x1b[m\x1b[K(_Func&& __f, _BoundArgs&&... __args)\n'}
+[1.428833] (convert_laser) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.428852] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:813:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.428872] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:23:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[K_Result\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.428892] (convert_laser) StderrLine: {'line': b'   23 |                 \x1b[01;36m\x1b[Kstd::bind(&Subscriber::callback_laser, this, std::placeholders::_1)\x1b[m\x1b[K);\n'}
+[1.428912] (convert_laser) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.428931] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:26:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass Subscriber\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ksubscriber_imu\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KSubscriber\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.428951] (convert_laser) StderrLine: {'line': b'   26 |         this->\x1b[01;31m\x1b[Ksubscriber_imu\x1b[m\x1b[K = this->create_subscription<sensor_msgs::msg::Imu>("/livox/imu",\n'}
+[1.428971] (convert_laser) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.428991] (convert_laser) StderrLine: {'line': b'      |               \x1b[32m\x1b[KSubscriber\x1b[m\x1b[K\n'}
+[1.429352] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:26:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImu\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.429410] (convert_laser) StderrLine: {'line': b'   26 |         this->subscriber_imu = this->create_subscription<sensor_msgs::msg::\x1b[01;31m\x1b[KImu\x1b[m\x1b[K>("/livox/imu",\n'}
+[1.429437] (convert_laser) StderrLine: {'line': b'      |                                                                            \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.429464] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:28:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcallback_imu\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KSubscriber\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.429488] (convert_laser) StderrLine: {'line': b'   28 |                 std::bind(&Subscriber::\x1b[01;31m\x1b[Kcallback_imu\x1b[m\x1b[K, this, std::placeholders::_1));\n'}
+[1.429510] (convert_laser) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.431788] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Subscriber::callback_laser(livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.431856] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:125:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.431885] (convert_laser) StderrLine: {'line': b'  125 |                    \x1b[01;35m\x1b[Kcloud2.width\x1b[m\x1b[K, custom->point_num);\n'}
+[1.431910] (convert_laser) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.431933] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:125:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.431956] (convert_laser) StderrLine: {'line': b'  125 |                    cloud2.width, custom->point_num\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.431977] (convert_laser) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.432891] (convert_laser) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.432941] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.432966] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.432987] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.433010] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.433031] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.433051] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.433071] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.433091] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.433110] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.433354] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:1\x1b[m\x1b[K:\n'}
+[1.433390] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Subscriber::callback_laser(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.433414] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:152:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator-\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[KSubscriber*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[1.433436] (convert_laser) StderrLine: {'line': b'  152 |         RCLCPP_INFO(\x1b[32m\x1b[Kthis\x1b[m\x1b[K\x1b[01;31m\x1b[K-\x1b[m\x1b[K\x1b[34m\x1b[Kget_logger()\x1b[m\x1b[K, "imu\\n");\n'}
+[1.433458] (convert_laser) StderrLine: {'line': b'      |                     \x1b[32m\x1b[K~~~~\x1b[m\x1b[K\x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[34m\x1b[K~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.433496] (convert_laser) StderrLine: {'line': b'      |                     \x1b[32m\x1b[K|\x1b[m\x1b[K              \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[1.433522] (convert_laser) StderrLine: {'line': b'      |                     \x1b[32m\x1b[KSubscriber*\x1b[m\x1b[K    \x1b[34m\x1b[Krclcpp::Logger\x1b[m\x1b[K\n'}
+[1.433794] (convert_laser) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[1.434013] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.434237] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.434274] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:1\x1b[m\x1b[K:\n'}
+[1.434298] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:577:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.434326] (convert_laser) StderrLine: {'line': b'  577 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K-(const reverse_iterator<_IteratorL>& __x,\n'}
+[1.434347] (convert_laser) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.434367] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:577:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.434387] (convert_laser) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.434406] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.434425] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.434444] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.434464] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.434483] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.434502] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.434521] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.434560] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.434863] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.434898] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:1\x1b[m\x1b[K:\n'}
+[1.434921] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:152:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::reverse_iterator<_Iterator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[KSubscriber*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.434944] (convert_laser) StderrLine: {'line': b'  152 |         RCLCPP_INFO(this-get_logger(\x1b[01;36m\x1b[K)\x1b[m\x1b[K, "imu\\n");\n'}
+[1.434987] (convert_laser) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.435056] (convert_laser) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[1.435097] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.435121] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.435144] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:1\x1b[m\x1b[K:\n'}
+[1.435167] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1693:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::operator-(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.435241] (convert_laser) StderrLine: {'line': b' 1693 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K-(const move_iterator<_IteratorL>& __x,\n'}
+[1.435314] (convert_laser) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.435387] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1693:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.435459] (convert_laser) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.435529] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.435600] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.435670] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.435740] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.435810] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.435880] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.435950] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.436021] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.436091] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.436161] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:1\x1b[m\x1b[K:\n'}
+[1.436239] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:152:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::move_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[KSubscriber*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.436312] (convert_laser) StderrLine: {'line': b'  152 |         RCLCPP_INFO(this-get_logger(\x1b[01;36m\x1b[K)\x1b[m\x1b[K, "imu\\n");\n'}
+[1.436383] (convert_laser) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.436454] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:152:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.436524] (convert_laser) StderrLine: {'line': b'  152 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this-get_logger(), "imu\\n");\n'}
+[1.436594] (convert_laser) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.436664] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:152:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.436734] (convert_laser) StderrLine: {'line': b'  152 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this-get_logger(), "imu\\n");\n'}
+[1.436804] (convert_laser) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.436874] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:152:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.436944] (convert_laser) StderrLine: {'line': b'  152 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this-get_logger(), "imu\\n");\n'}
+[1.437014] (convert_laser) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.437084] (convert_laser) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.437154] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.437224] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.437294] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.437366] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.437436] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.437507] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.437591] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.437666] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.437738] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.437811] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.437881] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:1\x1b[m\x1b[K:\n'}
+[1.437951] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:152:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator-\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[KSubscriber*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[1.438022] (convert_laser) StderrLine: {'line': b'  152 |         RCLCPP_INFO(\x1b[32m\x1b[Kthis\x1b[m\x1b[K\x1b[01;31m\x1b[K-\x1b[m\x1b[K\x1b[34m\x1b[Kget_logger()\x1b[m\x1b[K, "imu\\n");\n'}
+[1.438092] (convert_laser) StderrLine: {'line': b'      |                     \x1b[32m\x1b[K~~~~\x1b[m\x1b[K\x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[34m\x1b[K~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.438163] (convert_laser) StderrLine: {'line': b'      |                     \x1b[32m\x1b[K|\x1b[m\x1b[K              \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[1.438240] (convert_laser) StderrLine: {'line': b'      |                     \x1b[32m\x1b[KSubscriber*\x1b[m\x1b[K    \x1b[34m\x1b[Krclcpp::Logger\x1b[m\x1b[K\n'}
+[1.438294] (convert_laser) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[1.438366] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.438436] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.438475] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:1\x1b[m\x1b[K:\n'}
+[1.438549] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:577:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.438604] (convert_laser) StderrLine: {'line': b'  577 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K-(const reverse_iterator<_IteratorL>& __x,\n'}
+[1.438636] (convert_laser) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.438659] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:577:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.438682] (convert_laser) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.438731] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.438804] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.438874] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.438943] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.439014] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.439090] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.439159] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.439229] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.439299] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.439368] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.439438] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:1\x1b[m\x1b[K:\n'}
+[1.439508] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:152:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::reverse_iterator<_Iterator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[KSubscriber*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.439580] (convert_laser) StderrLine: {'line': b'  152 |         RCLCPP_INFO(this-get_logger(\x1b[01;36m\x1b[K)\x1b[m\x1b[K, "imu\\n");\n'}
+[1.439649] (convert_laser) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.439719] (convert_laser) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[1.439789] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.439858] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.439928] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:1\x1b[m\x1b[K:\n'}
+[1.440000] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1693:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::operator-(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.440074] (convert_laser) StderrLine: {'line': b' 1693 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K-(const move_iterator<_IteratorL>& __x,\n'}
+[1.440143] (convert_laser) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.440213] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1693:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.440292] (convert_laser) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.440331] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.440355] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.440376] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.440397] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.440418] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.440477] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.440552] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.440805] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.440865] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.440891] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.440913] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:1\x1b[m\x1b[K:\n'}
+[1.440935] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:152:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::move_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[KSubscriber*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.440963] (convert_laser) StderrLine: {'line': b'  152 |         RCLCPP_INFO(this-get_logger(\x1b[01;36m\x1b[K)\x1b[m\x1b[K, "imu\\n");\n'}
+[1.440985] (convert_laser) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.441005] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:152:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator-\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[KSubscriber*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[1.441027] (convert_laser) StderrLine: {'line': b'  152 |         RCLCPP_INFO(\x1b[32m\x1b[Kthis\x1b[m\x1b[K\x1b[01;31m\x1b[K-\x1b[m\x1b[K\x1b[34m\x1b[Kget_logger()\x1b[m\x1b[K, "imu\\n");\n'}
+[1.441047] (convert_laser) StderrLine: {'line': b'      |                     \x1b[32m\x1b[K~~~~\x1b[m\x1b[K\x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[34m\x1b[K~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.441076] (convert_laser) StderrLine: {'line': b'      |                     \x1b[32m\x1b[K|\x1b[m\x1b[K              \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[1.441095] (convert_laser) StderrLine: {'line': b'      |                     \x1b[32m\x1b[KSubscriber*\x1b[m\x1b[K    \x1b[34m\x1b[Krclcpp::Logger\x1b[m\x1b[K\n'}
+[1.441114] (convert_laser) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[1.441134] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.441154] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.441173] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:1\x1b[m\x1b[K:\n'}
+[1.441193] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:577:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.441215] (convert_laser) StderrLine: {'line': b'  577 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K-(const reverse_iterator<_IteratorL>& __x,\n'}
+[1.441235] (convert_laser) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.441254] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:577:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.441274] (convert_laser) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.441294] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.441313] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.441332] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.441351] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.441371] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.441391] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.441412] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.441432] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.441451] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.441471] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.441489] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:1\x1b[m\x1b[K:\n'}
+[1.441509] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:152:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::reverse_iterator<_Iterator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[KSubscriber*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.441529] (convert_laser) StderrLine: {'line': b'  152 |         RCLCPP_INFO(this-get_logger(\x1b[01;36m\x1b[K)\x1b[m\x1b[K, "imu\\n");\n'}
+[1.441548] (convert_laser) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.441568] (convert_laser) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[1.441625] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.441650] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.441672] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:1\x1b[m\x1b[K:\n'}
+[1.441693] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1693:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::operator-(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.441715] (convert_laser) StderrLine: {'line': b' 1693 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K-(const move_iterator<_IteratorL>& __x,\n'}
+[1.441736] (convert_laser) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.441757] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1693:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.441777] (convert_laser) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.441796] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.441816] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.441837] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.441857] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.441876] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.441895] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.441914] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.441935] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.441954] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.441974] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.441993] (convert_laser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:1\x1b[m\x1b[K:\n'}
+[1.442011] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:152:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::move_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[KSubscriber*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.442031] (convert_laser) StderrLine: {'line': b'  152 |         RCLCPP_INFO(this-get_logger(\x1b[01;36m\x1b[K)\x1b[m\x1b[K, "imu\\n");\n'}
+[1.442050] (convert_laser) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.442070] (convert_laser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:150:48:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KSharedPtr\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.442091] (convert_laser) StderrLine: {'line': b'  150 |     void callback_laser(\x1b[01;35m\x1b[Ksensor_msgs::msg::Imu::SharedPtr\x1b[m\x1b[K imus)\n'}
+[1.442111] (convert_laser) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.503738] (-) TimerEvent: {}
+[1.604070] (-) TimerEvent: {}
+[1.704451] (-) TimerEvent: {}
+[1.804747] (-) TimerEvent: {}
+[1.905057] (-) TimerEvent: {}
+[1.916370] (convert_laser) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/convert.dir/build.make:76: CMakeFiles/convert.dir/src/convert.cpp.o] Error 1\n'}
+[1.916724] (convert_laser) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/convert.dir/all] Error 2\n'}
+[1.916950] (convert_laser) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[1.918695] (convert_laser) CommandEnded: {'returncode': 2}
+[1.923923] (convert_laser) JobEnded: {'identifier': 'convert_laser', 'rc': 2}
+[1.934440] (-) EventReactorShutdown: {}

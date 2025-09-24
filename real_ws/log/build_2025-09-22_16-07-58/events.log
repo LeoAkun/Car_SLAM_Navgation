@@ -1,0 +1,302 @@
+[0.000000] (-) TimerEvent: {}
+[0.000291] (convert_laser) JobQueued: {'identifier': 'convert_laser', 'dependencies': OrderedDict()}
+[0.000328] (launch_real) JobQueued: {'identifier': 'launch_real', 'dependencies': OrderedDict()}
+[0.000493] (convert_laser) JobStarted: {'identifier': 'convert_laser'}
+[0.007548] (launch_real) JobStarted: {'identifier': 'launch_real'}
+[0.010698] (convert_laser) JobProgress: {'identifier': 'convert_laser', 'progress': 'cmake'}
+[0.011988] (convert_laser) JobProgress: {'identifier': 'convert_laser', 'progress': 'build'}
+[0.012593] (convert_laser) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/akun/workspace/CAR/real_ws/build/convert_laser', '--', '-j32', '-l32'], 'cwd': '/home/akun/workspace/CAR/real_ws/build/convert_laser', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890'), ('no_proxy', '127.0.0.1,192.168.*,172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,239.*,224.*,10.*,127.*,localhost,*.steamcontent.com,steampipe.akamaized.net,steampipe-partner.akamaized.net,steampipe-kr.akamaized.net,xz.pphimalayanrt.com,steamstatic.com.8686c.com,steampowered.com.8686c.com,steampipe.steamcontent.tnkjmec.com,st.dl.pinyuncloud.com,st.dl.eccdnx.com,st.dl.bscstorage.net,dl.steam.ksyna.com,dl.steam.clngaa.com,wmsjsteam.com,dota2.wmsj.cn,csgo.wmsj.cn,*.steamchina.com,<local>'), ('USER', 'akun'), ('GIT_ASKPASS', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/lib:/home/akun/workspace/CAR/LIO-SAM/install/lio_sam/lib:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/lib:/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/lib:/home/akun/workspace/CAR/serial_ros2/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/home/akun'), ('OLDPWD', '/home/akun/workspace/CAR'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('NO_PROXY', '127.0.0.1,192.168.*,172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,239.*,224.*,10.*,127.*,localhost,*.steamcontent.com,steampipe.akamaized.net,steampipe-partner.akamaized.net,steampipe-kr.akamaized.net,xz.pphimalayanrt.com,steamstatic.com.8686c.com,steampowered.com.8686c.com,steampipe.steamcontent.tnkjmec.com,st.dl.pinyuncloud.com,st.dl.eccdnx.com,st.dl.bscstorage.net,dl.steam.ksyna.com,dl.steam.clngaa.com,wmsjsteam.com,dota2.wmsj.cn,csgo.wmsj.cn,*.steamchina.com,<local>'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4bf5a96c-c2d4-4936-b9c3-01967d10a10a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890'), ('COLCON_PREFIX_PATH', '/home/akun/workspace/CAR/simulation_ws/install:/home/akun/workspace/CAR/LIO-SAM/install:/home/akun/workspace/CAR/1_URDF_ws/install:/home/akun/workspace/CAR/livox_ros_driver2/install:/home/akun/workspace/CAR/real_ws/install:/home/akun/workspace/CAR/yesense_ros2/install:/home/akun/workspace/CAR/serial_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'akun'), ('NAME', 'DESKTOP-QJO75DJ'), ('WSL_INTEROP', '/run/WSL/611_interop'), ('http_proxy', 'http://127.0.0.1:7890'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/VMware/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/BandZip/Bandizip/:/mnt/d/vscode/vscode/Microsoft VS Code/bin:/mnt/d/NodeJs/:/mnt/d/NodeJs/node_global/node_modules/yarn/bin:/mnt/d/Anaconda/Scripts:/mnt/d/git/Git/cmd:/mnt/d/mySQL/mySQL Server 8.0/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/usbipd-win/:/mnt/d/Anaconda:/mnt/d/Anaconda/Library/mingw-w64/bin:/mnt/d/Anaconda/Library/usr/bin:/mnt/d/Anaconda/Library/bin:/mnt/d/Anaconda/Scripts:/mnt/c/Users/Y9000P/AppData/Roaming/npm:/mnt/c/Users/Y9000P/AppData/Local/Programs/Ollama:/mnt/d/QQ游戏/QQGame/Hall.58319/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b923a46cff.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/simulation_ws/install/sim_imu:/home/akun/workspace/CAR/simulation_ws/install/launch_sim:/home/akun/workspace/CAR/simulation_ws/install/convert_time:/home/akun/workspace/CAR/LIO-SAM/install/lio_sam:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/home/akun/workspace/CAR/real_ws/install/launch_real:/home/akun/workspace/CAR/real_ws/install/convert_laser:/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2:/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:/home/akun/workspace/CAR/serial_ros2/install/serial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/akun/workspace/CAR/real_ws/build/convert_laser'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/akun/workspace/CAR/LIO-SAM/install/lio_sam/local/lib/python3.10/dist-packages:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/tmp/usr/local:/tmp/usr/local:/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/simulation_ws/install/sim_imu:/home/akun/workspace/CAR/simulation_ws/install/launch_sim:/home/akun/workspace/CAR/simulation_ws/install/convert_time:/home/akun/workspace/CAR/LIO-SAM/install/lio_sam:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/home/akun/workspace/CAR/real_ws/install/launch_real:/home/akun/workspace/CAR/real_ws/install/convert_laser:/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2:/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:/home/akun/workspace/CAR/serial_ros2/install/serial:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.016273] (launch_real) JobProgress: {'identifier': 'launch_real', 'progress': 'cmake'}
+[0.017659] (launch_real) JobProgress: {'identifier': 'launch_real', 'progress': 'build'}
+[0.017709] (launch_real) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/akun/workspace/CAR/real_ws/build/launch_real', '--', '-j32', '-l32'], 'cwd': '/home/akun/workspace/CAR/real_ws/build/launch_real', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890'), ('no_proxy', '127.0.0.1,192.168.*,172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,239.*,224.*,10.*,127.*,localhost,*.steamcontent.com,steampipe.akamaized.net,steampipe-partner.akamaized.net,steampipe-kr.akamaized.net,xz.pphimalayanrt.com,steamstatic.com.8686c.com,steampowered.com.8686c.com,steampipe.steamcontent.tnkjmec.com,st.dl.pinyuncloud.com,st.dl.eccdnx.com,st.dl.bscstorage.net,dl.steam.ksyna.com,dl.steam.clngaa.com,wmsjsteam.com,dota2.wmsj.cn,csgo.wmsj.cn,*.steamchina.com,<local>'), ('USER', 'akun'), ('GIT_ASKPASS', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/lib:/home/akun/workspace/CAR/LIO-SAM/install/lio_sam/lib:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/lib:/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/lib:/home/akun/workspace/CAR/serial_ros2/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/home/akun'), ('OLDPWD', '/home/akun/workspace/CAR'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('NO_PROXY', '127.0.0.1,192.168.*,172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,239.*,224.*,10.*,127.*,localhost,*.steamcontent.com,steampipe.akamaized.net,steampipe-partner.akamaized.net,steampipe-kr.akamaized.net,xz.pphimalayanrt.com,steamstatic.com.8686c.com,steampowered.com.8686c.com,steampipe.steamcontent.tnkjmec.com,st.dl.pinyuncloud.com,st.dl.eccdnx.com,st.dl.bscstorage.net,dl.steam.ksyna.com,dl.steam.clngaa.com,wmsjsteam.com,dota2.wmsj.cn,csgo.wmsj.cn,*.steamchina.com,<local>'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4bf5a96c-c2d4-4936-b9c3-01967d10a10a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890'), ('COLCON_PREFIX_PATH', '/home/akun/workspace/CAR/simulation_ws/install:/home/akun/workspace/CAR/LIO-SAM/install:/home/akun/workspace/CAR/1_URDF_ws/install:/home/akun/workspace/CAR/livox_ros_driver2/install:/home/akun/workspace/CAR/real_ws/install:/home/akun/workspace/CAR/yesense_ros2/install:/home/akun/workspace/CAR/serial_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'akun'), ('NAME', 'DESKTOP-QJO75DJ'), ('WSL_INTEROP', '/run/WSL/611_interop'), ('http_proxy', 'http://127.0.0.1:7890'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/VMware/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/BandZip/Bandizip/:/mnt/d/vscode/vscode/Microsoft VS Code/bin:/mnt/d/NodeJs/:/mnt/d/NodeJs/node_global/node_modules/yarn/bin:/mnt/d/Anaconda/Scripts:/mnt/d/git/Git/cmd:/mnt/d/mySQL/mySQL Server 8.0/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/usbipd-win/:/mnt/d/Anaconda:/mnt/d/Anaconda/Library/mingw-w64/bin:/mnt/d/Anaconda/Library/usr/bin:/mnt/d/Anaconda/Library/bin:/mnt/d/Anaconda/Scripts:/mnt/c/Users/Y9000P/AppData/Roaming/npm:/mnt/c/Users/Y9000P/AppData/Local/Programs/Ollama:/mnt/d/QQ游戏/QQGame/Hall.58319/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b923a46cff.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/simulation_ws/install/sim_imu:/home/akun/workspace/CAR/simulation_ws/install/launch_sim:/home/akun/workspace/CAR/simulation_ws/install/convert_time:/home/akun/workspace/CAR/LIO-SAM/install/lio_sam:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/home/akun/workspace/CAR/real_ws/install/launch_real:/home/akun/workspace/CAR/real_ws/install/convert_laser:/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2:/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:/home/akun/workspace/CAR/serial_ros2/install/serial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/akun/workspace/CAR/real_ws/build/launch_real'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/akun/workspace/CAR/LIO-SAM/install/lio_sam/local/lib/python3.10/dist-packages:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/tmp/usr/local:/tmp/usr/local:/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/simulation_ws/install/sim_imu:/home/akun/workspace/CAR/simulation_ws/install/launch_sim:/home/akun/workspace/CAR/simulation_ws/install/convert_time:/home/akun/workspace/CAR/LIO-SAM/install/lio_sam:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/home/akun/workspace/CAR/real_ws/install/launch_real:/home/akun/workspace/CAR/real_ws/install/convert_laser:/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2:/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:/home/akun/workspace/CAR/serial_ros2/install/serial:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.076868] (launch_real) CommandEnded: {'returncode': 0}
+[0.077895] (launch_real) JobProgress: {'identifier': 'launch_real', 'progress': 'install'}
+[0.082324] (launch_real) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/akun/workspace/CAR/real_ws/build/launch_real'], 'cwd': '/home/akun/workspace/CAR/real_ws/build/launch_real', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890'), ('no_proxy', '127.0.0.1,192.168.*,172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,239.*,224.*,10.*,127.*,localhost,*.steamcontent.com,steampipe.akamaized.net,steampipe-partner.akamaized.net,steampipe-kr.akamaized.net,xz.pphimalayanrt.com,steamstatic.com.8686c.com,steampowered.com.8686c.com,steampipe.steamcontent.tnkjmec.com,st.dl.pinyuncloud.com,st.dl.eccdnx.com,st.dl.bscstorage.net,dl.steam.ksyna.com,dl.steam.clngaa.com,wmsjsteam.com,dota2.wmsj.cn,csgo.wmsj.cn,*.steamchina.com,<local>'), ('USER', 'akun'), ('GIT_ASKPASS', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/lib:/home/akun/workspace/CAR/LIO-SAM/install/lio_sam/lib:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/lib:/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/lib:/home/akun/workspace/CAR/serial_ros2/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/home/akun'), ('OLDPWD', '/home/akun/workspace/CAR'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('NO_PROXY', '127.0.0.1,192.168.*,172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,239.*,224.*,10.*,127.*,localhost,*.steamcontent.com,steampipe.akamaized.net,steampipe-partner.akamaized.net,steampipe-kr.akamaized.net,xz.pphimalayanrt.com,steamstatic.com.8686c.com,steampowered.com.8686c.com,steampipe.steamcontent.tnkjmec.com,st.dl.pinyuncloud.com,st.dl.eccdnx.com,st.dl.bscstorage.net,dl.steam.ksyna.com,dl.steam.clngaa.com,wmsjsteam.com,dota2.wmsj.cn,csgo.wmsj.cn,*.steamchina.com,<local>'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4bf5a96c-c2d4-4936-b9c3-01967d10a10a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890'), ('COLCON_PREFIX_PATH', '/home/akun/workspace/CAR/simulation_ws/install:/home/akun/workspace/CAR/LIO-SAM/install:/home/akun/workspace/CAR/1_URDF_ws/install:/home/akun/workspace/CAR/livox_ros_driver2/install:/home/akun/workspace/CAR/real_ws/install:/home/akun/workspace/CAR/yesense_ros2/install:/home/akun/workspace/CAR/serial_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'akun'), ('NAME', 'DESKTOP-QJO75DJ'), ('WSL_INTEROP', '/run/WSL/611_interop'), ('http_proxy', 'http://127.0.0.1:7890'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/VMware/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/BandZip/Bandizip/:/mnt/d/vscode/vscode/Microsoft VS Code/bin:/mnt/d/NodeJs/:/mnt/d/NodeJs/node_global/node_modules/yarn/bin:/mnt/d/Anaconda/Scripts:/mnt/d/git/Git/cmd:/mnt/d/mySQL/mySQL Server 8.0/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/usbipd-win/:/mnt/d/Anaconda:/mnt/d/Anaconda/Library/mingw-w64/bin:/mnt/d/Anaconda/Library/usr/bin:/mnt/d/Anaconda/Library/bin:/mnt/d/Anaconda/Scripts:/mnt/c/Users/Y9000P/AppData/Roaming/npm:/mnt/c/Users/Y9000P/AppData/Local/Programs/Ollama:/mnt/d/QQ游戏/QQGame/Hall.58319/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b923a46cff.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/simulation_ws/install/sim_imu:/home/akun/workspace/CAR/simulation_ws/install/launch_sim:/home/akun/workspace/CAR/simulation_ws/install/convert_time:/home/akun/workspace/CAR/LIO-SAM/install/lio_sam:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/home/akun/workspace/CAR/real_ws/install/launch_real:/home/akun/workspace/CAR/real_ws/install/convert_laser:/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2:/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:/home/akun/workspace/CAR/serial_ros2/install/serial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/akun/workspace/CAR/real_ws/build/launch_real'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/akun/workspace/CAR/LIO-SAM/install/lio_sam/local/lib/python3.10/dist-packages:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/tmp/usr/local:/tmp/usr/local:/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/simulation_ws/install/sim_imu:/home/akun/workspace/CAR/simulation_ws/install/launch_sim:/home/akun/workspace/CAR/simulation_ws/install/convert_time:/home/akun/workspace/CAR/LIO-SAM/install/lio_sam:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/home/akun/workspace/CAR/real_ws/install/launch_real:/home/akun/workspace/CAR/real_ws/install/convert_laser:/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2:/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:/home/akun/workspace/CAR/serial_ros2/install/serial:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.086273] (launch_real) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.086509] (launch_real) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/launch\n'}
+[0.086602] (launch_real) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/launch/run.launch.py\n'}
+[0.086701] (launch_real) StdoutLine: {'line': b'-- Installing: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/launch/run.bag_launch.py\n'}
+[0.086810] (launch_real) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/launch_real/share/ament_index/resource_index/package_run_dependencies/launch_real\n'}
+[0.086896] (launch_real) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/launch_real/share/ament_index/resource_index/parent_prefix_path/launch_real\n'}
+[0.087008] (launch_real) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/environment/ament_prefix_path.sh\n'}
+[0.087041] (launch_real) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/environment/ament_prefix_path.dsv\n'}
+[0.087065] (launch_real) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/environment/path.sh\n'}
+[0.087088] (launch_real) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/environment/path.dsv\n'}
+[0.087110] (launch_real) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/local_setup.bash\n'}
+[0.087132] (launch_real) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/local_setup.sh\n'}
+[0.087154] (launch_real) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/local_setup.zsh\n'}
+[0.087182] (launch_real) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/local_setup.dsv\n'}
+[0.087202] (launch_real) StdoutLine: {'line': b'-- Installing: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/package.dsv\n'}
+[0.087775] (launch_real) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/launch_real/share/ament_index/resource_index/packages/launch_real\n'}
+[0.087885] (launch_real) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/cmake/launch_realConfig.cmake\n'}
+[0.087922] (launch_real) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/cmake/launch_realConfig-version.cmake\n'}
+[0.087949] (launch_real) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/package.xml\n'}
+[0.089216] (launch_real) CommandEnded: {'returncode': 0}
+[0.090738] (convert_laser) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100042] (-) TimerEvent: {}
+[0.102835] (launch_real) JobEnded: {'identifier': 'launch_real', 'rc': 0}
+[0.184281] (convert_laser) StdoutLine: {'line': b'-- Found livox_ros_driver2: 1.0.0 (/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/share/livox_ros_driver2/cmake)\n'}
+[0.200353] (-) TimerEvent: {}
+[0.301957] (-) TimerEvent: {}
+[0.308709] (convert_laser) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.313992] (convert_laser) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.320459] (convert_laser) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.331441] (convert_laser) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.343909] (convert_laser) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.392748] (convert_laser) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.394640] (convert_laser) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.402101] (-) TimerEvent: {}
+[0.503724] (-) TimerEvent: {}
+[0.605403] (-) TimerEvent: {}
+[0.706318] (-) TimerEvent: {}
+[0.808014] (-) TimerEvent: {}
+[0.909699] (-) TimerEvent: {}
+[1.011337] (-) TimerEvent: {}
+[1.113021] (-) TimerEvent: {}
+[1.214953] (-) TimerEvent: {}
+[1.317015] (-) TimerEvent: {}
+[1.418294] (-) TimerEvent: {}
+[1.520180] (-) TimerEvent: {}
+[1.622239] (-) TimerEvent: {}
+[1.722884] (-) TimerEvent: {}
+[1.824830] (-) TimerEvent: {}
+[1.926870] (-) TimerEvent: {}
+[2.028826] (-) TimerEvent: {}
+[2.130769] (-) TimerEvent: {}
+[2.231087] (-) TimerEvent: {}
+[2.332084] (-) TimerEvent: {}
+[2.434060] (-) TimerEvent: {}
+[2.536046] (-) TimerEvent: {}
+[2.638055] (-) TimerEvent: {}
+[2.740134] (-) TimerEvent: {}
+[2.842089] (-) TimerEvent: {}
+[2.944090] (-) TimerEvent: {}
+[3.046006] (-) TimerEvent: {}
+[3.147940] (-) TimerEvent: {}
+[3.248309] (-) TimerEvent: {}
+[3.349536] (-) TimerEvent: {}
+[3.451468] (-) TimerEvent: {}
+[3.553405] (-) TimerEvent: {}
+[3.560062] (convert_laser) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.655090] (-) TimerEvent: {}
+[3.663851] (convert_laser) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[3.756723] (-) TimerEvent: {}
+[3.858728] (-) TimerEvent: {}
+[3.960664] (-) TimerEvent: {}
+[4.062636] (-) TimerEvent: {}
+[4.164558] (-) TimerEvent: {}
+[4.266522] (-) TimerEvent: {}
+[4.368448] (-) TimerEvent: {}
+[4.470345] (-) TimerEvent: {}
+[4.516190] (convert_laser) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[4.571376] (-) TimerEvent: {}
+[4.673253] (-) TimerEvent: {}
+[4.775158] (-) TimerEvent: {}
+[4.877070] (-) TimerEvent: {}
+[4.979028] (-) TimerEvent: {}
+[5.081297] (-) TimerEvent: {}
+[5.183936] (-) TimerEvent: {}
+[5.286542] (-) TimerEvent: {}
+[5.388650] (-) TimerEvent: {}
+[5.490913] (-) TimerEvent: {}
+[5.592869] (-) TimerEvent: {}
+[5.694847] (-) TimerEvent: {}
+[5.796809] (-) TimerEvent: {}
+[5.898794] (-) TimerEvent: {}
+[6.000812] (-) TimerEvent: {}
+[6.102831] (-) TimerEvent: {}
+[6.204772] (-) TimerEvent: {}
+[6.306691] (-) TimerEvent: {}
+[6.408654] (-) TimerEvent: {}
+[6.510906] (-) TimerEvent: {}
+[6.613057] (-) TimerEvent: {}
+[6.715061] (-) TimerEvent: {}
+[6.817172] (-) TimerEvent: {}
+[6.919106] (-) TimerEvent: {}
+[7.021086] (-) TimerEvent: {}
+[7.123039] (-) TimerEvent: {}
+[7.225071] (-) TimerEvent: {}
+[7.326018] (-) TimerEvent: {}
+[7.428189] (-) TimerEvent: {}
+[7.530177] (-) TimerEvent: {}
+[7.632037] (-) TimerEvent: {}
+[7.734122] (-) TimerEvent: {}
+[7.836065] (-) TimerEvent: {}
+[7.938057] (-) TimerEvent: {}
+[7.941175] (convert_laser) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[7.944748] (convert_laser) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[8.039750] (-) TimerEvent: {}
+[8.141722] (-) TimerEvent: {}
+[8.242009] (-) TimerEvent: {}
+[8.343400] (-) TimerEvent: {}
+[8.445407] (-) TimerEvent: {}
+[8.547343] (-) TimerEvent: {}
+[8.649313] (-) TimerEvent: {}
+[8.751311] (-) TimerEvent: {}
+[8.853295] (-) TimerEvent: {}
+[8.955249] (-) TimerEvent: {}
+[9.057225] (-) TimerEvent: {}
+[9.061707] (convert_laser) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[9.064941] (convert_laser) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[9.068954] (convert_laser) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[9.157457] (-) TimerEvent: {}
+[9.259254] (-) TimerEvent: {}
+[9.361017] (-) TimerEvent: {}
+[9.462824] (-) TimerEvent: {}
+[9.564845] (-) TimerEvent: {}
+[9.666614] (-) TimerEvent: {}
+[9.768478] (-) TimerEvent: {}
+[9.870309] (-) TimerEvent: {}
+[9.972146] (-) TimerEvent: {}
+[10.073985] (-) TimerEvent: {}
+[10.175743] (-) TimerEvent: {}
+[10.277556] (-) TimerEvent: {}
+[10.316334] (convert_laser) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[10.378557] (-) TimerEvent: {}
+[10.480401] (-) TimerEvent: {}
+[10.582146] (-) TimerEvent: {}
+[10.683873] (-) TimerEvent: {}
+[10.785663] (-) TimerEvent: {}
+[10.887479] (-) TimerEvent: {}
+[10.989223] (-) TimerEvent: {}
+[11.091073] (-) TimerEvent: {}
+[11.192578] (-) TimerEvent: {}
+[11.293009] (-) TimerEvent: {}
+[11.394860] (-) TimerEvent: {}
+[11.496922] (-) TimerEvent: {}
+[11.599019] (-) TimerEvent: {}
+[11.700925] (-) TimerEvent: {}
+[11.802819] (-) TimerEvent: {}
+[11.897036] (convert_laser) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[11.903052] (-) TimerEvent: {}
+[12.005067] (-) TimerEvent: {}
+[12.107111] (-) TimerEvent: {}
+[12.208861] (-) TimerEvent: {}
+[12.310633] (-) TimerEvent: {}
+[12.412418] (-) TimerEvent: {}
+[12.514122] (-) TimerEvent: {}
+[12.615908] (-) TimerEvent: {}
+[12.717659] (-) TimerEvent: {}
+[12.819481] (-) TimerEvent: {}
+[12.921295] (-) TimerEvent: {}
+[13.023022] (-) TimerEvent: {}
+[13.124843] (-) TimerEvent: {}
+[13.167874] (convert_laser) StdoutLine: {'line': b'-- Found tf2: 0.25.15 (/opt/ros/humble/share/tf2/cmake)\n'}
+[13.170850] (convert_laser) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[13.212919] (convert_laser) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[13.216670] (convert_laser) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[13.217968] (convert_laser) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[13.220406] (convert_laser) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[13.224973] (-) TimerEvent: {}
+[13.270621] (convert_laser) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[13.270738] (convert_laser) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[13.270768] (convert_laser) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[13.271070] (convert_laser) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[13.271495] (convert_laser) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[13.271776] (convert_laser) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[13.272240] (convert_laser) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[13.272292] (convert_laser) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[13.272550] (convert_laser) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[13.273765] (convert_laser) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.286102] (convert_laser) StdoutLine: {'line': b'-- Generating done\n'}
+[13.289184] (convert_laser) StdoutLine: {'line': b'-- Build files have been written to: /home/akun/workspace/CAR/real_ws/build/convert_laser\n'}
+[13.309405] (convert_laser) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target convert\x1b[0m\n'}
+[13.325287] (-) TimerEvent: {}
+[13.339255] (convert_laser) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/convert.dir/src/convert.cpp.o\x1b[0m\n'}
+[13.426893] (-) TimerEvent: {}
+[13.528688] (-) TimerEvent: {}
+[13.630628] (-) TimerEvent: {}
+[13.732500] (-) TimerEvent: {}
+[13.834400] (-) TimerEvent: {}
+[13.936283] (-) TimerEvent: {}
+[14.038179] (-) TimerEvent: {}
+[14.140009] (-) TimerEvent: {}
+[14.241438] (-) TimerEvent: {}
+[14.343346] (-) TimerEvent: {}
+[14.445118] (-) TimerEvent: {}
+[14.546871] (-) TimerEvent: {}
+[14.648793] (-) TimerEvent: {}
+[14.750688] (-) TimerEvent: {}
+[14.852620] (-) TimerEvent: {}
+[14.954555] (-) TimerEvent: {}
+[15.056448] (-) TimerEvent: {}
+[15.158388] (-) TimerEvent: {}
+[15.260300] (-) TimerEvent: {}
+[15.361676] (-) TimerEvent: {}
+[15.463480] (-) TimerEvent: {}
+[15.565334] (-) TimerEvent: {}
+[15.667177] (-) TimerEvent: {}
+[15.769054] (-) TimerEvent: {}
+[15.870852] (-) TimerEvent: {}
+[15.972777] (-) TimerEvent: {}
+[16.074747] (-) TimerEvent: {}
+[16.176549] (-) TimerEvent: {}
+[16.278363] (-) TimerEvent: {}
+[16.380191] (-) TimerEvent: {}
+[16.482083] (-) TimerEvent: {}
+[16.584046] (-) TimerEvent: {}
+[16.685077] (-) TimerEvent: {}
+[16.785746] (-) TimerEvent: {}
+[16.887625] (-) TimerEvent: {}
+[16.989632] (-) TimerEvent: {}
+[17.091759] (-) TimerEvent: {}
+[17.193635] (-) TimerEvent: {}
+[17.293974] (-) TimerEvent: {}
+[17.395685] (-) TimerEvent: {}
+[17.497500] (-) TimerEvent: {}
+[17.599361] (-) TimerEvent: {}
+[17.701135] (-) TimerEvent: {}
+[17.802870] (-) TimerEvent: {}
+[17.904610] (-) TimerEvent: {}
+[18.006425] (-) TimerEvent: {}
+[18.108219] (-) TimerEvent: {}
+[18.209984] (-) TimerEvent: {}
+[18.310993] (-) TimerEvent: {}
+[18.412707] (-) TimerEvent: {}
+[18.513149] (-) TimerEvent: {}
+[18.615051] (-) TimerEvent: {}
+[18.716826] (-) TimerEvent: {}
+[18.818580] (-) TimerEvent: {}
+[18.920344] (-) TimerEvent: {}
+[19.022114] (-) TimerEvent: {}
+[19.123891] (-) TimerEvent: {}
+[19.225649] (-) TimerEvent: {}
+[19.326549] (-) TimerEvent: {}
+[19.428246] (-) TimerEvent: {}
+[19.530234] (-) TimerEvent: {}
+[19.632081] (-) TimerEvent: {}
+[19.733774] (-) TimerEvent: {}
+[19.835570] (-) TimerEvent: {}
+[19.937378] (-) TimerEvent: {}
+[19.979973] (convert_laser) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable convert\x1b[0m\n'}
+[20.038303] (-) TimerEvent: {}
+[20.140242] (-) TimerEvent: {}
+[20.242104] (-) TimerEvent: {}
+[20.343936] (-) TimerEvent: {}
+[20.379163] (convert_laser) StdoutLine: {'line': b'[100%] Built target convert\n'}
+[20.385272] (convert_laser) CommandEnded: {'returncode': 0}
+[20.386221] (convert_laser) JobProgress: {'identifier': 'convert_laser', 'progress': 'install'}
+[20.386883] (convert_laser) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/akun/workspace/CAR/real_ws/build/convert_laser'], 'cwd': '/home/akun/workspace/CAR/real_ws/build/convert_laser', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890'), ('no_proxy', '127.0.0.1,192.168.*,172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,239.*,224.*,10.*,127.*,localhost,*.steamcontent.com,steampipe.akamaized.net,steampipe-partner.akamaized.net,steampipe-kr.akamaized.net,xz.pphimalayanrt.com,steamstatic.com.8686c.com,steampowered.com.8686c.com,steampipe.steamcontent.tnkjmec.com,st.dl.pinyuncloud.com,st.dl.eccdnx.com,st.dl.bscstorage.net,dl.steam.ksyna.com,dl.steam.clngaa.com,wmsjsteam.com,dota2.wmsj.cn,csgo.wmsj.cn,*.steamchina.com,<local>'), ('USER', 'akun'), ('GIT_ASKPASS', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation/lib:/home/akun/workspace/CAR/LIO-SAM/install/lio_sam/lib:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/lib:/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/lib:/home/akun/workspace/CAR/serial_ros2/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/home/akun'), ('OLDPWD', '/home/akun/workspace/CAR'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('NO_PROXY', '127.0.0.1,192.168.*,172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,239.*,224.*,10.*,127.*,localhost,*.steamcontent.com,steampipe.akamaized.net,steampipe-partner.akamaized.net,steampipe-kr.akamaized.net,xz.pphimalayanrt.com,steamstatic.com.8686c.com,steampowered.com.8686c.com,steampipe.steamcontent.tnkjmec.com,st.dl.pinyuncloud.com,st.dl.eccdnx.com,st.dl.bscstorage.net,dl.steam.ksyna.com,dl.steam.clngaa.com,wmsjsteam.com,dota2.wmsj.cn,csgo.wmsj.cn,*.steamchina.com,<local>'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4bf5a96c-c2d4-4936-b9c3-01967d10a10a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890'), ('COLCON_PREFIX_PATH', '/home/akun/workspace/CAR/simulation_ws/install:/home/akun/workspace/CAR/LIO-SAM/install:/home/akun/workspace/CAR/1_URDF_ws/install:/home/akun/workspace/CAR/livox_ros_driver2/install:/home/akun/workspace/CAR/real_ws/install:/home/akun/workspace/CAR/yesense_ros2/install:/home/akun/workspace/CAR/serial_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'akun'), ('NAME', 'DESKTOP-QJO75DJ'), ('WSL_INTEROP', '/run/WSL/611_interop'), ('http_proxy', 'http://127.0.0.1:7890'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/VMware/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/BandZip/Bandizip/:/mnt/d/vscode/vscode/Microsoft VS Code/bin:/mnt/d/NodeJs/:/mnt/d/NodeJs/node_global/node_modules/yarn/bin:/mnt/d/Anaconda/Scripts:/mnt/d/git/Git/cmd:/mnt/d/mySQL/mySQL Server 8.0/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/usbipd-win/:/mnt/d/Anaconda:/mnt/d/Anaconda/Library/mingw-w64/bin:/mnt/d/Anaconda/Library/usr/bin:/mnt/d/Anaconda/Library/bin:/mnt/d/Anaconda/Scripts:/mnt/c/Users/Y9000P/AppData/Roaming/npm:/mnt/c/Users/Y9000P/AppData/Local/Programs/Ollama:/mnt/d/QQ游戏/QQGame/Hall.58319/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b923a46cff.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/simulation_ws/install/sim_imu:/home/akun/workspace/CAR/simulation_ws/install/launch_sim:/home/akun/workspace/CAR/simulation_ws/install/convert_time:/home/akun/workspace/CAR/LIO-SAM/install/lio_sam:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/home/akun/workspace/CAR/real_ws/install/launch_real:/home/akun/workspace/CAR/real_ws/install/convert_laser:/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2:/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:/home/akun/workspace/CAR/serial_ros2/install/serial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/akun/workspace/CAR/real_ws/build/convert_laser'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/akun/workspace/CAR/LIO-SAM/install/lio_sam/local/lib/python3.10/dist-packages:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/tmp/usr/local:/tmp/usr/local:/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/simulation_ws/install/sim_imu:/home/akun/workspace/CAR/simulation_ws/install/launch_sim:/home/akun/workspace/CAR/simulation_ws/install/convert_time:/home/akun/workspace/CAR/LIO-SAM/install/lio_sam:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/home/akun/workspace/CAR/real_ws/install/launch_real:/home/akun/workspace/CAR/real_ws/install/convert_laser:/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2:/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:/home/akun/workspace/CAR/serial_ros2/install/serial:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[20.390733] (convert_laser) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.391504] (convert_laser) StdoutLine: {'line': b'-- Installing: /home/akun/workspace/CAR/real_ws/install/convert_laser/lib/convert_laser/convert\n'}
+[20.394134] (convert_laser) StdoutLine: {'line': b'-- Set runtime path of "/home/akun/workspace/CAR/real_ws/install/convert_laser/lib/convert_laser/convert" to ""\n'}
+[20.394249] (convert_laser) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/launch\n'}
+[20.394287] (convert_laser) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/launch/run.launch.py\n'}
+[20.394365] (convert_laser) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/ament_index/resource_index/package_run_dependencies/convert_laser\n'}
+[20.394401] (convert_laser) StdoutLine: {'line': b'-- Installing: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/ament_index/resource_index/parent_prefix_path/convert_laser\n'}
+[20.394483] (convert_laser) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/environment/ament_prefix_path.sh\n'}
+[20.394521] (convert_laser) StdoutLine: {'line': b'-- Installing: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/environment/ament_prefix_path.dsv\n'}
+[20.394608] (convert_laser) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/environment/path.sh\n'}
+[20.394649] (convert_laser) StdoutLine: {'line': b'-- Installing: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/environment/path.dsv\n'}
+[20.394673] (convert_laser) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/local_setup.bash\n'}
+[20.394750] (convert_laser) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/local_setup.sh\n'}
+[20.394784] (convert_laser) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/local_setup.zsh\n'}
+[20.394814] (convert_laser) StdoutLine: {'line': b'-- Installing: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/local_setup.dsv\n'}
+[20.394889] (convert_laser) StdoutLine: {'line': b'-- Installing: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/package.dsv\n'}
+[20.394921] (convert_laser) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/ament_index/resource_index/packages/convert_laser\n'}
+[20.394945] (convert_laser) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/cmake/convert_laserConfig.cmake\n'}
+[20.394968] (convert_laser) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/cmake/convert_laserConfig-version.cmake\n'}
+[20.394990] (convert_laser) StdoutLine: {'line': b'-- Up-to-date: /home/akun/workspace/CAR/real_ws/install/convert_laser/share/convert_laser/package.xml\n'}
+[20.395694] (convert_laser) CommandEnded: {'returncode': 0}
+[20.401842] (convert_laser) JobEnded: {'identifier': 'convert_laser', 'rc': 0}
+[20.402457] (-) EventReactorShutdown: {}

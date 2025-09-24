@@ -1,0 +1,245 @@
+[0.000000] (-) TimerEvent: {}
+[0.000621] (convert_laser) JobQueued: {'identifier': 'convert_laser', 'dependencies': OrderedDict()}
+[0.000659] (convert_laser) JobStarted: {'identifier': 'convert_laser'}
+[0.008856] (convert_laser) JobProgress: {'identifier': 'convert_laser', 'progress': 'cmake'}
+[0.009576] (convert_laser) Command: {'cmd': ['/usr/bin/cmake', '/home/akun/workspace/CAR/real_ws/convert_laser', '-DCMAKE_INSTALL_PREFIX=/home/akun/workspace/CAR/real_ws/install/convert_laser'], 'cwd': '/home/akun/workspace/CAR/real_ws/build/convert_laser', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'akun'), ('GIT_ASKPASS', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/home/akun'), ('OLDPWD', '/home/akun/workspace/CAR'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6cb132c1-1b17-4e94-8b93-d18773578364.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/akun/workspace/CAR/livox_ros_driver2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'akun'), ('NAME', 'DESKTOP-QJO75DJ'), ('WSL_INTEROP', '/run/WSL/541_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/akun/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/VMware/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/BandZip/Bandizip/:/mnt/d/vscode/vscode/Microsoft VS Code/bin:/mnt/d/NodeJs/:/mnt/d/NodeJs/node_global/node_modules/yarn/bin:/mnt/d/Anaconda/Scripts:/mnt/d/git/Git/cmd:/mnt/d/mySQL/mySQL Server 8.0/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/d/Anaconda:/mnt/d/Anaconda/Library/mingw-w64/bin:/mnt/d/Anaconda/Library/usr/bin:/mnt/d/Anaconda/Library/bin:/mnt/d/Anaconda/Scripts:/mnt/c/Users/Y9000P/AppData/Roaming/npm:/mnt/c/Users/Y9000P/AppData/Local/Programs/Ollama:/mnt/d/QQ游戏/QQGame/Hall.58319/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-44579af484.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/akun/workspace/CAR/real_ws/build/convert_laser'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.099844] (-) TimerEvent: {}
+[0.200109] (-) TimerEvent: {}
+[0.300379] (-) TimerEvent: {}
+[0.400702] (-) TimerEvent: {}
+[0.426164] (convert_laser) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.500906] (-) TimerEvent: {}
+[0.601438] (-) TimerEvent: {}
+[0.702310] (-) TimerEvent: {}
+[0.802686] (-) TimerEvent: {}
+[0.902998] (-) TimerEvent: {}
+[1.003447] (-) TimerEvent: {}
+[1.103888] (-) TimerEvent: {}
+[1.204490] (-) TimerEvent: {}
+[1.305057] (-) TimerEvent: {}
+[1.405446] (-) TimerEvent: {}
+[1.505723] (-) TimerEvent: {}
+[1.606005] (-) TimerEvent: {}
+[1.643883] (convert_laser) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.706123] (-) TimerEvent: {}
+[1.806368] (-) TimerEvent: {}
+[1.836336] (convert_laser) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.906509] (-) TimerEvent: {}
+[1.928375] (convert_laser) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.932115] (convert_laser) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.933545] (convert_laser) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.934037] (convert_laser) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.936324] (convert_laser) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.006736] (-) TimerEvent: {}
+[2.021656] (convert_laser) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.025302] (convert_laser) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.025551] (convert_laser) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.025700] (convert_laser) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.032370] (convert_laser) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.106972] (-) TimerEvent: {}
+[2.111237] (convert_laser) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.177434] (convert_laser) StdoutLine: {'line': b'-- Found livox_ros_driver2: 1.0.0 (/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2/share/livox_ros_driver2/cmake)\n'}
+[2.207067] (-) TimerEvent: {}
+[2.268936] (convert_laser) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.272862] (convert_laser) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.280326] (convert_laser) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.293704] (convert_laser) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.307176] (-) TimerEvent: {}
+[2.309816] (convert_laser) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.369383] (convert_laser) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.371787] (convert_laser) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.407270] (-) TimerEvent: {}
+[2.507526] (-) TimerEvent: {}
+[2.607793] (-) TimerEvent: {}
+[2.708052] (-) TimerEvent: {}
+[2.808317] (-) TimerEvent: {}
+[2.908583] (-) TimerEvent: {}
+[3.008877] (-) TimerEvent: {}
+[3.089554] (convert_laser) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.108983] (-) TimerEvent: {}
+[3.209229] (-) TimerEvent: {}
+[3.309506] (-) TimerEvent: {}
+[3.409808] (-) TimerEvent: {}
+[3.510085] (-) TimerEvent: {}
+[3.610335] (-) TimerEvent: {}
+[3.710604] (-) TimerEvent: {}
+[3.810940] (-) TimerEvent: {}
+[3.860240] (convert_laser) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.911039] (-) TimerEvent: {}
+[4.011323] (-) TimerEvent: {}
+[4.111643] (-) TimerEvent: {}
+[4.211980] (-) TimerEvent: {}
+[4.312316] (-) TimerEvent: {}
+[4.412593] (-) TimerEvent: {}
+[4.512895] (-) TimerEvent: {}
+[4.613171] (-) TimerEvent: {}
+[4.713482] (-) TimerEvent: {}
+[4.813789] (-) TimerEvent: {}
+[4.914123] (-) TimerEvent: {}
+[5.014454] (-) TimerEvent: {}
+[5.114714] (-) TimerEvent: {}
+[5.116344] (convert_laser) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.133892] (convert_laser) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.212365] (convert_laser) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.212915] (convert_laser) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.214827] (-) TimerEvent: {}
+[5.298191] (convert_laser) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.298774] (convert_laser) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.315048] (-) TimerEvent: {}
+[5.403978] (convert_laser) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[5.409900] (convert_laser) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[5.415125] (-) TimerEvent: {}
+[5.425688] (convert_laser) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[5.425766] (convert_laser) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[5.515257] (-) TimerEvent: {}
+[5.615543] (-) TimerEvent: {}
+[5.715876] (-) TimerEvent: {}
+[5.816131] (-) TimerEvent: {}
+[5.916435] (-) TimerEvent: {}
+[5.989651] (convert_laser) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[6.005546] (convert_laser) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[6.016513] (-) TimerEvent: {}
+[6.116738] (-) TimerEvent: {}
+[6.198571] (convert_laser) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[6.198740] (convert_laser) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[6.216863] (-) TimerEvent: {}
+[6.317096] (-) TimerEvent: {}
+[6.417362] (-) TimerEvent: {}
+[6.517643] (-) TimerEvent: {}
+[6.617984] (-) TimerEvent: {}
+[6.718326] (-) TimerEvent: {}
+[6.818666] (-) TimerEvent: {}
+[6.918985] (-) TimerEvent: {}
+[7.019268] (-) TimerEvent: {}
+[7.119563] (-) TimerEvent: {}
+[7.219835] (-) TimerEvent: {}
+[7.320100] (-) TimerEvent: {}
+[7.420367] (-) TimerEvent: {}
+[7.520625] (-) TimerEvent: {}
+[7.620920] (-) TimerEvent: {}
+[7.721230] (-) TimerEvent: {}
+[7.821478] (-) TimerEvent: {}
+[7.921744] (-) TimerEvent: {}
+[8.022047] (-) TimerEvent: {}
+[8.122312] (-) TimerEvent: {}
+[8.222657] (-) TimerEvent: {}
+[8.322991] (-) TimerEvent: {}
+[8.423332] (-) TimerEvent: {}
+[8.523647] (-) TimerEvent: {}
+[8.623913] (-) TimerEvent: {}
+[8.724185] (-) TimerEvent: {}
+[8.742349] (convert_laser) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[8.749387] (convert_laser) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[8.808920] (convert_laser) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[8.810872] (convert_laser) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[8.824322] (-) TimerEvent: {}
+[8.924561] (-) TimerEvent: {}
+[9.024944] (-) TimerEvent: {}
+[9.044473] (convert_laser) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[9.125152] (-) TimerEvent: {}
+[9.225413] (-) TimerEvent: {}
+[9.325726] (-) TimerEvent: {}
+[9.426061] (-) TimerEvent: {}
+[9.526496] (-) TimerEvent: {}
+[9.626818] (-) TimerEvent: {}
+[9.727120] (-) TimerEvent: {}
+[9.827452] (-) TimerEvent: {}
+[9.927796] (-) TimerEvent: {}
+[10.028308] (-) TimerEvent: {}
+[10.128780] (-) TimerEvent: {}
+[10.229128] (-) TimerEvent: {}
+[10.329606] (-) TimerEvent: {}
+[10.429924] (-) TimerEvent: {}
+[10.530444] (-) TimerEvent: {}
+[10.631087] (-) TimerEvent: {}
+[10.731877] (-) TimerEvent: {}
+[10.832520] (-) TimerEvent: {}
+[10.932847] (-) TimerEvent: {}
+[11.033193] (-) TimerEvent: {}
+[11.133516] (-) TimerEvent: {}
+[11.233896] (-) TimerEvent: {}
+[11.334276] (-) TimerEvent: {}
+[11.434581] (-) TimerEvent: {}
+[11.534946] (-) TimerEvent: {}
+[11.635228] (-) TimerEvent: {}
+[11.735562] (-) TimerEvent: {}
+[11.835907] (-) TimerEvent: {}
+[11.936434] (-) TimerEvent: {}
+[12.036749] (-) TimerEvent: {}
+[12.092066] (convert_laser) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[12.094953] (convert_laser) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[12.098112] (convert_laser) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[12.136892] (-) TimerEvent: {}
+[12.237134] (-) TimerEvent: {}
+[12.337428] (-) TimerEvent: {}
+[12.437687] (-) TimerEvent: {}
+[12.537905] (-) TimerEvent: {}
+[12.638147] (-) TimerEvent: {}
+[12.738601] (-) TimerEvent: {}
+[12.838852] (-) TimerEvent: {}
+[12.939095] (-) TimerEvent: {}
+[13.039328] (-) TimerEvent: {}
+[13.139595] (-) TimerEvent: {}
+[13.238139] (convert_laser) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[13.239668] (-) TimerEvent: {}
+[13.339871] (-) TimerEvent: {}
+[13.440121] (-) TimerEvent: {}
+[13.540413] (-) TimerEvent: {}
+[13.640711] (-) TimerEvent: {}
+[13.741031] (-) TimerEvent: {}
+[13.841326] (-) TimerEvent: {}
+[13.941525] (-) TimerEvent: {}
+[14.041769] (-) TimerEvent: {}
+[14.142025] (-) TimerEvent: {}
+[14.242255] (-) TimerEvent: {}
+[14.342489] (-) TimerEvent: {}
+[14.442723] (-) TimerEvent: {}
+[14.456023] (convert_laser) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[14.542836] (-) TimerEvent: {}
+[14.643155] (-) TimerEvent: {}
+[14.743476] (-) TimerEvent: {}
+[14.843724] (-) TimerEvent: {}
+[14.944002] (-) TimerEvent: {}
+[15.044230] (-) TimerEvent: {}
+[15.144463] (-) TimerEvent: {}
+[15.244726] (-) TimerEvent: {}
+[15.345023] (-) TimerEvent: {}
+[15.445283] (-) TimerEvent: {}
+[15.545602] (-) TimerEvent: {}
+[15.596035] (convert_laser) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[15.596318] (convert_laser) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[15.596801] (convert_laser) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[15.597196] (convert_laser) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[15.597619] (convert_laser) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[15.598013] (convert_laser) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[15.598227] (convert_laser) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[15.598433] (convert_laser) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[15.598883] (convert_laser) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[15.599406] (convert_laser) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[15.600092] (convert_laser) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[15.600405] (convert_laser) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[15.601075] (convert_laser) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[15.601447] (convert_laser) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[15.602041] (convert_laser) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[15.602627] (convert_laser) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[15.603397] (convert_laser) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[15.604016] (convert_laser) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[15.604503] (convert_laser) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[15.604906] (convert_laser) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[15.605354] (convert_laser) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[15.605602] (convert_laser) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[15.616589] (convert_laser) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[15.617146] (convert_laser) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[15.617700] (convert_laser) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[15.630489] (convert_laser) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):\n'}
+[15.630649] (convert_laser) StderrLine: {'line': b'  ament_target_dependencies() the first argument must be a valid target name\n'}
+[15.630726] (convert_laser) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[15.630798] (convert_laser) StderrLine: {'line': b'  CMakeLists.txt:15 (ament_target_dependencies)\n'}
+[15.630871] (convert_laser) StderrLine: {'line': b'\n'}
+[15.630944] (convert_laser) StderrLine: {'line': b'\x1b[0m\n'}
+[15.631127] (convert_laser) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[15.631191] (convert_laser) StdoutLine: {'line': b'See also "/home/akun/workspace/CAR/real_ws/build/convert_laser/CMakeFiles/CMakeOutput.log".\n'}
+[15.640041] (convert_laser) CommandEnded: {'returncode': 1}
+[15.645723] (-) TimerEvent: {}
+[15.657803] (convert_laser) JobEnded: {'identifier': 'convert_laser', 'rc': 1}
+[15.668340] (-) EventReactorShutdown: {}

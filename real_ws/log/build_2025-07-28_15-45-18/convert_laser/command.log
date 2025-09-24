@@ -1,0 +1,2 @@
+Invoking command in '/home/akun/workspace/CAR/real_ws/build/convert_laser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/akun/workspace/CAR/real_ws/convert_laser -DCMAKE_INSTALL_PREFIX=/home/akun/workspace/CAR/real_ws/install/convert_laser
+Invoked command in '/home/akun/workspace/CAR/real_ws/build/convert_laser' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/akun/workspace/CAR/real_ws/convert_laser -DCMAKE_INSTALL_PREFIX=/home/akun/workspace/CAR/real_ws/install/convert_laser

@@ -1,0 +1,10 @@
+/home/akun/workspace/CAR/simulation_ws/build/sim_imu/CMakeFiles/uninstall.dir
+/home/akun/workspace/CAR/simulation_ws/build/sim_imu/CMakeFiles/sim_imu_uninstall.dir
+/home/akun/workspace/CAR/simulation_ws/build/sim_imu/CMakeFiles/sim_imu.dir
+/home/akun/workspace/CAR/simulation_ws/build/sim_imu/CMakeFiles/test.dir
+/home/akun/workspace/CAR/simulation_ws/build/sim_imu/CMakeFiles/edit_cache.dir
+/home/akun/workspace/CAR/simulation_ws/build/sim_imu/CMakeFiles/rebuild_cache.dir
+/home/akun/workspace/CAR/simulation_ws/build/sim_imu/CMakeFiles/list_install_components.dir
+/home/akun/workspace/CAR/simulation_ws/build/sim_imu/CMakeFiles/install.dir
+/home/akun/workspace/CAR/simulation_ws/build/sim_imu/CMakeFiles/install/local.dir
+/home/akun/workspace/CAR/simulation_ws/build/sim_imu/CMakeFiles/install/strip.dir

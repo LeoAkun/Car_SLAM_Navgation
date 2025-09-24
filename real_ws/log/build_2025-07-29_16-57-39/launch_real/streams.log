@@ -1,0 +1,22 @@
+[0.012s] Invoking command in '/home/akun/workspace/CAR/real_ws/build/launch_real': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/real_ws/build/launch_real -- -j32 -l32
+[0.045s] Invoked command in '/home/akun/workspace/CAR/real_ws/build/launch_real' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/real_ws/build/launch_real -- -j32 -l32
+[0.051s] Invoking command in '/home/akun/workspace/CAR/real_ws/build/launch_real': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/akun/workspace/CAR/real_ws/build/launch_real
+[0.055s] -- Install configuration: ""
+[0.055s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/launch
+[0.055s] -- Installing: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/launch/run.launch.py
+[0.055s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/launch_real/share/ament_index/resource_index/package_run_dependencies/launch_real
+[0.055s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/launch_real/share/ament_index/resource_index/parent_prefix_path/launch_real
+[0.055s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/environment/ament_prefix_path.sh
+[0.056s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/environment/ament_prefix_path.dsv
+[0.056s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/environment/path.sh
+[0.056s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/environment/path.dsv
+[0.056s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/local_setup.bash
+[0.056s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/local_setup.sh
+[0.056s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/local_setup.zsh
+[0.056s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/local_setup.dsv
+[0.056s] -- Installing: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/package.dsv
+[0.056s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/launch_real/share/ament_index/resource_index/packages/launch_real
+[0.056s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/cmake/launch_realConfig.cmake
+[0.056s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/cmake/launch_realConfig-version.cmake
+[0.056s] -- Up-to-date: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/package.xml
+[0.058s] Invoked command in '/home/akun/workspace/CAR/real_ws/build/launch_real' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/akun/workspace/CAR/real_ws/build/launch_real

@@ -1,0 +1,49 @@
+In file included from [01m[K/home/akun/workspace/CAR/1_URDF_ws/src/livox_laser_simulation_RO2/include/ros2_livox/livox_points_plugin.h:14[m[K,
+                 from [01m[K/home/akun/workspace/CAR/1_URDF_ws/src/livox_laser_simulation_RO2/src/livox_points_plugin.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   47 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+      |      [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/akun/workspace/CAR/1_URDF_ws/src/livox_laser_simulation_RO2/src/livox_points_plugin.cpp:1[m[K:
+[01m[K/home/akun/workspace/CAR/1_URDF_ws/src/livox_laser_simulation_RO2/src/livox_points_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::LivoxPointsPlugin::OnNewLaserScans()[m[K’:
+[01m[K/home/akun/workspace/CAR/1_URDF_ws/src/livox_laser_simulation_RO2/src/livox_points_plugin.cpp:134:55:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<std::pair<int, gazebo::AviaRotateInfo> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  134 |         RCLCPP_ERROR(rclcpp::get_logger("my_logger"), [01;35m[K"points_pair的大小为:%d,第一个元素为:%d"[m[K, [32m[Kpoints_pair.size()[m[K,points_pair[0]);
+      |                                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                                                 [32m[K|[m[K
+      |                                                                                                                 [32m[Kstd::vector<std::pair<int, gazebo::AviaRotateInfo> >::size_type {aka long unsigned int}[m[K
+[01m[K/home/akun/workspace/CAR/1_URDF_ws/src/livox_laser_simulation_RO2/src/livox_points_plugin.cpp:134:77:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  134 |         RCLCPP_ERROR(rclcpp::get_logger("my_logger"), "points_pair的大小为:[01;36m[K%d[m[K,第一个元素为:%d", points_pair.size(),points_pair[0]);
+      |                                                                            [01;36m[K~^[m[K
+      |                                                                             [01;36m[K|[m[K
+      |                                                                             [01;36m[Kint[m[K
+      |                                                                            [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/akun/workspace/CAR/1_URDF_ws/src/livox_laser_simulation_RO2/src/livox_points_plugin.cpp:1[m[K:
+[01m[K/home/akun/workspace/CAR/1_URDF_ws/src/livox_laser_simulation_RO2/src/livox_points_plugin.cpp:134:55:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<std::pair<int, gazebo::AviaRotateInfo> >, std::pair<int, gazebo::AviaRotateInfo> >::value_type[m[K’ {aka ‘[01m[Kstd::pair<int, gazebo::AviaRotateInfo>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  134 |         RCLCPP_ERROR(rclcpp::get_logger("my_logger"), [01;35m[K"points_pair的大小为:%d,第一个元素为:%d"[m[K, points_pair.size(),points_pair[0]);
+      |                                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/akun/workspace/CAR/1_URDF_ws/src/livox_laser_simulation_RO2/src/livox_points_plugin.cpp:134:93:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  134 |         RCLCPP_ERROR(rclcpp::get_logger("my_logger"), "points_pair的大小为:%d,第一个元素为:[01;36m[K%d[m[K", points_pair.size(),points_pair[0]);
+      |                                                                                            [01;36m[K~^[m[K
+      |                                                                                             [01;36m[K|[m[K
+      |                                                                                             [01;36m[Kint[m[K

@@ -1,0 +1,35 @@
+[0.012s] Invoking command in '/home/akun/workspace/CAR/simulation_ws/build/sim_imu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/simulation_ws/build/sim_imu -- -j32 -l32
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target sim_imu[0m
+[0.053s] [ 50%] [32mBuilding CXX object CMakeFiles/sim_imu.dir/src/sim_imu.cpp.o[0m
+[1.513s] [01m[K/home/akun/workspace/CAR/simulation_ws/sim_imu/src/sim_imu.cpp:7:41:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[1.513s]     7 |     rclcpp::Publisher<sensor_msgs::msg::[01;31m[KPointCloud2[m[K>::SharedPtr publisher_imu;
+[1.513s]       |                                         [01;31m[K^~~~~~~~~~~[m[K
+[1.513s] [01m[K/home/akun/workspace/CAR/simulation_ws/sim_imu/src/sim_imu.cpp:7:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.513s]     7 |     rclcpp::Publisher<sensor_msgs::msg::PointCloud2[01;31m[K>[m[K::SharedPtr publisher_imu;
+[1.513s]       |                                                    [01;31m[K^[m[K
+[1.513s] [01m[K/home/akun/workspace/CAR/simulation_ws/sim_imu/src/sim_imu.cpp:7:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.513s]     7 |     rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::[01;31m[KSharedPtr[m[K publisher_imu;
+[1.513s]       |                                                       [01;31m[K^~~~~~~~~[m[K
+[1.513s]       |                                                                [32m[K;[m[K
+[1.514s] [01m[K/home/akun/workspace/CAR/simulation_ws/sim_imu/src/sim_imu.cpp:7:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_imu[m[K’ does not name a type; did you mean ‘[01m[KPublisher[m[K’?
+[1.514s]     7 |     rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr [01;31m[Kpublisher_imu[m[K;
+[1.514s]       |                                                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[1.514s]       |                                                                 [32m[KPublisher[m[K
+[1.515s] [01m[K/home/akun/workspace/CAR/simulation_ws/sim_imu/src/sim_imu.cpp:[m[K In constructor ‘[01m[KPublisher::Publisher(const string&)[m[K’:
+[1.515s] [01m[K/home/akun/workspace/CAR/simulation_ws/sim_imu/src/sim_imu.cpp:10:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Publisher[m[K’ has no member named ‘[01m[Kpublisher_imu[m[K’; did you mean ‘[01m[KPublisher[m[K’?
+[1.515s]    10 |         this->[01;31m[Kpublisher_imu[m[K = this->create_publisher<sensor_msgs::msg::Imu>("/my_imu",10);
+[1.515s]       |               [01;31m[K^~~~~~~~~~~~~[m[K
+[1.515s]       |               [32m[KPublisher[m[K
+[1.523s] [01m[K/home/akun/workspace/CAR/simulation_ws/sim_imu/src/sim_imu.cpp:12:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimex[m[K’?
+[1.523s]    12 |         [01;31m[Ktimer[m[K = this->create_wall_timer(std::chrono::seconds(1),std::bind(&Publisher::timer_callback, this));
+[1.523s]       |         [01;31m[K^~~~~[m[K
+[1.524s]       |         [32m[Ktimex[m[K
+[1.531s] [01m[K/home/akun/workspace/CAR/simulation_ws/sim_imu/src/sim_imu.cpp:[m[K In member function ‘[01m[Kvoid Publisher::timer_callback()[m[K’:
+[1.531s] [01m[K/home/akun/workspace/CAR/simulation_ws/sim_imu/src/sim_imu.cpp:37:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_imu[m[K’ was not declared in this scope; did you mean ‘[01m[KPublisher[m[K’?
+[1.531s]    37 |         [01;31m[Kpublisher_imu[m[K->publish(msg);
+[1.531s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[1.531s]       |         [32m[KPublisher[m[K
+[2.033s] gmake[2]: *** [CMakeFiles/sim_imu.dir/build.make:76: CMakeFiles/sim_imu.dir/src/sim_imu.cpp.o] Error 1
+[2.033s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/sim_imu.dir/all] Error 2
+[2.033s] gmake: *** [Makefile:146: all] Error 2
+[2.035s] Invoked command in '/home/akun/workspace/CAR/simulation_ws/build/sim_imu' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/simulation_ws/build/sim_imu -- -j32 -l32

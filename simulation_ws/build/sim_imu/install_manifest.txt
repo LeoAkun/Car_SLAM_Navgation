@@ -1,0 +1,16 @@
+/home/akun/workspace/CAR/simulation_ws/install/sim_imu/lib/sim_imu/sim_imu
+/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/ament_index/resource_index/package_run_dependencies/sim_imu
+/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/ament_index/resource_index/parent_prefix_path/sim_imu
+/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/environment/ament_prefix_path.sh
+/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/environment/ament_prefix_path.dsv
+/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/environment/path.sh
+/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/environment/path.dsv
+/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/local_setup.bash
+/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/local_setup.sh
+/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/local_setup.zsh
+/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/local_setup.dsv
+/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/package.dsv
+/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/ament_index/resource_index/packages/sim_imu
+/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/cmake/sim_imuConfig.cmake
+/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/cmake/sim_imuConfig-version.cmake
+/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/package.xml

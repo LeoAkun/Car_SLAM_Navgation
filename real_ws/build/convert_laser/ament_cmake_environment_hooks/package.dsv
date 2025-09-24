@@ -1,0 +1,4 @@
+source;share/convert_laser/local_setup.bash
+source;share/convert_laser/local_setup.dsv
+source;share/convert_laser/local_setup.sh
+source;share/convert_laser/local_setup.zsh

@@ -1,0 +1,44 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_livox[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/ros2_livox.dir/src/livox_points_plugin.cpp.o[0m
+In file included from [01m[K/home/akun/workspace/CAR/1_URDF_ws/src/livox_laser_simulation_RO2/include/ros2_livox/livox_points_plugin.h:14[m[K,
+                 from [01m[K/home/akun/workspace/CAR/1_URDF_ws/src/livox_laser_simulation_RO2/src/livox_points_plugin.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   47 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+      |      [01;35m[K^~~~~~~[m[K
+[01m[K/home/akun/workspace/CAR/1_URDF_ws/src/livox_laser_simulation_RO2/src/livox_points_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::LivoxPointsPlugin::OnNewLaserScans()[m[K’:
+[01m[K/home/akun/workspace/CAR/1_URDF_ws/src/livox_laser_simulation_RO2/src/livox_points_plugin.cpp:151:22:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2Modifier[m[K’ is not a member of ‘[01m[Ksensor_msgs[m[K’
+  151 |         sensor_msgs::[01;31m[KPointCloud2Modifier[m[K modifier(cloud2);
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/akun/workspace/CAR/1_URDF_ws/src/livox_laser_simulation_RO2/src/livox_points_plugin.cpp:152:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmodifier[m[K’ was not declared in this scope
+  152 |         [01;31m[Kmodifier[m[K.setPointCloud2FieldsByString(2, "xyz", "rgb");
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/akun/workspace/CAR/1_URDF_ws/src/livox_laser_simulation_RO2/src/livox_points_plugin.cpp:155:22:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2Iterator[m[K’ is not a member of ‘[01m[Ksensor_msgs[m[K’
+  155 |         sensor_msgs::[01;31m[KPointCloud2Iterator[m[K<float> out_x(cloud2, "x");
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/akun/workspace/CAR/1_URDF_ws/src/livox_laser_simulation_RO2/src/livox_points_plugin.cpp:155:42:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+  155 |         sensor_msgs::PointCloud2Iterator<[01;31m[Kfloat[m[K> out_x(cloud2, "x");
+      |                                          [01;31m[K^~~~~[m[K
+[01m[K/home/akun/workspace/CAR/1_URDF_ws/src/livox_laser_simulation_RO2/src/livox_points_plugin.cpp:156:22:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2Iterator[m[K’ is not a member of ‘[01m[Ksensor_msgs[m[K’
+  156 |         sensor_msgs::[01;31m[KPointCloud2Iterator[m[K<float> out_y(cloud2, "y");
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/akun/workspace/CAR/1_URDF_ws/src/livox_laser_simulation_RO2/src/livox_points_plugin.cpp:156:42:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+  156 |         sensor_msgs::PointCloud2Iterator<[01;31m[Kfloat[m[K> out_y(cloud2, "y");
+      |                                          [01;31m[K^~~~~[m[K
+[01m[K/home/akun/workspace/CAR/1_URDF_ws/src/livox_laser_simulation_RO2/src/livox_points_plugin.cpp:157:22:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2Iterator[m[K’ is not a member of ‘[01m[Ksensor_msgs[m[K’
+  157 |         sensor_msgs::[01;31m[KPointCloud2Iterator[m[K<float> out_z(cloud2, "z");
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/akun/workspace/CAR/1_URDF_ws/src/livox_laser_simulation_RO2/src/livox_points_plugin.cpp:157:42:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+  157 |         sensor_msgs::PointCloud2Iterator<[01;31m[Kfloat[m[K> out_z(cloud2, "z");
+      |                                          [01;31m[K^~~~~[m[K
+[01m[K/home/akun/workspace/CAR/1_URDF_ws/src/livox_laser_simulation_RO2/src/livox_points_plugin.cpp:184:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kout_x[m[K’ was not declared in this scope
+  184 |             *[01;31m[Kout_x[m[K = point.X();
+      |              [01;31m[K^~~~~[m[K
+[01m[K/home/akun/workspace/CAR/1_URDF_ws/src/livox_laser_simulation_RO2/src/livox_points_plugin.cpp:185:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kout_y[m[K’ was not declared in this scope
+  185 |             *[01;31m[Kout_y[m[K = point.Y();
+      |              [01;31m[K^~~~~[m[K
+[01m[K/home/akun/workspace/CAR/1_URDF_ws/src/livox_laser_simulation_RO2/src/livox_points_plugin.cpp:186:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kout_z[m[K’ was not declared in this scope
+  186 |             *[01;31m[Kout_z[m[K = point.Z();
+      |              [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/ros2_livox.dir/build.make:76: CMakeFiles/ros2_livox.dir/src/livox_points_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ros2_livox.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

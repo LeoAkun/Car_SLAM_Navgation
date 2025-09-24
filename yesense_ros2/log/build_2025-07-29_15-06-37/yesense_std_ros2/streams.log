@@ -1,0 +1,94 @@
+[0.062s] Invoking command in '/home/akun/workspace/CAR/yesense_ros2/build/yesense_std_ros2': AMENT_PREFIX_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:/home/akun/workspace/CAR/serial_ros2/install/serial:/tmp/usr/local:/tmp/usr/local:/home/akun/workspace/CAR/LIO-SAM/install/lio_sam:/home/akun/workspace/CAR/simulation_ws/install/sim_imu:/home/akun/workspace/CAR/simulation_ws/install/convert_time:/home/akun/workspace/CAR/real_ws/install/convert_laser:/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/akun/workspace/CAR/yesense_ros2/yesense_std_ros2 -DCMAKE_INSTALL_PREFIX=/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2
+[0.157s] -- The C compiler identification is GNU 11.4.0
+[0.801s] -- The CXX compiler identification is GNU 11.4.0
+[1.371s] -- Detecting C compiler ABI info
+[1.544s] -- Detecting C compiler ABI info - done
+[1.548s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.548s] -- Detecting C compile features
+[1.548s] -- Detecting C compile features - done
+[1.550s] -- Detecting CXX compiler ABI info
+[1.722s] -- Detecting CXX compiler ABI info - done
+[1.725s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.726s] -- Detecting CXX compile features
+[1.726s] -- Detecting CXX compile features - done
+[1.727s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.808s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.860s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[2.090s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.093s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.098s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.104s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.113s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.156s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.159s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.613s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.857s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.990s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.000s] -- Looking for pthread.h
+[7.092s] -- Looking for pthread.h - found
+[7.092s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.181s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.182s] -- Found Threads: TRUE  
+[7.224s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[7.247s] -- Found serial: 1.2.1 (/home/akun/workspace/CAR/serial_ros2/install/serial/share/serial/cmake)
+[7.249s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[7.262s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[7.275s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[7.280s] -- Found yesense_interface: 1.0.0 (/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/share/yesense_interface/cmake)
+[7.291s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.342s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.343s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.343s] -- Configured cppcheck include dirs: /home/akun/workspace/CAR/yesense_ros2/yesense_std_ros2/include;/home/akun/workspace/CAR/yesense_ros2/yesense_std_ros2/src
+[7.343s] -- Configured cppcheck exclude dirs and/or files: 
+[7.344s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.344s] -- Configured cpplint exclude dirs and/or files: 
+[7.344s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.345s] -- Added test 'lint_cmake' to check CMake code style
+[7.346s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.346s] -- Added test 'uncrustify' to check C / C++ code style
+[7.346s] -- Configured uncrustify additional arguments: 
+[7.347s] -- Added test 'xmllint' to check XML markup files
+[7.348s] -- Configuring done
+[7.357s] -- Generating done
+[7.361s] -- Build files have been written to: /home/akun/workspace/CAR/yesense_ros2/build/yesense_std_ros2
+[7.367s] Invoked command in '/home/akun/workspace/CAR/yesense_ros2/build/yesense_std_ros2' returned '0': AMENT_PREFIX_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:/home/akun/workspace/CAR/serial_ros2/install/serial:/tmp/usr/local:/tmp/usr/local:/home/akun/workspace/CAR/LIO-SAM/install/lio_sam:/home/akun/workspace/CAR/simulation_ws/install/sim_imu:/home/akun/workspace/CAR/simulation_ws/install/convert_time:/home/akun/workspace/CAR/real_ws/install/convert_laser:/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/akun/workspace/CAR/yesense_ros2/yesense_std_ros2 -DCMAKE_INSTALL_PREFIX=/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2
+[7.369s] Invoking command in '/home/akun/workspace/CAR/yesense_ros2/build/yesense_std_ros2': AMENT_PREFIX_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:/home/akun/workspace/CAR/serial_ros2/install/serial:/tmp/usr/local:/tmp/usr/local:/home/akun/workspace/CAR/LIO-SAM/install/lio_sam:/home/akun/workspace/CAR/simulation_ws/install/sim_imu:/home/akun/workspace/CAR/simulation_ws/install/convert_time:/home/akun/workspace/CAR/real_ws/install/convert_laser:/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/akun/workspace/CAR/yesense_ros2/build/yesense_std_ros2 -- -j32 -l32
+[7.398s] [ 33%] [32mBuilding CXX object CMakeFiles/yesense_node_subscriber.dir/src/yesense_node_subscriber_example.cpp.o[0m
+[7.398s] [ 33%] [32mBuilding CXX object CMakeFiles/yesense_node_publisher.dir/src/yesense_node.cpp.o[0m
+[7.398s] [ 50%] [32mBuilding CXX object CMakeFiles/yesense_node_publisher.dir/src/yesense_std_out_decoder.cpp.o[0m
+[7.398s] [ 66%] [32mBuilding CXX object CMakeFiles/yesense_node_publisher.dir/src/yesense_decoder.cpp.o[0m
+[8.749s] [01m[K/home/akun/workspace/CAR/yesense_ros2/yesense_std_ros2/src/yesense_node.cpp:[m[K In member function ‘[01m[Kvoid YESENSE_Publisher::timer_callback()[m[K’:
+[8.749s] [01m[K/home/akun/workspace/CAR/yesense_ros2/yesense_std_ros2/src/yesense_node.cpp:248:32:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kavailable_bytes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.749s]   248 |                         size_t [01;35m[Kavailable_bytes[m[K = ser.available();
+[8.749s]       |                                [01;35m[K^~~~~~~~~~~~~~~[m[K
+[12.559s] [ 83%] [32m[1mLinking CXX executable yesense_node_publisher[0m
+[12.846s] [ 83%] Built target yesense_node_publisher
+[15.830s] [100%] [32m[1mLinking CXX executable yesense_node_subscriber[0m
+[16.351s] [100%] Built target yesense_node_subscriber
+[16.363s] Invoked command in '/home/akun/workspace/CAR/yesense_ros2/build/yesense_std_ros2' returned '0': AMENT_PREFIX_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:/home/akun/workspace/CAR/serial_ros2/install/serial:/tmp/usr/local:/tmp/usr/local:/home/akun/workspace/CAR/LIO-SAM/install/lio_sam:/home/akun/workspace/CAR/simulation_ws/install/sim_imu:/home/akun/workspace/CAR/simulation_ws/install/convert_time:/home/akun/workspace/CAR/real_ws/install/convert_laser:/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/akun/workspace/CAR/yesense_ros2/build/yesense_std_ros2 -- -j32 -l32
+[16.365s] Invoking command in '/home/akun/workspace/CAR/yesense_ros2/build/yesense_std_ros2': AMENT_PREFIX_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:/home/akun/workspace/CAR/serial_ros2/install/serial:/tmp/usr/local:/tmp/usr/local:/home/akun/workspace/CAR/LIO-SAM/install/lio_sam:/home/akun/workspace/CAR/simulation_ws/install/sim_imu:/home/akun/workspace/CAR/simulation_ws/install/convert_time:/home/akun/workspace/CAR/real_ws/install/convert_laser:/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/akun/workspace/CAR/yesense_ros2/build/yesense_std_ros2
+[16.369s] -- Install configuration: ""
+[16.369s] -- Installing: /home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/launch
+[16.369s] -- Installing: /home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/launch/yesense_node.launch.py
+[16.370s] -- Installing: /home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/config
+[16.370s] -- Installing: /home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/config/yesense_config.yaml
+[16.370s] -- Installing: /home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/lib/yesense_std_ros2/yesense_node_publisher
+[16.372s] -- Set runtime path of "/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/lib/yesense_std_ros2/yesense_node_publisher" to ""
+[16.372s] -- Installing: /home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/lib/yesense_std_ros2/yesense_node_subscriber
+[16.376s] -- Set runtime path of "/home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/lib/yesense_std_ros2/yesense_node_subscriber" to ""
+[16.376s] -- Installing: /home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/ament_index/resource_index/package_run_dependencies/yesense_std_ros2
+[16.376s] -- Installing: /home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/ament_index/resource_index/parent_prefix_path/yesense_std_ros2
+[16.376s] -- Installing: /home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/environment/ament_prefix_path.sh
+[16.376s] -- Installing: /home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/environment/ament_prefix_path.dsv
+[16.377s] -- Installing: /home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/environment/path.sh
+[16.377s] -- Installing: /home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/environment/path.dsv
+[16.377s] -- Installing: /home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/local_setup.bash
+[16.377s] -- Installing: /home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/local_setup.sh
+[16.377s] -- Installing: /home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/local_setup.zsh
+[16.377s] -- Installing: /home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/local_setup.dsv
+[16.377s] -- Installing: /home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/package.dsv
+[16.377s] -- Installing: /home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/ament_index/resource_index/packages/yesense_std_ros2
+[16.377s] -- Installing: /home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/cmake/yesense_std_ros2Config.cmake
+[16.378s] -- Installing: /home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/cmake/yesense_std_ros2Config-version.cmake
+[16.378s] -- Installing: /home/akun/workspace/CAR/yesense_ros2/install/yesense_std_ros2/share/yesense_std_ros2/package.xml
+[16.379s] Invoked command in '/home/akun/workspace/CAR/yesense_ros2/build/yesense_std_ros2' returned '0': AMENT_PREFIX_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface:/home/akun/workspace/CAR/serial_ros2/install/serial:/tmp/usr/local:/tmp/usr/local:/home/akun/workspace/CAR/LIO-SAM/install/lio_sam:/home/akun/workspace/CAR/simulation_ws/install/sim_imu:/home/akun/workspace/CAR/simulation_ws/install/convert_time:/home/akun/workspace/CAR/real_ws/install/convert_laser:/home/akun/workspace/CAR/1_URDF_ws/install/ros2_livox_simulation:/home/akun/workspace/CAR/1_URDF_ws/install/robot:/home/akun/workspace/CAR/livox_ros_driver2/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akun/workspace/CAR/yesense_ros2/install/yesense_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/akun/workspace/CAR/yesense_ros2/build/yesense_std_ros2

@@ -1,0 +1,46 @@
+[0.010s] Invoking command in '/home/akun/workspace/CAR/real_ws/build/launch_real': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/akun/workspace/CAR/real_ws/launch_real -DCMAKE_INSTALL_PREFIX=/home/akun/workspace/CAR/real_ws/install/launch_real
+[0.153s] -- The C compiler identification is GNU 11.4.0
+[0.486s] -- The CXX compiler identification is GNU 11.4.0
+[0.727s] -- Detecting C compiler ABI info
+[0.818s] -- Detecting C compiler ABI info - done
+[0.822s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.824s] -- Detecting C compile features
+[0.824s] -- Detecting C compile features - done
+[0.827s] -- Detecting CXX compiler ABI info
+[0.930s] -- Detecting CXX compiler ABI info - done
+[0.934s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.934s] -- Detecting CXX compile features
+[0.935s] -- Detecting CXX compile features - done
+[0.948s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.039s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.114s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.170s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.171s] -- Added test 'lint_cmake' to check CMake code style
+[1.172s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.173s] -- Added test 'xmllint' to check XML markup files
+[1.175s] -- Configuring done
+[1.177s] -- Generating done
+[1.178s] -- Build files have been written to: /home/akun/workspace/CAR/real_ws/build/launch_real
+[1.181s] Invoked command in '/home/akun/workspace/CAR/real_ws/build/launch_real' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/akun/workspace/CAR/real_ws/launch_real -DCMAKE_INSTALL_PREFIX=/home/akun/workspace/CAR/real_ws/install/launch_real
+[1.182s] Invoking command in '/home/akun/workspace/CAR/real_ws/build/launch_real': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/real_ws/build/launch_real -- -j32 -l32
+[1.203s] Invoked command in '/home/akun/workspace/CAR/real_ws/build/launch_real' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/real_ws/build/launch_real -- -j32 -l32
+[1.204s] Invoking command in '/home/akun/workspace/CAR/real_ws/build/launch_real': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/akun/workspace/CAR/real_ws/build/launch_real
+[1.208s] -- Install configuration: ""
+[1.208s] -- Installing: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/launch
+[1.208s] -- Installing: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/launch/run.launch.py
+[1.209s] -- Installing: /home/akun/workspace/CAR/real_ws/install/launch_real/share/ament_index/resource_index/package_run_dependencies/launch_real
+[1.209s] -- Installing: /home/akun/workspace/CAR/real_ws/install/launch_real/share/ament_index/resource_index/parent_prefix_path/launch_real
+[1.209s] -- Installing: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/environment/ament_prefix_path.sh
+[1.209s] -- Installing: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/environment/ament_prefix_path.dsv
+[1.210s] -- Installing: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/environment/path.sh
+[1.210s] -- Installing: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/environment/path.dsv
+[1.210s] -- Installing: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/local_setup.bash
+[1.210s] -- Installing: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/local_setup.sh
+[1.210s] -- Installing: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/local_setup.zsh
+[1.210s] -- Installing: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/local_setup.dsv
+[1.210s] -- Installing: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/package.dsv
+[1.211s] -- Installing: /home/akun/workspace/CAR/real_ws/install/launch_real/share/ament_index/resource_index/packages/launch_real
+[1.211s] -- Installing: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/cmake/launch_realConfig.cmake
+[1.211s] -- Installing: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/cmake/launch_realConfig-version.cmake
+[1.211s] -- Installing: /home/akun/workspace/CAR/real_ws/install/launch_real/share/launch_real/package.xml
+[1.212s] Invoked command in '/home/akun/workspace/CAR/real_ws/build/launch_real' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/akun/workspace/CAR/real_ws/build/launch_real

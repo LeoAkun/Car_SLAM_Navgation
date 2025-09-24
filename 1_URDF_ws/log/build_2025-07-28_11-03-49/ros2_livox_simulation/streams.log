@@ -1,0 +1,16 @@
+[0.011s] Invoking command in '/home/akun/workspace/CAR/1_URDF_ws/build/ros2_livox_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/1_URDF_ws/build/ros2_livox_simulation -- -j32 -l32
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target ros2_livox[0m
+[0.072s] [ 33%] [32mBuilding CXX object CMakeFiles/ros2_livox.dir/src/livox_points_plugin.cpp.o[0m
+[1.522s] In file included from [01m[K/home/akun/workspace/CAR/1_URDF_ws/src/livox_laser_simulation_RO2/include/ros2_livox/livox_points_plugin.h:14[m[K,
+[1.522s]                  from [01m[K/home/akun/workspace/CAR/1_URDF_ws/src/livox_laser_simulation_RO2/src/livox_points_plugin.cpp:17[m[K:
+[1.522s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[1.522s]    47 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+[1.522s]       |      [01;35m[K^~~~~~~[m[K
+[5.771s] [01m[K/home/akun/workspace/CAR/1_URDF_ws/src/livox_laser_simulation_RO2/src/livox_points_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::LivoxPointsPlugin::OnNewLaserScans()[m[K’:
+[5.771s] [01m[K/home/akun/workspace/CAR/1_URDF_ws/src/livox_laser_simulation_RO2/src/livox_points_plugin.cpp:158:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass sensor_msgs::PointCloud2Modifier[m[K’ has no member named ‘[01m[KaddField[m[K’
+[5.771s]   158 |         modifier.[01;31m[KaddField[m[K("ring", 1, sensor_msgs::msg::PointField::UINT16);
+[5.771s]       |                  [01;31m[K^~~~~~~~[m[K
+[7.211s] gmake[2]: *** [CMakeFiles/ros2_livox.dir/build.make:76: CMakeFiles/ros2_livox.dir/src/livox_points_plugin.cpp.o] Error 1
+[7.211s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ros2_livox.dir/all] Error 2
+[7.211s] gmake: *** [Makefile:146: all] Error 2
+[7.213s] Invoked command in '/home/akun/workspace/CAR/1_URDF_ws/build/ros2_livox_simulation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/1_URDF_ws/build/ros2_livox_simulation -- -j32 -l32

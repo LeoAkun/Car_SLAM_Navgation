@@ -1,0 +1,4 @@
+Invoking command in '/home/akun/workspace/CAR/real_ws/build/launch_real': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/real_ws/build/launch_real -- -j32 -l32
+Invoked command in '/home/akun/workspace/CAR/real_ws/build/launch_real' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/real_ws/build/launch_real -- -j32 -l32
+Invoking command in '/home/akun/workspace/CAR/real_ws/build/launch_real': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/akun/workspace/CAR/real_ws/build/launch_real
+Invoked command in '/home/akun/workspace/CAR/real_ws/build/launch_real' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/akun/workspace/CAR/real_ws/build/launch_real

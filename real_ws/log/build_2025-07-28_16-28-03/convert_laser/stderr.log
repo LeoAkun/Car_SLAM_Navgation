@@ -1,0 +1,7 @@
+[01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:[m[K In member function ‘[01m[Kvoid Subscriber::callback_laser(livox_ros_driver2::msg::CustomMsg)[m[K’:
+[01m[K/home/akun/workspace/CAR/real_ws/convert_laser/src/convert.cpp:41:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoints_pair[m[K’ was not declared in this scope
+   41 |         modifier.resize([01;31m[Kpoints_pair[m[K.size());
+      |                         [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/convert.dir/build.make:76: CMakeFiles/convert.dir/src/convert.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/convert.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
