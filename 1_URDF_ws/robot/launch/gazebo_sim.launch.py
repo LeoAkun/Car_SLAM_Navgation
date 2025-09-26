@@ -17,7 +17,7 @@ def generate_launch_description():
     # default_rviz_config_path = os.path.join(get_package_share_directory("robot"), 'rviz_config/robot_model.rviz')
     
     # 获取gazebo布置好的世界路径
-    default_gazebo_world_path = os.path.join(get_package_share_directory("robot"), 'world/custom_room.world')
+    default_gazebo_world_path = os.path.join(get_package_share_directory("robot"), 'world/custom_world2.world')
     # default_gazebo_world_path = os.path.join(get_package_share_directory("robot"), 'world/world/RMUL2024_world/RMUL2024_world.world')
     # 模型文件路径参数
     urdf_param = DeclareLaunchArgument(

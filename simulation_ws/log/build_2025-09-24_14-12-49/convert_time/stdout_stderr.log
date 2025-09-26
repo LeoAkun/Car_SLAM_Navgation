@@ -1,0 +1,9 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/convert_time.dir/src/convert_time.cpp.o[0m
+[01m[K/home/akun/workspace/CAR/simulation_ws/convert_time/src/convert_time.cpp:[m[K In member function ‘[01m[Kvoid Subscriber::callback_imu(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/akun/workspace/CAR/simulation_ws/convert_time/src/convert_time.cpp:45:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kimus[m[K’ was not declared in this scope; did you mean ‘[01m[Kimu[m[K’?
+   45 |         [01;31m[Kimus[m[K->header.frame_id="imu_link";
+      |         [01;31m[K^~~~[m[K
+      |         [32m[Kimu[m[K
+gmake[2]: *** [CMakeFiles/convert_time.dir/build.make:76: CMakeFiles/convert_time.dir/src/convert_time.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/convert_time.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

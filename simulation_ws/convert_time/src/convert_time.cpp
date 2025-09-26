@@ -26,23 +26,24 @@ private:
     void callback_laser(sensor_msgs::msg::PointCloud2::SharedPtr cloud2)
     {
         // RCLCPP_INFO(this->get_logger(), "接收到laser\n");
-        auto now = std::chrono::system_clock::now();  // 真实时间
-        auto now_ns = std::chrono::time_point_cast<std::chrono::nanoseconds>(now);
-        uint64_t ns_since_epoch = now_ns.time_since_epoch().count();       
-        rclcpp::Time real_time(ns_since_epoch, RCL_SYSTEM_TIME);
-        cloud2->header.stamp = real_time;
+        // auto now = std::chrono::system_clock::now();  // 真实时间
+        // auto now_ns = std::chrono::time_point_cast<std::chrono::nanoseconds>(now);
+        // uint64_t ns_since_epoch = now_ns.time_since_epoch().count();       
+        // rclcpp::Time real_time(ns_since_epoch, RCL_SYSTEM_TIME);
+        // cloud2->header.stamp = real_time;
         publisher_laser->publish(*cloud2);
     }
 
     void callback_imu(sensor_msgs::msg::Imu::SharedPtr imu)
     {
         // RCLCPP_INFO(this->get_logger(), "接收到imu\n");
-        auto now = std::chrono::system_clock::now();  // 真实时间
-        auto now_ns = std::chrono::time_point_cast<std::chrono::nanoseconds>(now);
-        uint64_t ns_since_epoch = now_ns.time_since_epoch().count();       
-        rclcpp::Time real_time(ns_since_epoch, RCL_SYSTEM_TIME);
-        imu->header.stamp = real_time;
-        imu->linear_acceleration.z=9.85;
+        // auto now = std::chrono::system_clock::now();  // 真实时间
+        // auto now_ns = std::chrono::time_point_cast<std::chrono::nanoseconds>(now);
+        // uint64_t ns_since_epoch = now_ns.time_since_epoch().count();       
+        // rclcpp::Time real_time(ns_since_epoch, RCL_SYSTEM_TIME);
+        // imu->header.stamp = real_time;
+        imu->header.frame_id="imu_link";
+        // imu->linear_acceleration.z*=9.85;
         publisher_imu->publish(*imu);
     }
 };

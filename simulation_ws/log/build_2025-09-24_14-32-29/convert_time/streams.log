@@ -1,0 +1,30 @@
+[0.021s] Invoking command in '/home/akun/workspace/CAR/simulation_ws/build/convert_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/simulation_ws/build/convert_time -- -j32 -l32
+[0.084s] [35m[1mConsolidate compiler generated dependencies of target convert_time[0m
+[0.094s] [ 50%] [32mBuilding CXX object CMakeFiles/convert_time.dir/src/convert_time.cpp.o[0m
+[1.664s] [01m[K/home/akun/workspace/CAR/simulation_ws/convert_time/src/convert_time.cpp:[m[K In member function ‘[01m[Kvoid Subscriber::callback_laser(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.665s] [01m[K/home/akun/workspace/CAR/simulation_ws/convert_time/src/convert_time.cpp:26:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcloud2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.665s]    26 |     void callback_laser([01;35m[Ksensor_msgs::msg::PointCloud2::SharedPtr cloud2[m[K)
+[1.665s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[6.457s] [100%] [32m[1mLinking CXX executable convert_time[0m
+[6.819s] [100%] Built target convert_time
+[6.825s] Invoked command in '/home/akun/workspace/CAR/simulation_ws/build/convert_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/simulation_ws/build/convert_time -- -j32 -l32
+[6.828s] Invoking command in '/home/akun/workspace/CAR/simulation_ws/build/convert_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/akun/workspace/CAR/simulation_ws/build/convert_time
+[6.831s] -- Install configuration: ""
+[6.832s] -- Installing: /home/akun/workspace/CAR/simulation_ws/install/convert_time/lib/convert_time/convert_time
+[6.836s] -- Set runtime path of "/home/akun/workspace/CAR/simulation_ws/install/convert_time/lib/convert_time/convert_time" to ""
+[6.836s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/convert_time/share/ament_index/resource_index/package_run_dependencies/convert_time
+[6.836s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/convert_time/share/ament_index/resource_index/parent_prefix_path/convert_time
+[6.836s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/convert_time/share/convert_time/environment/ament_prefix_path.sh
+[6.836s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/convert_time/share/convert_time/environment/ament_prefix_path.dsv
+[6.836s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/convert_time/share/convert_time/environment/path.sh
+[6.836s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/convert_time/share/convert_time/environment/path.dsv
+[6.836s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/convert_time/share/convert_time/local_setup.bash
+[6.836s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/convert_time/share/convert_time/local_setup.sh
+[6.836s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/convert_time/share/convert_time/local_setup.zsh
+[6.836s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/convert_time/share/convert_time/local_setup.dsv
+[6.836s] -- Installing: /home/akun/workspace/CAR/simulation_ws/install/convert_time/share/convert_time/package.dsv
+[6.837s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/convert_time/share/ament_index/resource_index/packages/convert_time
+[6.837s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/convert_time/share/convert_time/cmake/convert_timeConfig.cmake
+[6.837s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/convert_time/share/convert_time/cmake/convert_timeConfig-version.cmake
+[6.837s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/convert_time/share/convert_time/package.xml
+[6.838s] Invoked command in '/home/akun/workspace/CAR/simulation_ws/build/convert_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/akun/workspace/CAR/simulation_ws/build/convert_time

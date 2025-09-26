@@ -1,0 +1,4 @@
+Invoking command in '/home/akun/workspace/CAR/simulation_ws/build/convert_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/simulation_ws/build/convert_time -- -j32 -l32
+Invoked command in '/home/akun/workspace/CAR/simulation_ws/build/convert_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/simulation_ws/build/convert_time -- -j32 -l32
+Invoking command in '/home/akun/workspace/CAR/simulation_ws/build/convert_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/akun/workspace/CAR/simulation_ws/build/convert_time
+Invoked command in '/home/akun/workspace/CAR/simulation_ws/build/convert_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/akun/workspace/CAR/simulation_ws/build/convert_time

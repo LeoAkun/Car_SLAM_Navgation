@@ -18,6 +18,7 @@
 /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/urdf/first_robot.urdf
 /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/urdf/first_robot.gv
 /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/rviz_config/robot_model.rviz
+/home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/world/custom_world2.world
 /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/world/room/model.sdf
 /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/world/room/model.config
 /home/akun/workspace/CAR/1_URDF_ws/install/robot/share/robot/world/custom_world.world

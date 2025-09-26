@@ -1,76 +1,70 @@
-#!/usr/bin/env python3
-# imu_analyze.py
-import rclpy, time, numpy as np
+import rclpy
 from rclpy.node import Node
-from sensor_msgs.msg import Imu
-import argparse
+from geometry_msgs.msg import Twist
+import math
 
-class ImuAnalyzer(Node):
-    def __init__(self, topic, duration):
-        super().__init__('imu_analyzer')
-        self.sub = self.create_subscription(Imu, topic, self.cb, 400)
-        self.samples = []
-        self.start = time.time()
-        self.duration = duration
-        self.get_logger().info(f'Collecting IMU on {topic} for {duration}s...')
 
-    def cb(self, msg):
-        if time.time() - self.start > self.duration:
-            return
-        ax = msg.linear_acceleration.x
-        ay = msg.linear_acceleration.y
-        az = msg.linear_acceleration.z
-        gx = msg.angular_velocity.x
-        gy = msg.angular_velocity.y
-        gz = msg.angular_velocity.z
-        self.samples.append((ax,ay,az,gx,gy,gz))
+class CmdVelSmoother(Node):
+    def __init__(self):
+        super().__init__('cmd_vel_smoother')
 
-    def report(self):
-        if len(self.samples) == 0:
-            self.get_logger().error('No samples collected.')
-            return
-        a = np.array(self.samples)[:,0:3]
-        g = np.array(self.samples)[:,3:6]
-        norms = np.linalg.norm(a, axis=1)
-        dz = np.abs(np.diff(a[:,2])) if a.shape[0] > 1 else np.array([0.0])
+        # 参数：最大加速度/减速度
+        self.declare_parameter('max_lin_acc', 1.0)   # m/s^2
+        self.declare_parameter('max_ang_acc', 2.0)   # rad/s^2
+        self.declare_parameter('rate', 30)           # Hz
 
-        def fmt(x): return ', '.join([f'{v:.4f}' for v in x])
+        self.max_lin_acc = self.get_parameter('max_lin_acc').value
+        self.max_ang_acc = self.get_parameter('max_ang_acc').value
+        self.dt = 1.0 / self.get_parameter('rate').value
 
-        self.get_logger().info(f'Samples: {len(self.samples)}')
-        self.get_logger().info(f'acc mean (x,y,z): {fmt(a.mean(axis=0))}')
-        self.get_logger().info(f'acc std  (x,y,z): {fmt(a.std(axis=0))}')
-        self.get_logger().info(f'acc min  (x,y,z): {fmt(a.min(axis=0))}')
-        self.get_logger().info(f'acc max  (x,y,z): {fmt(a.max(axis=0))}')
-        self.get_logger().info(f'gyro mean (x,y,z): {fmt(g.mean(axis=0))}')
-        self.get_logger().info(f'gyro std  (x,y,z): {fmt(g.std(axis=0))}')
-        self.get_logger().info(f'acc norm mean/std/min/max: {np.mean(norms):.4f} / {np.std(norms):.4f} / {np.min(norms):.4f} / {np.max(norms):.4f}')
-        self.get_logger().info(f'max z jump: {np.max(dz):.4f}')
-        # unit guess
-        mz = np.mean(a[:,2])
-        if abs(mz - 1.0) < 0.3:
-            self.get_logger().warn('Detected likely unit = g (≈1). Consider multiplying by 9.81 for m/s^2.')
-        elif abs(np.mean(norms) - 9.81) < 1.0:
-            self.get_logger().info('Detected likely unit = m/s^2 (norm close to 9.81).')
-        else:
-            self.get_logger().warn('Acceleration norm not close to 9.81; possible issues (vibration, bias, or parsing error).')
+        # 当前和目标速度
+        self.current_lin = 0.0
+        self.current_ang = 0.0
+        self.target_lin = 0.0
+        self.target_ang = 0.0
 
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--topic', default='/imu_raw')
-    parser.add_argument('--dur', type=float, default=5.0)
-    args = parser.parse_args()
+        # 订阅 /cmd_vel，发布 /cmd_vel_smooth
+        self.sub = self.create_subscription(
+            Twist, '/cmd_vel', self.cmd_vel_callback, 10)
+        self.pub = self.create_publisher(
+            Twist, '/cmd_vel_smooth', 10)
 
-    rclpy.init()
-    node = ImuAnalyzer(args.topic, args.dur)
-    try:
-        timeout = time.time() + args.dur + 0.5
-        while time.time() < timeout:
-            rclpy.spin_once(node, timeout_sec=0.1)
-    except KeyboardInterrupt:
-        pass
-    node.report()
+        # 定时器循环更新
+        self.timer = self.create_timer(self.dt, self.update)
+
+    def cmd_vel_callback(self, msg: Twist):
+        """保存目标速度"""
+        self.target_lin = msg.linear.x
+        self.target_ang = msg.angular.z
+
+    def update(self):
+        """逐步逼近目标速度，避免硬刹车"""
+        # 线速度
+        diff_lin = self.target_lin - self.current_lin
+        max_step_lin = self.max_lin_acc * self.dt
+        step_lin = math.copysign(min(abs(diff_lin), max_step_lin), diff_lin)
+        self.current_lin += step_lin
+
+        # 角速度
+        diff_ang = self.target_ang - self.current_ang
+        max_step_ang = self.max_ang_acc * self.dt
+        step_ang = math.copysign(min(abs(diff_ang), max_step_ang), diff_ang)
+        self.current_ang += step_ang
+
+        # 发布平滑后的 cmd_vel
+        smooth_msg = Twist()
+        smooth_msg.linear.x = self.current_lin
+        smooth_msg.angular.z = self.current_ang
+        self.pub.publish(smooth_msg)
+
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = CmdVelSmoother()
+    rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()
+
 
 if __name__ == '__main__':
     main()
