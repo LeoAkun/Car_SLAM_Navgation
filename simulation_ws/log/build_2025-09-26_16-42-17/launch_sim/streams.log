@@ -1,0 +1,22 @@
+[0.143s] Invoking command in '/home/akun/workspace/CAR/simulation_ws/build/launch_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/simulation_ws/build/launch_sim -- -j32 -l32
+[0.187s] Invoked command in '/home/akun/workspace/CAR/simulation_ws/build/launch_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/simulation_ws/build/launch_sim -- -j32 -l32
+[0.193s] Invoking command in '/home/akun/workspace/CAR/simulation_ws/build/launch_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/akun/workspace/CAR/simulation_ws/build/launch_sim
+[0.197s] -- Install configuration: ""
+[0.198s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/launch
+[0.198s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/launch/run.launch.py
+[0.198s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/ament_index/resource_index/package_run_dependencies/launch_sim
+[0.198s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/ament_index/resource_index/parent_prefix_path/launch_sim
+[0.199s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/environment/ament_prefix_path.sh
+[0.199s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/environment/ament_prefix_path.dsv
+[0.199s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/environment/path.sh
+[0.199s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/environment/path.dsv
+[0.199s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/local_setup.bash
+[0.199s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/local_setup.sh
+[0.199s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/local_setup.zsh
+[0.199s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/local_setup.dsv
+[0.199s] -- Installing: /home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/package.dsv
+[0.200s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/ament_index/resource_index/packages/launch_sim
+[0.200s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/cmake/launch_simConfig.cmake
+[0.200s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/cmake/launch_simConfig-version.cmake
+[0.200s] -- Up-to-date: /home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/package.xml
+[0.202s] Invoked command in '/home/akun/workspace/CAR/simulation_ws/build/launch_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/akun/workspace/CAR/simulation_ws/build/launch_sim

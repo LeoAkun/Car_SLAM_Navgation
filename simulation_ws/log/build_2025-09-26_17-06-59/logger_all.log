@@ -1,0 +1,312 @@
+[0.138s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.138s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x77367415ca00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7736742d1690>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7736742d1690>>)
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.234s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/akun/workspace/CAR/simulation_ws'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(cmd_vel_smooth) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(cmd_vel_smooth) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(cmd_vel_smooth) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(cmd_vel_smooth) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(cmd_vel_smooth) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(cmd_vel_smooth) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(cmd_vel_smooth) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(cmd_vel_smooth) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(cmd_vel_smooth) by extension 'ros'
+[0.245s] DEBUG:colcon.colcon_core.package_identification:Package 'cmd_vel_smooth' with type 'ros.ament_python' and name 'cmd_vel_smooth'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(convert_time) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(convert_time) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(convert_time) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(convert_time) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(convert_time) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(convert_time) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(convert_time) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(convert_time) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(convert_time) by extension 'ros'
+[0.246s] DEBUG:colcon.colcon_core.package_identification:Package 'convert_time' with type 'ros.ament_cmake' and name 'convert_time'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(launch_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(launch_sim) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(launch_sim) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(launch_sim) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(launch_sim) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(launch_sim) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(launch_sim) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(launch_sim) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(launch_sim) by extension 'ros'
+[0.246s] DEBUG:colcon.colcon_core.package_identification:Package 'launch_sim' with type 'ros.ament_cmake' and name 'launch_sim'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(sim_imu) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(sim_imu) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(sim_imu) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(sim_imu) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(sim_imu) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(sim_imu) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(sim_imu) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(sim_imu) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(sim_imu) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package 'sim_imu' with type 'ros.ament_cmake' and name 'sim_imu'
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.266s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/tmp/usr/local' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.267s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/akun/workspace/CAR/simulation_ws/install
+[0.268s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/akun/workspace/CAR/LIO-SAM/install
+[0.268s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/akun/workspace/CAR/livox_ros_driver2/install
+[0.268s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/akun/workspace/CAR/real_ws/install
+[0.269s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/akun/workspace/CAR/yesense_ros2/install
+[0.269s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/akun/workspace/CAR/serial_ros2/install
+[0.270s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/akun/workspace/CAR/1_URDF_ws/install
+[0.270s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 349 installed packages in /opt/ros/humble
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_smooth' build argument 'cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_smooth' build argument 'cmake_target' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_smooth' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_smooth' build argument 'cmake_clean_cache' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_smooth' build argument 'cmake_clean_first' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_smooth' build argument 'cmake_force_configure' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_smooth' build argument 'ament_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_smooth' build argument 'catkin_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_smooth' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.298s] DEBUG:colcon.colcon_core.verb:Building package 'cmd_vel_smooth' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/akun/workspace/CAR/simulation_ws/build/cmd_vel_smooth', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth', 'merge_install': False, 'path': '/home/akun/workspace/CAR/simulation_ws/cmd_vel_smooth', 'symlink_install': False, 'test_result_base': None}
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'convert_time' build argument 'cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'convert_time' build argument 'cmake_target' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'convert_time' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'convert_time' build argument 'cmake_clean_cache' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'convert_time' build argument 'cmake_clean_first' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'convert_time' build argument 'cmake_force_configure' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'convert_time' build argument 'ament_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'convert_time' build argument 'catkin_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'convert_time' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.298s] DEBUG:colcon.colcon_core.verb:Building package 'convert_time' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/akun/workspace/CAR/simulation_ws/build/convert_time', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/akun/workspace/CAR/simulation_ws/install/convert_time', 'merge_install': False, 'path': '/home/akun/workspace/CAR/simulation_ws/convert_time', 'symlink_install': False, 'test_result_base': None}
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'launch_sim' build argument 'cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'launch_sim' build argument 'cmake_target' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'launch_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'launch_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'launch_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'launch_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'launch_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'launch_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'launch_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.298s] DEBUG:colcon.colcon_core.verb:Building package 'launch_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/akun/workspace/CAR/simulation_ws/build/launch_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/akun/workspace/CAR/simulation_ws/install/launch_sim', 'merge_install': False, 'path': '/home/akun/workspace/CAR/simulation_ws/launch_sim', 'symlink_install': False, 'test_result_base': None}
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'sim_imu' build argument 'cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'sim_imu' build argument 'cmake_target' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'sim_imu' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'sim_imu' build argument 'cmake_clean_cache' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'sim_imu' build argument 'cmake_clean_first' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'sim_imu' build argument 'cmake_force_configure' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'sim_imu' build argument 'ament_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'sim_imu' build argument 'catkin_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'sim_imu' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.299s] DEBUG:colcon.colcon_core.verb:Building package 'sim_imu' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/akun/workspace/CAR/simulation_ws/build/sim_imu', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/akun/workspace/CAR/simulation_ws/install/sim_imu', 'merge_install': False, 'path': '/home/akun/workspace/CAR/simulation_ws/sim_imu', 'symlink_install': False, 'test_result_base': None}
+[0.299s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.299s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.300s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/akun/workspace/CAR/simulation_ws/cmd_vel_smooth' with build type 'ament_python'
+[0.300s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmd_vel_smooth', 'ament_prefix_path')
+[0.302s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth/share/cmd_vel_smooth/hook/ament_prefix_path.ps1'
+[0.302s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth/share/cmd_vel_smooth/hook/ament_prefix_path.dsv'
+[0.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth/share/cmd_vel_smooth/hook/ament_prefix_path.sh'
+[0.303s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.303s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.306s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/akun/workspace/CAR/simulation_ws/convert_time' with build type 'ament_cmake'
+[0.306s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/akun/workspace/CAR/simulation_ws/convert_time'
+[0.306s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.306s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.310s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/akun/workspace/CAR/simulation_ws/launch_sim' with build type 'ament_cmake'
+[0.310s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/akun/workspace/CAR/simulation_ws/launch_sim'
+[0.310s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.310s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.313s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/akun/workspace/CAR/simulation_ws/sim_imu' with build type 'ament_cmake'
+[0.313s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/akun/workspace/CAR/simulation_ws/sim_imu'
+[0.313s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.313s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.449s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/akun/workspace/CAR/simulation_ws/cmd_vel_smooth'
+[0.449s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.449s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akun/workspace/CAR/simulation_ws/build/convert_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/simulation_ws/build/convert_time -- -j32 -l32
+[0.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akun/workspace/CAR/simulation_ws/build/launch_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/simulation_ws/build/launch_sim -- -j32 -l32
+[0.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akun/workspace/CAR/simulation_ws/build/sim_imu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/simulation_ws/build/sim_imu -- -j32 -l32
+[0.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akun/workspace/CAR/simulation_ws/build/launch_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/simulation_ws/build/launch_sim -- -j32 -l32
+[0.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akun/workspace/CAR/simulation_ws/build/launch_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth:/opt/ros/humble /usr/bin/cmake --install /home/akun/workspace/CAR/simulation_ws/build/launch_sim
+[0.497s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launch_sim)
+[0.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akun/workspace/CAR/simulation_ws/build/launch_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth:/opt/ros/humble /usr/bin/cmake --install /home/akun/workspace/CAR/simulation_ws/build/launch_sim
+[0.499s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/launch_sim' for CMake module files
+[0.500s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/launch_sim' for CMake config files
+[0.500s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_sim', 'cmake_prefix_path')
+[0.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/hook/cmake_prefix_path.ps1'
+[0.501s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/hook/cmake_prefix_path.dsv'
+[0.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/hook/cmake_prefix_path.sh'
+[0.502s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/launch_sim/bin'
+[0.502s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/launch_sim/lib/pkgconfig/launch_sim.pc'
+[0.502s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/launch_sim/lib/python3.10/site-packages'
+[0.502s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/launch_sim/bin'
+[0.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/package.ps1'
+[0.503s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/package.dsv'
+[0.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/package.sh'
+[0.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/package.bash'
+[0.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/package.zsh'
+[0.505s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/colcon-core/packages/launch_sim)
+[0.505s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launch_sim)
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/launch_sim' for CMake module files
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/launch_sim' for CMake config files
+[0.506s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_sim', 'cmake_prefix_path')
+[0.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/hook/cmake_prefix_path.ps1'
+[0.506s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/hook/cmake_prefix_path.dsv'
+[0.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/hook/cmake_prefix_path.sh'
+[0.507s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/launch_sim/bin'
+[0.507s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/launch_sim/lib/pkgconfig/launch_sim.pc'
+[0.507s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/launch_sim/lib/python3.10/site-packages'
+[0.508s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/launch_sim/bin'
+[0.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/package.ps1'
+[0.509s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/package.dsv'
+[0.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/package.sh'
+[0.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/package.bash'
+[0.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/launch_sim/package.zsh'
+[0.510s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akun/workspace/CAR/simulation_ws/install/launch_sim/share/colcon-core/packages/launch_sim)
+[0.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akun/workspace/CAR/simulation_ws/build/sim_imu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/simulation_ws/build/sim_imu -- -j32 -l32
+[0.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akun/workspace/CAR/simulation_ws/build/sim_imu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth:/opt/ros/humble /usr/bin/cmake --install /home/akun/workspace/CAR/simulation_ws/build/sim_imu
+[0.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akun/workspace/CAR/simulation_ws/build/convert_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/simulation_ws/build/convert_time -- -j32 -l32
+[0.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akun/workspace/CAR/simulation_ws/build/convert_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth:/opt/ros/humble /usr/bin/cmake --install /home/akun/workspace/CAR/simulation_ws/build/convert_time
+[0.520s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sim_imu)
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/sim_imu' for CMake module files
+[0.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akun/workspace/CAR/simulation_ws/build/sim_imu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth:/opt/ros/humble /usr/bin/cmake --install /home/akun/workspace/CAR/simulation_ws/build/sim_imu
+[0.524s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/sim_imu' for CMake config files
+[0.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('sim_imu', 'cmake_prefix_path')
+[0.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/hook/cmake_prefix_path.ps1'
+[0.525s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/hook/cmake_prefix_path.dsv'
+[0.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/hook/cmake_prefix_path.sh'
+[0.525s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/sim_imu/lib'
+[0.526s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/sim_imu/bin'
+[0.526s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/sim_imu/lib/pkgconfig/sim_imu.pc'
+[0.526s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/sim_imu/lib/python3.10/site-packages'
+[0.526s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/sim_imu/bin'
+[0.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/package.ps1'
+[0.526s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/package.dsv'
+[0.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/package.sh'
+[0.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/package.bash'
+[0.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/package.zsh'
+[0.527s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/colcon-core/packages/sim_imu)
+[0.528s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sim_imu)
+[0.528s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/sim_imu' for CMake module files
+[0.528s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/sim_imu' for CMake config files
+[0.528s] Level 1:colcon.colcon_core.shell:create_environment_hook('sim_imu', 'cmake_prefix_path')
+[0.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/hook/cmake_prefix_path.ps1'
+[0.529s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/hook/cmake_prefix_path.dsv'
+[0.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/hook/cmake_prefix_path.sh'
+[0.529s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/sim_imu/lib'
+[0.529s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/sim_imu/bin'
+[0.529s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/sim_imu/lib/pkgconfig/sim_imu.pc'
+[0.529s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/sim_imu/lib/python3.10/site-packages'
+[0.529s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/sim_imu/bin'
+[0.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/package.ps1'
+[0.530s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/package.dsv'
+[0.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/package.sh'
+[0.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/package.bash'
+[0.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/sim_imu/package.zsh'
+[0.531s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akun/workspace/CAR/simulation_ws/install/sim_imu/share/colcon-core/packages/sim_imu)
+[0.532s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(convert_time)
+[0.532s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/convert_time' for CMake module files
+[0.533s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akun/workspace/CAR/simulation_ws/build/convert_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth:/opt/ros/humble /usr/bin/cmake --install /home/akun/workspace/CAR/simulation_ws/build/convert_time
+[0.533s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/convert_time' for CMake config files
+[0.533s] Level 1:colcon.colcon_core.shell:create_environment_hook('convert_time', 'cmake_prefix_path')
+[0.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akun/workspace/CAR/simulation_ws/install/convert_time/share/convert_time/hook/cmake_prefix_path.ps1'
+[0.534s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akun/workspace/CAR/simulation_ws/install/convert_time/share/convert_time/hook/cmake_prefix_path.dsv'
+[0.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akun/workspace/CAR/simulation_ws/install/convert_time/share/convert_time/hook/cmake_prefix_path.sh'
+[0.534s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/convert_time/lib'
+[0.535s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/convert_time/bin'
+[0.535s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/convert_time/lib/pkgconfig/convert_time.pc'
+[0.535s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/convert_time/lib/python3.10/site-packages'
+[0.535s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/convert_time/bin'
+[0.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/simulation_ws/install/convert_time/share/convert_time/package.ps1'
+[0.535s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akun/workspace/CAR/simulation_ws/install/convert_time/share/convert_time/package.dsv'
+[0.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/simulation_ws/install/convert_time/share/convert_time/package.sh'
+[0.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/simulation_ws/install/convert_time/share/convert_time/package.bash'
+[0.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/simulation_ws/install/convert_time/share/convert_time/package.zsh'
+[0.536s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akun/workspace/CAR/simulation_ws/install/convert_time/share/colcon-core/packages/convert_time)
+[0.537s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(convert_time)
+[0.537s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/convert_time' for CMake module files
+[0.537s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/convert_time' for CMake config files
+[0.537s] Level 1:colcon.colcon_core.shell:create_environment_hook('convert_time', 'cmake_prefix_path')
+[0.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akun/workspace/CAR/simulation_ws/install/convert_time/share/convert_time/hook/cmake_prefix_path.ps1'
+[0.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akun/workspace/CAR/simulation_ws/install/convert_time/share/convert_time/hook/cmake_prefix_path.dsv'
+[0.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akun/workspace/CAR/simulation_ws/install/convert_time/share/convert_time/hook/cmake_prefix_path.sh'
+[0.538s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/convert_time/lib'
+[0.538s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/convert_time/bin'
+[0.538s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/convert_time/lib/pkgconfig/convert_time.pc'
+[0.538s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/convert_time/lib/python3.10/site-packages'
+[0.538s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/convert_time/bin'
+[0.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/simulation_ws/install/convert_time/share/convert_time/package.ps1'
+[0.539s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akun/workspace/CAR/simulation_ws/install/convert_time/share/convert_time/package.dsv'
+[0.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/simulation_ws/install/convert_time/share/convert_time/package.sh'
+[0.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/simulation_ws/install/convert_time/share/convert_time/package.bash'
+[0.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/simulation_ws/install/convert_time/share/convert_time/package.zsh'
+[0.540s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akun/workspace/CAR/simulation_ws/install/convert_time/share/colcon-core/packages/convert_time)
+[0.670s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akun/workspace/CAR/simulation_ws/cmd_vel_smooth': PYTHONPATH=/home/akun/workspace/CAR/simulation_ws/build/cmd_vel_smooth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/cmd_vel_smooth build --build-base /home/akun/workspace/CAR/simulation_ws/build/cmd_vel_smooth/build install --record /home/akun/workspace/CAR/simulation_ws/build/cmd_vel_smooth/install.log --single-version-externally-managed install_data
+[0.813s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth' for CMake module files
+[0.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akun/workspace/CAR/simulation_ws/cmd_vel_smooth' returned '0': PYTHONPATH=/home/akun/workspace/CAR/simulation_ws/build/cmd_vel_smooth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/cmd_vel_smooth build --build-base /home/akun/workspace/CAR/simulation_ws/build/cmd_vel_smooth/build install --record /home/akun/workspace/CAR/simulation_ws/build/cmd_vel_smooth/install.log --single-version-externally-managed install_data
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth' for CMake config files
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth/lib'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth/bin'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth/lib/pkgconfig/cmd_vel_smooth.pc'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth/lib/python3.10/site-packages'
+[0.814s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmd_vel_smooth', 'pythonpath')
+[0.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth/share/cmd_vel_smooth/hook/pythonpath.ps1'
+[0.815s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth/share/cmd_vel_smooth/hook/pythonpath.dsv'
+[0.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth/share/cmd_vel_smooth/hook/pythonpath.sh'
+[0.816s] Level 1:colcon.colcon_core.environment:checking '/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth/bin'
+[0.816s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cmd_vel_smooth)
+[0.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth/share/cmd_vel_smooth/package.ps1'
+[0.816s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth/share/cmd_vel_smooth/package.dsv'
+[0.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth/share/cmd_vel_smooth/package.sh'
+[0.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth/share/cmd_vel_smooth/package.bash'
+[0.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth/share/cmd_vel_smooth/package.zsh'
+[0.817s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth/share/colcon-core/packages/cmd_vel_smooth)
+[0.817s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.818s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.818s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.818s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.860s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[0.860s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.860s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.860s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.860s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[0.861s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.861s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/akun/workspace/CAR/simulation_ws/install/local_setup.ps1'
+[0.861s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/akun/workspace/CAR/simulation_ws/install/_local_setup_util_ps1.py'
+[0.862s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/akun/workspace/CAR/simulation_ws/install/setup.ps1'
+[0.863s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/akun/workspace/CAR/simulation_ws/install/local_setup.sh'
+[0.863s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/akun/workspace/CAR/simulation_ws/install/_local_setup_util_sh.py'
+[0.864s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/akun/workspace/CAR/simulation_ws/install/setup.sh'
+[0.865s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/akun/workspace/CAR/simulation_ws/install/local_setup.bash'
+[0.865s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/akun/workspace/CAR/simulation_ws/install/setup.bash'
+[0.866s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/akun/workspace/CAR/simulation_ws/install/local_setup.zsh'
+[0.866s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/akun/workspace/CAR/simulation_ws/install/setup.zsh'

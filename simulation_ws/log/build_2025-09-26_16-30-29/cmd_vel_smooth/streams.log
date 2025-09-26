@@ -1,0 +1,34 @@
+[0.442s] Invoking command in '/home/akun/workspace/CAR/simulation_ws/cmd_vel_smooth': PYTHONPATH=/home/akun/workspace/CAR/simulation_ws/build/cmd_vel_smooth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/cmd_vel_smooth build --build-base /home/akun/workspace/CAR/simulation_ws/build/cmd_vel_smooth/build install --record /home/akun/workspace/CAR/simulation_ws/build/cmd_vel_smooth/install.log --single-version-externally-managed install_data
+[0.548s] running egg_info
+[0.548s] creating ../build/cmd_vel_smooth/cmd_vel_smooth.egg-info
+[0.549s] writing ../build/cmd_vel_smooth/cmd_vel_smooth.egg-info/PKG-INFO
+[0.549s] writing dependency_links to ../build/cmd_vel_smooth/cmd_vel_smooth.egg-info/dependency_links.txt
+[0.549s] writing entry points to ../build/cmd_vel_smooth/cmd_vel_smooth.egg-info/entry_points.txt
+[0.549s] writing requirements to ../build/cmd_vel_smooth/cmd_vel_smooth.egg-info/requires.txt
+[0.549s] writing top-level names to ../build/cmd_vel_smooth/cmd_vel_smooth.egg-info/top_level.txt
+[0.549s] writing manifest file '../build/cmd_vel_smooth/cmd_vel_smooth.egg-info/SOURCES.txt'
+[0.550s] reading manifest file '../build/cmd_vel_smooth/cmd_vel_smooth.egg-info/SOURCES.txt'
+[0.550s] writing manifest file '../build/cmd_vel_smooth/cmd_vel_smooth.egg-info/SOURCES.txt'
+[0.550s] running build
+[0.550s] running build_py
+[0.550s] creating /home/akun/workspace/CAR/simulation_ws/build/cmd_vel_smooth/build
+[0.550s] creating /home/akun/workspace/CAR/simulation_ws/build/cmd_vel_smooth/build/lib
+[0.551s] creating /home/akun/workspace/CAR/simulation_ws/build/cmd_vel_smooth/build/lib/cmd_vel_smooth
+[0.551s] copying cmd_vel_smooth/__init__.py -> /home/akun/workspace/CAR/simulation_ws/build/cmd_vel_smooth/build/lib/cmd_vel_smooth
+[0.551s] running install
+[0.551s] running install_lib
+[0.551s] creating /home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth/lib/python3.10/site-packages/cmd_vel_smooth
+[0.551s] copying /home/akun/workspace/CAR/simulation_ws/build/cmd_vel_smooth/build/lib/cmd_vel_smooth/__init__.py -> /home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth/lib/python3.10/site-packages/cmd_vel_smooth
+[0.552s] byte-compiling /home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth/lib/python3.10/site-packages/cmd_vel_smooth/__init__.py to __init__.cpython-310.pyc
+[0.552s] running install_data
+[0.552s] creating /home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth/share/ament_index
+[0.552s] creating /home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth/share/ament_index/resource_index
+[0.552s] creating /home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth/share/ament_index/resource_index/packages
+[0.552s] copying resource/cmd_vel_smooth -> /home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth/share/ament_index/resource_index/packages
+[0.553s] copying package.xml -> /home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth/share/cmd_vel_smooth
+[0.553s] running install_egg_info
+[0.554s] Copying ../build/cmd_vel_smooth/cmd_vel_smooth.egg-info to /home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth/lib/python3.10/site-packages/cmd_vel_smooth-0.0.0-py3.10.egg-info
+[0.554s] running install_scripts
+[0.565s] Installing cmd_vel_smoother script to /home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth/lib/cmd_vel_smooth
+[0.565s] writing list of installed files to '/home/akun/workspace/CAR/simulation_ws/build/cmd_vel_smooth/install.log'
+[0.578s] Invoked command in '/home/akun/workspace/CAR/simulation_ws/cmd_vel_smooth' returned '0': PYTHONPATH=/home/akun/workspace/CAR/simulation_ws/build/cmd_vel_smooth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/cmd_vel_smooth build --build-base /home/akun/workspace/CAR/simulation_ws/build/cmd_vel_smooth/build install --record /home/akun/workspace/CAR/simulation_ws/build/cmd_vel_smooth/install.log --single-version-externally-managed install_data

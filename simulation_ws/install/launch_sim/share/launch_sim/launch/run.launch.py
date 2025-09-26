@@ -24,19 +24,28 @@ def generate_launch_description():
         output = 'screen' # 日志输出到屏幕
     )
 
+    # 启动速度平滑
+    cmd_vel_smooth = launch_ros.actions.Node(
+        package='cmd_vel_smooth',
+        executable='cmd_vel_smooth',
+        output = 'screen' # 日志输出到屏幕
+    )
+
     # 启动LIO-SAM
     start_LIO_SAM = launch.actions.IncludeLaunchDescription(
         launch.launch_description_sources.PythonLaunchDescriptionSource(os.path.join(
             get_package_share_directory('lio_sam'),
             'launch',
-            'run.launch.py'
+            'run.launch_sim.py'
         ))
     )
+
     # 依次启动
     action_group = launch.actions.GroupAction([
         launch.actions.TimerAction(period=1.0, actions=[start_gazebo_simulation]),
         launch.actions.TimerAction(period=3.0, actions=[convert_time]),
-        # launch.actions.TimerAction(period=5.0, actions=[start_LIO_SAM])
+        launch.actions.TimerAction(period=3.0, actions=[cmd_vel_smooth]),
+        # launch.actions.TimerAction(period=8.0, actions=[start_LIO_SAM])
     ])
 
     return launch.LaunchDescription([
