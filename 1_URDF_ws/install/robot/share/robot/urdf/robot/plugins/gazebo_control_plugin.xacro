@@ -31,7 +31,7 @@
 
                 <!-- 决定是否发布某些话题 -->
                 <publish_odom>true</publish_odom>
-                <publish_odom_tf>ytue</publish_odom_tf>
+                <publish_odom_tf>true</publish_odom_tf>
                 <publish_wheel_tf>true</publish_wheel_tf>
 
                 <odometry_frame>odom</odometry_frame>

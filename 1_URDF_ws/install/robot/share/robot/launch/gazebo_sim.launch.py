@@ -46,7 +46,8 @@ def generate_launch_description():
     urdf2sdf = launch_ros.actions.Node(
         package='gazebo_ros',
         executable='spawn_entity.py',
-        arguments=['-topic','/robot_description','-entity','robot'] # 通过话题加载urdf,机器人实体名字为robot
+        arguments=['-topic','/robot_description',
+                    '-entity','robot'] # 通过话题加载urdf,机器人实体名字为robot
     )
     # joint_state_publisher = Node(
     #         package='joint_state_publisher',
@@ -58,10 +59,11 @@ def generate_launch_description():
     #     )
     
     return LaunchDescription([
+        gazebo_launch,
         urdf_param,
         robot_state_publisher,
         urdf2sdf,
-        gazebo_launch,
+        
         
         # joint_state_publisher,
         # rviz

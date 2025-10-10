@@ -29,6 +29,8 @@ _colcon_prefix_chain_powershell_source_script "/home/akun/workspace/CAR/real_ws/
 _colcon_prefix_chain_powershell_source_script "/home/akun/workspace/CAR/livox_ros_driver2/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/akun/workspace/CAR/LIO-SAM/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/akun/workspace/CAR/simulation_ws/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/akun/workspace/CAR/utils/pcd2pgm/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/akun/workspace/CAR/nav2/install\local_setup.ps1"
 
 # source this prefix
 $env:COLCON_CURRENT_PREFIX=(Split-Path $PSCommandPath -Parent)

@@ -50,7 +50,7 @@
         
         <!-- 机器人的关节：组合机器人部件 -->
         <!-- wheel是活动的，所以使用"continuous" -->
-        <joint name="${wheel_name}_joint" type="revolute">
+        <joint name="${wheel_name}_joint" type="continuous">
             
             <!-- 表示把wheel固定到机器人上 -->
             <parent link="base_link"/>
@@ -66,8 +66,8 @@
         </joint>
 
         <gazebo reference="${wheel_name}_link">
-            <mu1 value="0.0"/>   <!-- 切向摩擦系数 -->
-            <mu2 value="0.0"/>   <!-- 法向摩擦系数 -->
+            <mu1 value="5.0"/>   <!-- 切向摩擦系数 -->
+            <mu2 value="5.0"/>   <!-- 法向摩擦系数 -->
             <kp value="1000000000.0"/> <!-- 刚度擦系数 -->
             <kd value="1.0"/>     <!-- 阻尼系数 -->
             <material>Gazebo/Yellow</material>

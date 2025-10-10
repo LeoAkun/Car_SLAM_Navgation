@@ -1,0 +1,49 @@
+[0.011s] Invoking command in '/home/akun/workspace/CAR/nav2/build/nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth:/opt/ros/humble /usr/bin/cmake /home/akun/workspace/CAR/nav2 -DCMAKE_INSTALL_PREFIX=/home/akun/workspace/CAR/nav2/install/nav2
+[0.201s] -- The C compiler identification is GNU 11.4.0
+[0.682s] -- The CXX compiler identification is GNU 11.4.0
+[0.922s] -- Detecting C compiler ABI info
+[1.025s] -- Detecting C compiler ABI info - done
+[1.029s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.030s] -- Detecting C compile features
+[1.031s] -- Detecting C compile features - done
+[1.033s] -- Detecting CXX compiler ABI info
+[1.146s] -- Detecting CXX compiler ABI info - done
+[1.149s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.150s] -- Detecting CXX compile features
+[1.150s] -- Detecting CXX compile features - done
+[1.169s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.266s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.347s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.404s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.404s] -- Configured cppcheck include dirs: 
+[1.404s] -- Configured cppcheck exclude dirs and/or files: 
+[1.405s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.407s] -- Added test 'lint_cmake' to check CMake code style
+[1.408s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.410s] -- Added test 'uncrustify' to check C / C++ code style
+[1.410s] -- Configured uncrustify additional arguments: 
+[1.411s] -- Added test 'xmllint' to check XML markup files
+[1.413s] -- Configuring done
+[1.416s] -- Generating done
+[1.417s] -- Build files have been written to: /home/akun/workspace/CAR/nav2/build/nav2
+[1.420s] Invoked command in '/home/akun/workspace/CAR/nav2/build/nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth:/opt/ros/humble /usr/bin/cmake /home/akun/workspace/CAR/nav2 -DCMAKE_INSTALL_PREFIX=/home/akun/workspace/CAR/nav2/install/nav2
+[1.421s] Invoking command in '/home/akun/workspace/CAR/nav2/build/nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/nav2/build/nav2 -- -j32 -l32
+[1.443s] Invoked command in '/home/akun/workspace/CAR/nav2/build/nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth:/opt/ros/humble /usr/bin/cmake --build /home/akun/workspace/CAR/nav2/build/nav2 -- -j32 -l32
+[1.450s] Invoking command in '/home/akun/workspace/CAR/nav2/build/nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth:/opt/ros/humble /usr/bin/cmake --install /home/akun/workspace/CAR/nav2/build/nav2
+[1.454s] -- Install configuration: ""
+[1.454s] -- Installing: /home/akun/workspace/CAR/nav2/install/nav2/share/ament_index/resource_index/package_run_dependencies/nav2
+[1.455s] -- Installing: /home/akun/workspace/CAR/nav2/install/nav2/share/ament_index/resource_index/parent_prefix_path/nav2
+[1.455s] -- Installing: /home/akun/workspace/CAR/nav2/install/nav2/share/nav2/environment/ament_prefix_path.sh
+[1.455s] -- Installing: /home/akun/workspace/CAR/nav2/install/nav2/share/nav2/environment/ament_prefix_path.dsv
+[1.455s] -- Installing: /home/akun/workspace/CAR/nav2/install/nav2/share/nav2/environment/path.sh
+[1.455s] -- Installing: /home/akun/workspace/CAR/nav2/install/nav2/share/nav2/environment/path.dsv
+[1.455s] -- Installing: /home/akun/workspace/CAR/nav2/install/nav2/share/nav2/local_setup.bash
+[1.456s] -- Installing: /home/akun/workspace/CAR/nav2/install/nav2/share/nav2/local_setup.sh
+[1.456s] -- Installing: /home/akun/workspace/CAR/nav2/install/nav2/share/nav2/local_setup.zsh
+[1.456s] -- Installing: /home/akun/workspace/CAR/nav2/install/nav2/share/nav2/local_setup.dsv
+[1.456s] -- Installing: /home/akun/workspace/CAR/nav2/install/nav2/share/nav2/package.dsv
+[1.456s] -- Installing: /home/akun/workspace/CAR/nav2/install/nav2/share/ament_index/resource_index/packages/nav2
+[1.456s] -- Installing: /home/akun/workspace/CAR/nav2/install/nav2/share/nav2/cmake/nav2Config.cmake
+[1.456s] -- Installing: /home/akun/workspace/CAR/nav2/install/nav2/share/nav2/cmake/nav2Config-version.cmake
+[1.456s] -- Installing: /home/akun/workspace/CAR/nav2/install/nav2/share/nav2/package.xml
+[1.458s] Invoked command in '/home/akun/workspace/CAR/nav2/build/nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akun/workspace/CAR/simulation_ws/install/cmd_vel_smooth:/opt/ros/humble /usr/bin/cmake --install /home/akun/workspace/CAR/nav2/build/nav2
